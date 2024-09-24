@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Free IMEI Checker Online - SICKW.COM | IMEI CHECK SERVICE</title>
+    <meta name="author" content="CrYs18" />
+    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-title" content="iMEi Check">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" />
+    <meta name="copyright" content="&copy; 2024 IMEI Check Services&trade;" />
+    <meta name="description"
+        content="Check Info for FREE for your IMEI | MEID | SERIAL | ESN Number. All Brands & Devices supported, including Apple | iPhone | Samsung | Oppo | Xiaomi | OnePlus.">
+    <meta name="keywords"
+        content="IMEI, MEID, SERIAL, ESN, Check, Free, Unlock, Simlock, Sim-Lock, Carrier, Warranty, Policy, Apple, iPhone, iPod, iPad, Macbook, Sim Free, USA, AT&T, France, Vodafone, Australia, Optus, How To, Samsung, Nokia, Lumia, Htc, Blackberry, Oppo, Mi, Xiaomi, Redmi, Oneplus, Sony, Xperia, Lg, Price, USD, EURO, surlro, iimeicom, i-imei" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sickw.com/">
+    <meta property="og:title" content="Free IMEI Checker Online - SICKW.COM | IMEI CHECK SERVICE">
+    <meta property="og:description"
+        content="Check Info for FREE for your IMEI | MEID | SERIAL | ESN Number. All Brands & Devices supported, including Apple | iPhone | Samsung | Oppo | Xiaomi | OnePlus.">
+    <meta property="og:image" content="https://sickw.com/css/qr-s.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sickw.com/">
+    <meta property="twitter:title" content="Free IMEI Checker Online - SICKW.COM | IMEI CHECK SERVICE">
+    <meta property="twitter:description"
+        content="Check Info for FREE for your IMEI | MEID | SERIAL | ESN Number. All Brands & Devices supported, including Apple | iPhone | Samsung | Oppo | Xiaomi | OnePlus.">
+    <meta property="twitter:image" content="https://sickw.com/css/twitter-L.png">
+
+    <link rel="apple-touch-icon" href="css/unlock-s.png" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/fa6/all.css?v0" />
+    <link rel="stylesheet" type="text/css" href="css/min-sky.css?v0" rel="preload" as="style" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v0" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v0" media="screen" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="css/fonts.css?v0">
+
+    <script src="css/jquery-2.2.4.min.js?v1" type="text/javascript"></script>
+    <script>
+        var me = "sickw.com";
+        if (me !== location.host) { top.location.replace(document.location); }
+        if (self !== top) { top.location.replace(document.location); }
+        if (window.self !== window.top) { window.top.location.href = window.location.href; }
+        function contact() {
+            document.getElementById("contactus").innerHTML = "Sending message...";
+            $("#contactus").attr('disabled', 'disabled');
+            $.ajax({
+                url: "action.php",
+                type: "POST",
+                xhrFields: { withCredentials: true },
+                data: "action=contact&email=" + $("#e-mail").val() + "&query=" + $("#query").val().replace(/&/g, " "),
+                success: function (data) {
+                    document.getElementById("contactus").innerHTML = data;
+                    if (data.indexOf("sent") < 0) { $("#contactus").removeAttr('disabled'); }
+                }
+            });
+        }
+        function logout() {
+            $.ajax({
+                url: "action.php",
+                type: "POST",
+                xhrFields: { withCredentials: true },
+                data: "action=logout",
+                success: function (data) { window.location.assign("https://sickw.com/?reset=ON"); }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="body">
+        <ul class="sky-mega-menu sky-mega-menu-anim-scale sky-mega-menu-response-to-icons">
+            <li><a href="/" aria-label="Home"><i class="fa fa-single fa-home"></i></a></li>
+
+            <li aria-haspopup="true"><a href="?page=orders"><i class="fa fa-list-ol"></i>Order History</a></li>
+            <li aria-haspopup="true" class="right" style="display: none;"><a href="#_"><i
+                        class="fa fa-star-o"></i>Services</a>
+                <div class="grid-container2">
+                    <ul>
+                        <li><a href="/iphone-imei-check"><i class="fa fa-star"></i>IPHONE IMEI CHECK</a></li>
+                        <li><a href="/macbook-imei-check"><i class="fa fa-star"></i>MACBOOK IMEI CHECK</a></li>
+                        <li><a href="/imac-imei-check"><i class="fa fa-star"></i>IMAC IMEI CHECK</a></li>
+                        <li><a href="/pro-imei-check"><i class="fa fa-star"></i>PRO IMEI CHECK</a></li>
+                        <li><a href="/samsung-imei-check"><i class="fa fa-star"></i>SAMSUNG IMEI CHECK</a></li>
+                        <li><a href="/galaxy-imei-check"><i class="fa fa-star"></i>GALAXY IMEI CHECK</a></li>
+                        <li><a href="/mi-imei-check"><i class="fa fa-star"></i>MI IMEI CHECK</a></li>
+                        <li><a href="/lg-imei-check"><i class="fa fa-star"></i>LG IMEI CHECK</a></li>
+                        <li><a href="/zte-imei-check"><i class="fa fa-star"></i>ZTE IMEI CHECK</a></li>
+                        <li><a href="/sony-imei-check"><i class="fa fa-star"></i>SONY IMEI CHECK</a></li>
+                        <li><a href="/acer-imei-check"><i class="fa fa-star"></i>ACER IMEI CHECK</a></li>
+                        <li><a href="/asus-imei-check"><i class="fa fa-star"></i>ASUS IMEI CHECK</a></li>
+                        <li><a href="/oppo-imei-check"><i class="fa fa-star"></i>OPPO IMEI CHECK</a></li>
+                        <li><a href="/itel-imei-check"><i class="fa fa-star"></i>ITEL IMEI CHECK</a></li>
+                        <li><a href="/ipad-imei-check"><i class="fa fa-star"></i>IPAD IMEI CHECK</a></li>
+                        <li><a href="/nokia-imei-check"><i class="fa fa-star"></i>NOKIA IMEI CHECK</a></li>
+                        <li><a href="/sonim-imei-check"><i class="fa fa-star"></i>SONIM IMEI CHECK</a></li>
+                        <li><a href="/tecno-imei-check"><i class="fa fa-star"></i>TECNO IMEI CHECK</a></li>
+                        <li><a href="/honor-imei-check"><i class="fa fa-star"></i>HONOR IMEI CHECK</a></li>
+                        <li><a href="/nokia-imei-check"><i class="fa fa-star"></i>NOKIA IMEI CHECK</a></li>
+                        <li><a href="/pixel-imei-check"><i class="fa fa-star"></i>PIXEL IMEI CHECK</a></li>
+                        <li><a href="/apple-imei-check"><i class="fa fa-star"></i>APPLE IMEI CHECK</a></li>
+                        <li><a href="/huawei-imei-check"><i class="fa fa-star"></i>HUAWEI IMEI CHECK</a></li>
+                        <li><a href="/lenovo-imei-check"><i class="fa fa-star"></i>LENOVO IMEI CHECK</a></li>
+                        <li><a href="/doogee-imei-check"><i class="fa fa-star"></i>DOOGEE IMEI CHECK</a></li>
+                        <li><a href="/xiaomi-imei-check"><i class="fa fa-star"></i>XIAOMI IMEI CHECK</a></li>
+                        <li><a href="/google-imei-check"><i class="fa fa-star"></i>GOOGLE IMEI CHECK</a></li>
+                        <li><a href="/alcatel-imei-check"><i class="fa fa-star"></i>ALCATEL IMEI CHECK</a></li>
+                        <li><a href="/oneplus-imei-check"><i class="fa fa-star"></i>ONEPLUS IMEI CHECK</a></li>
+                        <li><a href="/kyocera-imei-check"><i class="fa fa-star"></i>KYOCERA IMEI CHECK</a></li>
+                        <li><a href="/infinix-imei-check"><i class="fa fa-star"></i>INFINIX IMEI CHECK</a></li>
+                        <li><a href="/surface-imei-check"><i class="fa fa-star"></i>SURFACE IMEI CHECK</a></li>
+                        <li><a href="/motorola-imei-check"><i class="fa fa-star"></i>MOTOROLA IMEI CHECK</a></li>
+                        <li><a href="/blackberry-imei-check"><i class="fa fa-star"></i>BLACKBERRY IMEI CHECK</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li aria-haspopup="true" class="right" style="display: none;"><a href="#_"><i
+                        class="fa fa-desktop"></i>Theme</a>
+                <div class="grid-container2">
+                    <ul>
+                        <li><a href="?skin=default"><i class="fa fa-desktop"></i>Default</a></li>
+                        <li><a href="?skin=lion"><i class="fa fa-desktop"></i>Lion</a></li>
+                        <li><a href="?skin=red"><i class="fa fa-desktop"></i>Red</a></li>
+                        <li><a href="?skin=pink"><i class="fa fa-desktop"></i>Pink</a></li>
+                        <li><a href="?skin=blue"><i class="fa fa-desktop"></i>Blue</a></li>
+                        <li><a href="?skin=cyan"><i class="fa fa-desktop"></i>Cyan</a></li>
+                        <li><a href="?skin=black"><i class="fa fa-desktop"></i>Black</a></li>
+                        <li><a href="?skin=green"><i class="fa fa-desktop"></i>Green</a></li>
+                        <li><a href="?skin=purple"><i class="fa fa-desktop"></i>Purple</a></li>
+                        <li><a href="?skin=yellow"><i class="fa fa-desktop"></i>Yellow</a></li>
+                        <li><a href="?skin=orange"><i class="fa fa-desktop"></i>Orange</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li aria-haspopup="true" class="right"><a href="?page=register"><i class="fa fa-user-plus"></i>Register</a>
+            </li>
+            <li aria-haspopup="true" class="right"><a href="?page=signin"><i class="fa fa-sign-in"></i>Login</a></li>
+            <li aria-haspopup="true"><a href="#_"><i class="fa fa-at"></i>Contact Us</a>
+                <div class="grid-container6">
+                    <form method="POST" onsubmit="contact(); return false">
+                        <fieldset>
+                            <div class="row">
+                                <section class="col col-13" style="width: 100%">
+                                    <label class="input">
+                                        <i class="fa fa-append fa-at"></i>
+                                        <input type="email" id="e-mail" placeholder="E-mail" name="email" value="">
+                                    </label>
+                                </section>
+                            </div>
+                            <section>
+                                <label class="textarea">
+                                    <i class="fa fa-append fa-comment"></i>
+                                    <textarea rows="4" placeholder="Message" id="query" name="query"></textarea>
+                                </label>
+                            </section>
+                            <button type="submit" id="contactus" class="button">Send message</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <ul id="news-ticker">
+        <li><i class="fa fa-link" style="color: #d04078;"></i> Check our <a href="https://t.me/snimei"
+                target="_blank">Telegram News & Free Check</a> group.</li>
+        <li><i class="fa fa-link" style="color: #d04078;"></i> PHP APi & Pro Tools available for Premium Users.</li>
+        <li><i class="fa fa-money-bill" style="color: #d04078;"></i> <a href="?page=money&option=P2P"> Binance & Crypto
+                Auto Pay</a> features enabled.</li>
+        <li><i class="fa fa-dollar-sign" style="color: #d04078;"></i> <a href="?page=change" target="_blank"> Balance
+                Transfer</a> to other account and new features enabled.</li>
+        <li><i class="fa fa-camera" style="color: #d04078;"></i> Scan IMEI - IMEI/SN recognition from photos enabled. <a
+                href="?page=ocr" target="_blank">How it works?</a></li>
+        <li><i class="fa fa-cart-plus" style="color: #d04078;"></i> Add to Cart - Shopping Cart feature added. <a
+                href="?page=shop" target="_blank">How to use?</a></li>
+        <li><i class="fa fa-clipboard" style="color: #d04078;"></i> Clipboard - Select from last 14 checked IMEI's.</li>
+        <li><i class="fa fa-toggle-on" style="color: #d04078;"></i> Save Service - Remember last used service.</li>
+        <li>⚡ Join our Telegram Super Bot <a href="?page=telegram" target="_blank">@imeisn_bot</a></li>
+        <li>Have any interesting service? Contact Us for collaboration.</li>
+        <li><a href="/?page=services">IMEI/SN Services</a> list of all our services with description.</li>
+        <li>See our <a href="/?page=compare">Group Pricing</a> page on how to get discounts.</li>
+        <li>Service Samples are available in <a href="/?page=api">APi Page</a> after Login.</li>
+        <li>For problems regarding site or payments use Contact Us.</li>
+        <li>
+            <p style="font-weight: bold; color:green">FREE services</p> are limited to 5 IMEI/SN checks per day.
+        </li>
+        <!--<li hidden><a href="/?page=banned" target="_blank">Scammers</a> clients will be banned and IMEI's blacklisted.</li>-->
+        <li>Share your experience on <a href="/?page=feedback" target="_blank">customer reviews</a> page.</li>
+    </ul>
+    <div id="info" style="height:200px;border: 0px; margin: 0 auto; max-width: 100%; margin-top:20px; display: none;"
+        class="center class-2 rup-all;"></div>
+    <div class="container">
+        <section class="main">
+            <script>
+                function disable() {
+                    var imei = document.getElementById("imei").value; console.log("IMEI:" + imei);
+                    var service = document.getElementById("service").value; console.log("Service:" + service);
+                    if (imei.length < 8) { document.getElementById("wait").innerHTML = "👆 Write iMEi/SN"; document.getElementById("wait").removeAttribute("hidden"); return false; };
+                    if (service < 1) { document.getElementById("wait").innerHTML = "👆 Select Service"; document.getElementById("wait").removeAttribute("hidden"); return false; };
+                    $('#submit').prop('disabled', true);
+                }
+            </script>
+            <form class="form-5 clearfix" id="care" method="POST" onSubmit="care(); return disable(); return false;"
+                style="max-width: 100%">
+                <input type="hidden" name="csrf"
+                    value="kgo8bg476qiy47pvorzri4h05y6zi8ktfyse3mcx2jouh0htj5cqzjgv8bjhau0g">
+                <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                <div class="cf-turnstile" data-sitekey="0x4AAAAAAAAqaX9KReJEcOZb" data-callback="javascriptCallback"
+                    data-action="3016de25cafb6b581cf8a2041f4dc70e"
+                    data-cdata="kgo8bg476qiy47pvorzri4h05y6zi8ktfyse3mcx2jouh0htj5cqzjgv8bjhau0g"></div>
+                <input name="secret[0]" id="Id_secret_0" type="text" value="">
+                <input name="secret[k6630c9444d3ef631873240]" id="Id_secret_1" type="text" value="">
+                <script>
+                    (function () {
+                        var el0 = document.getElementById("Id_secret_0"); el0.style.display = "none";
+                        var el1 = document.getElementById("Id_secret_1"); el1.style.display = "none"; el1.value = "57b9";
+                    })();
+                </script>
+                <p id="ocr"><input type="text" id="imei" name="imei" autocomplete="off" maxlength="50"
+                        placeholder="Write here IMEI or Serial No." data-clarity-unmask="true"
+                        style="text-align: center"></p>
+                <script>function onloadCallback() { }</script>
+                <button id="submit" type="submit"><i class="fa fa-arrow-circle-right"></i><span>CHECK</span></button>
+                <select name="service" id="service" onchange='check();' dir="ltr" style="height: 40px;"
+                    data-clarity-unmask="true">
+                    <option value="0" selected="selected" style="text-align:left;">PLEASE CHOOSE CHECKER</option>
+                    <optgroup label="APPLE SERVICES" style="text-align:left">
+                        <option value="105" style="text-align:left">1.80$ - APPLE SOLD BY & COVERAGE &#x26A1;</option>
+                        <option value="68" style="text-align:left">2.00$ - APPLE GSX CASES & REPAIRS &#x26A1;</option>
+                        <option value="76" style="text-align:left">2.00$ - APPLE GSX CASES ID INFO &#x26A1;</option>
+                        <option value="62" style="text-align:left">0.80$ - APPLE iOS VERSION & NEXT TETHER &#x26A1;
+                        </option>
+                        <option value="67" style="text-align:left">1.80$ - APPLE GSX POLICY & Wi-Fi MAC &#x26A1;
+                        </option>
+                        <option value="63" style="text-align:left">2.20$ - APPLE FULL GSX - PREMIUM INFO &#x26A1;
+                        </option>
+                        <option value="219" style="text-align:left">0.15$ - APPLE PART NUMBER - MPN &#x26A1;</option>
+                        <option value="103" style="text-align:left">FREE - iPHONE CARRIER - SIMPLE &#x26A1;</option>
+                        <option value="61" style="text-align:left">0.12$ - iPHONE CARRIER - FMI & BLACKLIST &#x26A1;
+                        </option>
+                        <option value="78" style="text-align:left">0.08$ - iPHONE CARRIER - FMI &#x26A1;</option>
+                        <option value="8" style="text-align:left">FREE - iPHONE SIM-LOCK &#x26A1;</option>
+                        <option value="12" style="text-align:left">0.025$ - IMEI &#x21C4; SN CONVERT &#x26A1;</option>
+                        <option value="30" style="text-align:left">FREE - APPLE BASIC INFO &#x26A1;</option>
+                        <option value="26" style="text-align:left">FREE - APPLE SERIAL INFO &#x26A1;</option>
+                        <option value="3" style="text-align:left">FREE - iCLOUD ON/OFF &#x26A1;</option>
+                        <option value="4" style="text-align:left">0.03$ - iCLOUD CLEAN/LOST &#x26A1;</option>
+                        <option value="10" style="text-align:left">FREE - APPLE ACTIVATION STATUS - IMEI/SN &#x26A1;
+                        </option>
+                        <option value="81" style="text-align:left">1.00$ - APPLE iOS & MAC MDM STATUS &#x26A1;</option>
+                        <option value="11" style="text-align:left">3.50$ - APPLE iOS & MAC MDM PRO STATUS &#x26A1;
+                        </option>
+                        <option value="110" style="text-align:left">0.40$ - MACBOOK&iMAC iCLOUD ON/OFF STATUS &#x26A1;
+                        </option>
+                        <option value="66" style="text-align:left">0.50$ - MACBOOK&iMAC ICLOUD CLEAN/LOST STATUS
+                            &#x26A1;</option>
+                    </optgroup>
+                    <optgroup label="STATUS SERVICES" style="text-align:left">
+                        <option value="6" style="text-align:left">0.09$ - WW BLACKLIST STATUS - PRO &#x26A1;</option>
+                        <option value="54" style="text-align:left">0.04$ - WW BLACKLIST STATUS &#x26A1;</option>
+                        <option value="230" style="text-align:left">0.08$ - XFINITY USA STATUS - PRO &#x26A1;</option>
+                        <option value="16" style="text-align:left">0.05$ - T-MOBILE USA STATUS - PRO &#x26A1;</option>
+                        <option value="25" style="text-align:left">0.12$ - T-MOBILE USA SIMLOCK STATUS &#x26A1;</option>
+                        <option value="9" style="text-align:left">FREE - VERIZON USA STATUS - PRO &#x26A1;</option>
+                        <option value="20" style="text-align:left">FREE - KOREA BLACKLIST STATUS &#x26A1;</option>
+                        <option value="32" style="text-align:left">FREE - JAPAN BLACKLIST STATUS &#x26A1;</option>
+                        <option value="31" style="text-align:left">FREE - AUSTRALIA BLACKLIST STATUS &#x26A1;</option>
+                    </optgroup>
+                    <optgroup label="GENERIC SERVICES" style="text-align:left">
+                        <option value="19" style="text-align:left">FREE - LG INFO &#x26A1;</option>
+                        <option value="55" style="text-align:left">FREE - ZTE INFO &#x26A1;</option>
+                        <option value="34" style="text-align:left">FREE - ASUS INFO &#x26A1;</option>
+                        <option value="39" style="text-align:left">FREE - OPPO INFO &#x26A1;</option>
+                        <option value="5" style="text-align:left">FREE - SONY INFO &#x26A1;</option>
+                        <option value="23" style="text-align:left">FREE - ACER INFO &#x26A1;</option>
+                        <option value="44" style="text-align:left">FREE - SONIM INFO &#x26A1;</option>
+                        <option value="73" style="text-align:left">FREE - HONOR INFO &#x26A1;</option>
+                        <option value="56" style="text-align:left">FREE - DOOGEE INFO &#x26A1;</option>
+                        <option value="84" style="text-align:left">FREE - REALME INFO &#x26A1;</option>
+                        <option value="15" style="text-align:left">FREE - HUAWEI INFO &#x26A1;</option>
+                        <option value="22" style="text-align:left">FREE - LENOVO INFO &#x26A1;</option>
+                        <option value="36" style="text-align:left">FREE - ONEPLUS INFO &#x26A1;</option>
+                        <option value="43" style="text-align:left">FREE - KYOCERA INFO &#x26A1;</option>
+                        <option value="17" style="text-align:left">FREE - ALCATEL INFO &#x26A1;</option>
+                        <option value="13" style="text-align:left">FREE - MOTOROLA INFO &#x26A1;</option>
+                        <option value="75" style="text-align:left">FREE - VIVO & IQOO INFO &#x26A1;</option>
+                        <option value="42" style="text-align:left">FREE - GOOGLE PIXEL INFO &#x26A1;</option>
+                        <option value="80" style="text-align:left">FREE - SAMSUNG INFO &#x26A1;</option>
+                        <option value="1" style="text-align:left">0.10$ - SAMSUNG INFO - PRO &#x26A1;</option>
+                        <option value="203" style="text-align:left">FREE - BRAND & MODEL INFO &#x26A1;</option>
+                        <option value="37" style="text-align:left">FREE - SIM ICCID/IMSI INFO &#x26A1;</option>
+                        <option value="46" style="text-align:left">FREE - SONY BOOTLOADER KEY &#x26A1;</option>
+                        <option value="206" style="text-align:left">0.10$ - XIAOMI MI LOCK & INFO &#x26A1;</option>
+                        <option value="58" style="text-align:left">0.50$ - XIAOMI MI LOCK STATUS &#x26A1;</option>
+                        <option value="82" style="text-align:left">0.30$ - SAMSUNG KNOX GUARD INFO &#x26A1;</option>
+                        <option value="45" style="text-align:left">FREE - ITEL | TECNO | SONIM INFO &#x26A1;</option>
+                    </optgroup>
+                    <optgroup label="PREMIUM SERVICES" style="text-align:left">
+                        <option value="94" style="text-align:left">17.0$ - MDM LOCK BYPASS - iPHONE/iPAD &#x26A1;
+                        </option>
+                        <option value="218" style="text-align:left">37.0$ - MDM LOCK REMOVE - APPLE TV &#x26A1;</option>
+                        <option value="212" style="text-align:left">0.35$ - MDM LOCK REMOVE - COMPATIBILITY &#x26A1;
+                        </option>
+                        <option value="214" style="text-align:left">60.0$ - MDM LOCK REMOVE - iPAD &#x26A1;</option>
+                        <option value="213" style="text-align:left">70.0$ - MDM LOCK REMOVE - iPHONE &#x26A1;</option>
+                        <option value="215" style="text-align:left">100.0$ - MDM LOCK REMOVE - MAC &#x26A1;</option>
+                        <option value="217" style="text-align:left">37.0$ - MDM LOCK REMOVE - WATCH &#x26A1;</option>
+                        <option value="118" style="text-align:left">28.0$ - SAMSUNG FRP REMOVE - WORLDWIDE &#x1F552;
+                        </option>
+                        <option value="1002" style="text-align:left">14.0$ - XIAOMI MI ACCOUNT REMOVE - EUROPE &#x1F552;
+                        </option>
+                    </optgroup>
+                    <optgroup label="iPHONE UNLOCK SERVICES" style="text-align:left">
+                        <option value="138" style="text-align:left">115.0$ - AUSTRIA A1 MOBILKOM - OUT OF CONTRACT
+                            &#x1F552;</option>
+                        <option value="137" style="text-align:left">205.0$ - AUSTRIA A1 MOBILKOM - PREMIUM &#x1F552;
+                        </option>
+                        <option value="96" style="text-align:left">5.00$ - CANADA FIDO/ROGERS - CLEAN &#x1F552;</option>
+                        <option value="95" style="text-align:left">2.00$ - CANADA TELUS - CLEAN &#x1F552;</option>
+                        <option value="132" style="text-align:left">59.0$ - CLARO ALL COUNTRIES - PREMIUM (iPHONE 14)
+                            &#x1F552;</option>
+                        <option value="142" style="text-align:left">89.0$ - CLARO ALL COUNTRIES - PREMIUM (iPHONE 15)
+                            &#x1F552;</option>
+                        <option value="135" style="text-align:left">47.0$ - CLARO ALL COUNTRIES - PREMIUM (UP TO iPHONE
+                            13) &#x1F552;</option>
+                        <option value="113" style="text-align:left">1.50$ - EMEA SERVICE - PREMIUM &#x1F552;</option>
+                        <option value="99" style="text-align:left">142.0$ - HUNGARY VODAFONE - PREMIUM (iPHONE 12 TO 14)
+                            &#x1F552;</option>
+                        <option value="83" style="text-align:left">66.0$ - HUNGARY VODAFONE - PREMIUM (iPHONE 4S TO 11)
+                            &#x1F552;</option>
+                        <option value="126" style="text-align:left">4.00$ - JAPAN AU KDDI - CLEAN &#x1F552;</option>
+                        <option value="116" style="text-align:left">2.60$ - JAPAN NTT DOCOMO - CLEAN &#x1F552;</option>
+                        <option value="52" style="text-align:left">2.60$ - JAPAN SOFTBANK - CLEAN &#x1F552;</option>
+                        <option value="50" style="text-align:left">6.00$ - PHILIPPINES GLOBE - CLEAN &#x1F552;</option>
+                        <option value="69" style="text-align:left">14.0$ - ROMANIA ORANGE - PREMIUM &#x1F552;</option>
+                        <option value="71" style="text-align:left">18.0$ - ROMANIA VODAFONE - PREMIUM &#x1F552;</option>
+                        <option value="97" style="text-align:left">2.00$ - UK EE/T-MOBILE/ORANGE - PREMIUM &#x1F552;
+                        </option>
+                        <option value="98" style="text-align:left">3.00$ - UK O2 TESCO - CLEAN &#x1F552;</option>
+                        <option value="127" style="text-align:left">8.00$ - UK VODAFONE - CLEAN &#x1F552;</option>
+                        <option value="129" style="text-align:left">12.0$ - US RESELLER FLEX - CLEAN &#x1F552;</option>
+                        <option value="51" style="text-align:left">8.00$ - USA AT&T - CLEAN/ACTIVE LINE &#x1F552;
+                        </option>
+                        <option value="122" style="text-align:left">250.0$ - USA AT&T - SEMI PREMIUM &#x1F552;</option>
+                        <option value="1220" style="text-align:left">28.0$ - USA AT&T - SOLD DATE: 60 DAYS &#x1F552;
+                        </option>
+                        <option value="111" style="text-align:left">2.00$ - USA C SPIRE - CLEAN &#x26A1;</option>
+                        <option value="53" style="text-align:left">6.00$ - USA CRICKET - CLEAN & 6 MONTHS OLD &#x1F552;
+                        </option>
+                        <option value="141" style="text-align:left">8.00$ - USA T-MOBILE - CLEAN &#x1F552;</option>
+                    </optgroup>
+                    <optgroup label="GENERIC UNLOCK SERVICES" style="text-align:left">
+                        <option value="140" style="text-align:left">2.00$ - CANADA BELL - NCK CODE &#x1F552;</option>
+                        <option value="96" style="text-align:left">5.00$ - CANADA FIDO/ROGERS - CLEAN &#x1F552;</option>
+                        <option value="104" style="text-align:left">1.00$ - CANADA VIDEOTRON &#x26A1;</option>
+                        <option value="107" style="text-align:left">2.00$ - FRANCE BOUYGUES &#x1F552;</option>
+                        <option value="115" style="text-align:left">2.00$ - HTC INTERNATIONAL &#x1F552;</option>
+                        <option value="116" style="text-align:left">2.60$ - JAPAN NTT DOCOMO - CLEAN &#x1F552;</option>
+                        <option value="52" style="text-align:left">2.60$ - JAPAN SOFTBANK - CLEAN &#x1F552;</option>
+                        <option value="114" style="text-align:left">7.00$ - LG 2019 DATABASE &#x1F552;</option>
+                        <option value="119" style="text-align:left">15.00$ - LG 2020 DATABASE &#x1F552;</option>
+                        <option value="123" style="text-align:left">29.0$ - SAMSUNG AT&T/CRICKET... 2019 MODELS
+                            &#x1F552;</option>
+                        <option value="124" style="text-align:left">31.0$ - SAMSUNG AT&T/CRICKET... 2020 MODELS - DB1
+                            &#x1F552;</option>
+                        <option value="128" style="text-align:left">37.0$ - SAMSUNG AT&T/CRICKET... 2020 MODELS - DB2
+                            &#x1F552;</option>
+                        <option value="131" style="text-align:left">36.0$ - SAMSUNG AT&T/CRICKET... 2021 MODELS
+                            &#x1F552;</option>
+                        <option value="136" style="text-align:left">83.0$ - SAMSUNG AT&T/CRICKET... 2022+ MODELS
+                            &#x1F552;</option>
+                        <option value="130" style="text-align:left">14.0$ - SAMSUNG EUROPE - LIMITED COUNTRIES &#x1F552;
+                        </option>
+                        <option value="125" style="text-align:left">18.0$ - SAMSUNG EUROPE - PREMIUM &#x1F552;</option>
+                        <option value="134" style="text-align:left">18.0$ - SAMSUNG UK & IRELAND - PREMIUM &#x1F552;
+                        </option>
+                        <option value="57" style="text-align:left">3.00$ - UK O2 - CLEAN &#x1F552;</option>
+                        <option value="127" style="text-align:left">8.00$ - UK VODAFONE - CLEAN &#x1F552;</option>
+                        <option value="53" style="text-align:left">6.00$ - USA CRICKET - CLEAN & 6 MONTHS OLD &#x1F552;
+                        </option>
+                    </optgroup>
+                </select>
+            </form>
+        </section>
+    </div>
+    <ul id="flow" style="border: 0px ; margin: 0 auto; max-width: 100%;" class="center">
+    </ul>
+    <script>
+        selected = localStorage.getItem('selected'); if (selected) { document.getElementById("service").value = selected; } else { document.getElementById("service").value = 103; }
+        function check() {
+            document.getElementById("wait").setAttribute("hidden", "");
+            var sel = document.getElementById("service").value;
+            var toggle = document.getElementById("toggle").className;
+            if (sel == "200" || sel == "202") { alert("IMPORTANT NOTICE!" + "\n\n" + "Please Read Service Info Before Placing Order!"); }
+            if (toggle.indexOf("on") != -1 && sel !== "200" && sel !== "202") { localStorage.setItem("selected", sel); console.log("Remember Service: " + sel); }
+            document.getElementById('flow').innerHTML = "";
+            document.getElementById("info").style.removeProperty("display");
+            document.getElementById("news-ticker").setAttribute("style", "display:none");
+            if ($("#service").val() == "0") { document.getElementById('info').innerHTML = "<h4>APPLE SOLD BY & COVERAGE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=0\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Company & Country name, Warranty and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "1") { document.getElementById('info').innerHTML = "<h4>SAMSUNG COMPANY & COUNTRY - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Carrier, Country, Warranty and extra info.<br><br>✔️️️ IMEI/SN - Samsung Phones.<br><br>"; }
+            if ($("#service").val() == "3") { document.getElementById('info').innerHTML = "<h4>APPLE iCLOUD ON/OFF - STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=3\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides info if Find my Device is enabled or not.<br><br>✔️️️ IMEI/MEID/SN - Apple iPhone|iPad|iPod|Watch<br><br>"; }
+            if ($("#service").val() == "4") { document.getElementById('info').innerHTML = "<h4>APPLE iCLOUD STATUS CLEAN/LOST - STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=4\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides info if iCloud Status is Disabled, Clean or in Lost/Erased Mode.<br><br>✔️️️ IMEI/MEID/SN - Apple iPhone|iPad+ Cellular|Watch+ Cellular<br><br>"; }
+            if ($("#service").val() == "5") { document.getElementById('info').innerHTML = "<h4>SONY WARRANTY INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=5\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Warranty and extra info.<br><br>✔️️️ IMEI - Sony Ericsson Phones.<br><br>"; }
+            if ($("#service").val() == "6") { document.getElementById('info').innerHTML = "<h4>WORLDWIDE BLACKLIST STATUS - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=6\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides details if Phone is reported Stolen/Lost/Fraud to Carrier/Police database.<br><br>✔️️️ IMEI/MEID/ESN - All Brands.<br><br>"; }
+            if ($("#service").val() == "8") { document.getElementById('info').innerHTML = "<h4>iPHONE NETWORK SIM-LOCK STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=8\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Network/Carrier Sim-Lock status.<br><br>✔️️️ IMEI/MEID/SN - All APPLE GSM devices.<br><br>"; }
+            if ($("#service").val() == "9") { document.getElementById('info').innerHTML = "<h4>VERIZON USA BLACKLIST STATUS - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=9\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Blacklist Status for Phones purchased from Verizon USA.<br><br>✔️️️ IMEI/MEID/ESN - All Brands.<br><br>"; }
+            if ($("#service").val() == "10") { document.getElementById('info').innerHTML = "<h4>APPLE DEVICE ACTIVATION STATUS - SERIAL</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=10\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides info Apple Device was ever activated and extra info.<br><br>✔️️️ SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "11") { document.getElementById('info').innerHTML = "<h4>APPLE iOS & MAC MDM STATUS - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=11\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides MDM Lock Status & Company Profile informations<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "12") { document.getElementById('info').innerHTML = "<h4>APPLE IMEI &#x21C4; SN CONVERTER</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=12\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Color, Capacity, IMEI, IMEI2, MEID, Serial & Warranty Status.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "13") { document.getElementById('info').innerHTML = "<h4>MOTOROLA INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=13\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, Country, Warranty and other Info for Motorola Phones.<br /><br />"; }
+            if ($("#service").val() == "15") { document.getElementById('info').innerHTML = "<h4>HUAWEI | HONOR INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=15\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Carrier, Country, Warranty and extra info.<br><br>✔️️️ IMEI/SN - Huawei | Honor Devices.<br><br>"; }
+            if ($("#service").val() == "16") { document.getElementById('info').innerHTML = "<h4>T-MOBILE USA STATUS - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=16\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Blacklist Status for Phones purchased from T-MOBILE USA.<br><br>✔️️️ IMEI/MEID/ESN - All Brands.<br><br>"; }
+            if ($("#service").val() == "17") { document.getElementById('info').innerHTML = "<h4>ALCATEL PROVIDER INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=17\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model and the Provider ID for Alcatel phones.<br /><br />"; }
+            if ($("#service").val() == "19") { document.getElementById('info').innerHTML = "<h4>LG INFO & CARRIER</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=19\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Carrier, Country, Warranty and extra info.<br><br>✔️️️ IMEI/MSN - LG Phones.<br><br>"; }
+            if ($("#service").val() == "20") { document.getElementById('info').innerHTML = "<h4>KOREA BLACKLIST STATUS CLEAN/STOLEN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=20\"><b>🔗️️ Sample</b></a> <br /><br />Shows if the phone is Clean or reported Stolen in Korea country.<br /><br />"; }
+            if ($("#service").val() == "22") { document.getElementById('info').innerHTML = "<h4>LENOVO INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=22\"><b>🔗️️ Sample</b></a> </a><br /><br />Shows the Model, Country, Warranty and other Info for LENOVO Phones.<br /><br />"; }
+            if ($("#service").val() == "23") { document.getElementById('info').innerHTML = "<h4>ACER INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=23\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Country, Warranty and extra info.<br><br>✔️️️ IMEI - Acer Phones.<br><br>"; }
+            if ($("#service").val() == "25") { document.getElementById('info').innerHTML = "<h4>T-MOBILE USA GENERIC SIM UNLOCK ELIGIBILITY STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=25\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Network Lock Status & Unlock Eligibility for Generic devices purchased from T-mobile USA.<br><br>✔️️️ IMEI/MEID/ESN - All Brands except Apple.<br><br>"; }
+            if ($("#service").val() == "26") { document.getElementById('info').innerHTML = "<h4>APPLE ALL DEVICES SERIAL INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=26\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Color, Capacity and extra info.<br><br>✔️️️ 11 or 12 CHARS SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "30") { document.getElementById('info').innerHTML = "<h4>APPLE DEVICES BASIC INFORMATION</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=30\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Color, Capacity, iCloud Status, Warranty and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "31") { document.getElementById('info').innerHTML = "<h4>AUSTRALIA BLACKLIST STATUS CLEAN/STOLEN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=31\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Blacklist Status for Phones purchased from Australia.<br><br>✔️️️ IMEI - All Brands.<br><br>"; }
+            if ($("#service").val() == "32") { document.getElementById('info').innerHTML = "<h4>JAPAN CARRIERS BLACKLIST STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=32\"><b>🔗️️ Sample</b></a> <br /><br />Checks the IMEI status for Phones purchased from JAPAN.<br /><br />"; }
+            if ($("#service").val() == "34") { document.getElementById('info').innerHTML = "<h4>ASUS INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=34\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Company, Country, Warranty and extra info.<br><br>✔️️️ IMEI - Asus Phones.<br><br>"; }
+            if ($("#service").val() == "36") { document.getElementById('info').innerHTML = "<h4>ONE+ OnePlus INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=36\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Country, Warranty and extra info.<br><br>✔️️️ IMEI - OnePlus Phones.<br><br>"; }
+            if ($("#service").val() == "37") { document.getElementById('info').innerHTML = "<h4>SIM ICCID/IMSI INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=37\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Carrier & Country for SIM ICCID or IMSI.<br /><br />"; }
+            if ($("#service").val() == "39") { document.getElementById('info').innerHTML = "<h4>OPPO INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=39\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Country, Warranty and extra info.<br><br>✔️️️ IMEI - Oppo, OnePlus, Realme Phones.<br><br>"; }
+            if ($("#service").val() == "42") { document.getElementById('info').innerHTML = "<h4>GOOGLE PIXEL INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=42\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, Country, Warranty and other Info for HTC or Google Pixel Phones.<br /><br />"; }
+            if ($("#service").val() == "43") { document.getElementById('info').innerHTML = "<h4>KYOCERA INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=43\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, Carrier and other info for KYOCERA Phones.<br /><br />"; }
+            if ($("#service").val() == "44") { document.getElementById('info').innerHTML = "<h4>SONIM INFO & CARRIER</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=44\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, Carrier and other info for SONIM Phones.<br /><br />"; }
+            if ($("#service").val() == "45") { document.getElementById('info').innerHTML = "<h4>ITEL | TECNO | SONIM INFO & WARRANTY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=45\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Warranty and extra info.<br><br>✔️️️ IMEI - iTel | Tecno | Sonim Phones.<br><br>"; }
+            if ($("#service").val() == "46") { document.getElementById('info').innerHTML = "<h4>SONY BOOTLOADER KEY & WARRANTY INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=46\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, Bootloader Unlock Code, Warranty and other Info for SONY/XPERIA Phones.<br /><br />"; }
+            if ($("#service").val() == "50") { document.getElementById('info').innerHTML = "<h4>PHILIPPINES GLOBE ALL IPHONE MODELS - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=50\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 3-10 Days<br /><br />Unlock Service for all Apple iPhone models locked to Philippines Globe.<br /><br />"; }
+            if ($("#service").val() == "51") { document.getElementById('info').innerHTML = "<h4>AT&T USA UNLOCK - ACTIVE LINE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=51\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-10 Days<br /><br />Unlock Service for iPhones locked to AT&T USA<br />Use APPLE iPHONE CARRIER to make sure device is locked to USA AT&T.<br />Supported Status:<br />- Looks like the device you want to unlock is active on another AT&T account.<br /><br />"; }
+            if ($("#service").val() == "52") { document.getElementById('info').innerHTML = "<h4>JAPAN SOFTBANK UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=52\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-12 Hours<br /><br />This service will unlock devices locked to SOFTBANK JAPAN that are clean and out of contract.<br>(Success rate: 60%)<br /><br />"; }
+            if ($("#service").val() == "53") { document.getElementById('info').innerHTML = "<h4>USA CRICKET - CLEAN & ACTIVE OVER 180 DAYS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=53\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-7 Days<br /><br />Unlock Service for iPhones & Android devices locked to USA CRICKET<br />For iPhones use service iPHONE CARRIER to make sure device is locked to USA CRICKET.<br />Only CLEAN and active on network over 180 days supported.<br /><br />"; }
+            if ($("#service").val() == "54") { document.getElementById('info').innerHTML = "<h4>WORLDWIDE BLACKLIST STATUS - SIMPLE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=54\"><b>🔗️️ Sample</b></a> <br /><br />Shows if the Phone is reported Stolen/Lost to Carrier/Police database.<br /><br />"; }
+            if ($("#service").val() == "55") { document.getElementById('info').innerHTML = "<h4>ZTE INFO & WARRANTY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=55\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Carrier, Country, Warranty and extra info.<br><br>✔️️️ IMEI - ZTE Phones.<br><br>"; }
+            if ($("#service").val() == "56") { document.getElementById('info').innerHTML = "<h4>DOOGEE INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=56\"><b>🔗️️ Sample</b></a> <br /><br />Shows the Model, warranty and other info for Doogee Phones.<br /><br />"; }
+            if ($("#service").val() == "57") { document.getElementById('info').innerHTML = "<h4>O2 UK ALL PHONE MODELS UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=57\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-9 Days<br /><br />Unlock Service for all Brands & Models locked to O2 UNITED KINGDOM.<br />This service will provide only NCK code.<br>No refund if device unlock counter is blocked and NCK not accepted.<br /><br />"; }
+            if ($("#service").val() == "58") { document.getElementById('info').innerHTML = "<h4>XIAOMI MI ACTIVATION CLEAN/LOST STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=58\"><b>🔗️️ Sample</b></a> <br /><br />This service will show Mi Activation Lock status (Clean/Lost) for Xiaomi/Poco/Redmi.<br /><br />Service works with IMEI/SN or Unlock Number (10 Chars)<br /><br />"; }
+            if ($("#service").val() == "61") { document.getElementById('info').innerHTML = "<h4>iPHONE CARRIER/FMI STATUS/WARRANTY & BLACKLIST REPORT</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=61\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Carrier & Sim-lock Status, iCloud, Blacklist Status & extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE GSM devices.<br><br>"; }
+            if ($("#service").val() == "62") { document.getElementById('info').innerHTML = "<h4>APPLE GSX iOS VERSION & NEXT TETHER</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=62\"><b>🔗️️ Sample</b></a> <br /><br />Shows GSX policies & iOS Version for APPLE iPhone/iPad.<br /><br />"; }
+            if ($("#service").val() == "63") { document.getElementById('info').innerHTML = "<h4>APPLE FULL GSX CHECK CASE/REPLACE/POLICY - ALL APPLE DEVICES</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=63\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides GSX Cases, Replacements, iCCID, Wi-Fi Mac, Carrier Policies, Company, Country, Warranty and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "66") { document.getElementById('info').innerHTML = "<h4>MACBOOK&iMAC ICLOUD CLEAN/LOST STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=66\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides info if iCloud is ON/OFF and Clean or Lost mode.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "67") { document.getElementById('info').innerHTML = "<h4>APPLE GSX POLICIES & Wi-Fi MAC ADDRESS INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=67\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Wireless Mac Address, Carrier Policies, iOS Version and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "68") { document.getElementById('info').innerHTML = "<h4>APPLE GSX CASES & REPAIRS INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=68\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides GSX Repair & Cases History.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "69") { document.getElementById('info').innerHTML = "<h4>ORANGE ROMANIA IPHONE UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=69\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Minutes<br /><br />Unlock Service for All iPhone Models locked to Orange Romania<br /><br />"; }
+            if ($("#service").val() == "71") { document.getElementById('info').innerHTML = "<h4>VODAFONE ROMANIA IPHONE UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=71\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-3 Days<br /><br />Unlock Service for iPhones locked to Vodafone Romania<br />Use APPLE iPHONE CARRIER to make sure device is locked to Vodafone Romania.<br />Supported Device:<br />- All devices from Vodafone Romania, including in contract.<br /><br />"; }
+            if ($("#service").val() == "73") { document.getElementById('info').innerHTML = "<h4>HONOR INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=73\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Country, Warranty and extra info.<br><br>✔️️️ IMEI/SN - Honor Devices.<br><br>"; }
+            if ($("#service").val() == "75") { document.getElementById('info').innerHTML = "<h4>VIVO & IQOO INFO & WARRANTY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=75\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Color, Warranty and extra info.<br><br>✔️️️ IMEI - VIVO & IQOO Phones.<br><br>"; }
+            if ($("#service").val() == "76") { document.getElementById('info').innerHTML = "<h4>APPLE GSX CASES ID DETAILS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=76\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides GSX Case Id Details.<br><br>✔️️️ Case Id - Example: 1015675889984.<br><br>"; }
+            if ($("#service").val() == "78") { document.getElementById('info').innerHTML = "<h4>iPHONE CARRIER/FMI STATUS/WARRANTY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=78\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Carrier & Sim-lock Status, iCloud Status and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE GSM devices.<br><br>"; }
+            if ($("#service").val() == "80") { document.getElementById('info').innerHTML = "<h4>SAMSUNG COMPANY & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=80\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Carrier, Country, Warranty and extra info.<br><br>✔️️️ IMEI/SN - Samsung Phones.<br><br>"; }
+            if ($("#service").val() == "81") { document.getElementById('info').innerHTML = "<h4>APPLE iOS & MAC MOBILE DEVICE MANAGEMENT STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=81\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Mobile Device Management Lock Status and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "82") { document.getElementById('info').innerHTML = "<h4>SAMSUNG KNOX GUARD STATUS & INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=82\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides nox Guard status, Model, Warranty and extra info.<br><br>✔️️️ IMEI/SN - Samsung Phones.<br><br>"; }
+            if ($("#service").val() == "83") { document.getElementById('info').innerHTML = "<h4>HUNGARY VODAFONE iPHONE 4S TO 11 MODELS - PREMIUM UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=83\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 5-20 Days<br><br>💡️ Premium Carrier unlock service for iPhones locked to Vodafone Hungary.<br><br>✔️️️ IMEI - APPLE iPhone 4s to 11 models.<br><br>"; }
+            if ($("#service").val() == "84") { document.getElementById('info').innerHTML = "<h4>REALME INFO & COUNTRY</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=84\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Model, Country, Warranty and extra info.<br><br>✔️️️ IMEI - Oppo, OnePlus, Realme Phones.<br><br>"; }
+            if ($("#service").val() == "94") { document.getElementById('info').innerHTML = "<h4>iOS MDM (MOBILE DEVICE MANAGEMENT) LOCK BYPASS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=94\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Bypass MOBILE DEVICE MANAGEMENT (MDM) on Apple iPhone/iPad devices.</b><br /><br />"; }
+            if ($("#service").val() == "95") { document.getElementById('info').innerHTML = "<h4>TELUS & KOODO CANADA ALL iPHONE MODELS UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=95\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-3 Days<br /><br />Unlock Service for all iPhone models locked to TELUS & KOODO CANADA.<br />1 - USE APPLE iPHONE CARRIER to make sure device is locked to Telus or Koodo.<br />2 - USE WW BLACKLIST STATUS - PRO to find the status of your device, make sure it shows CLEAN<br /><br />"; }
+            if ($("#service").val() == "96") { document.getElementById('info').innerHTML = "<h4>FIDO & ROGERS CANADA ALL PHONE MODELS UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=96\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-4 Days<br /><br />Unlock Service for all Phone models locked to FIDO & ROGERS CANADA.<br />1 - Make sure device is locked to Fido or Rogers.<br />2 - Order WW BLACKLIST STATUS - PRO to find the status of your device, make sure it shows CLEAN<br /><br />"; }
+            if ($("#service").val() == "97") { document.getElementById('info').innerHTML = "<h4>ORANGE/T-MOBILE/EE UNITED KINGDOM UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=97\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Minutes<br /><br />Unlock Service for iPhone models locked to ORANGE/T-MOBILE/EE UNITED KINGDOM.<br />USE APPLE iPHONE CARRIER to make sure device is locked to UK TMobile Orange.<br />This service support all devices status like: Clean, Contract, Unpaid Bills, Barred<br /><br />"; }
+            if ($("#service").val() == "98") { document.getElementById('info').innerHTML = "<h4>O2 TESCO UK ALL iPHONE MODELS UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=98\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-9 Days<br /><br />Unlock Service for All iPhone models locked to O2 TESCO UNITED KINGDOM.<br />1 - USE APPLE iPHONE CARRIER to make sure device is locked to O2 UK.<br />2 - USE WW BLACKLIST STATUS - PRO to find the status of your device, make sure it shows CLEAN<br /><br />"; }
+            if ($("#service").val() == "99") { document.getElementById('info').innerHTML = "<h4>HUNGARY VODAFONE iPHONE 12 & 13 & 14 MODELS - PREMIUM UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=99\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 5-20 Days<br><br>💡️ Premium Carrier unlock service for iPhones locked to Vodafone Hungary.<br><br>✔️️️ IMEI - APPLE iPhone 12 & 13 models.<br><br>"; }
+            if ($("#service").val() == "103") { document.getElementById('info').innerHTML = "<h4>iPHONE CARRIER/SIM-LOCK & WARRANTY INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=103\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Carrier & Sim-lock Status, Warranty and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE GSM devices.<br><br>"; }
+            if ($("#service").val() == "104") { document.getElementById('info').innerHTML = "<h4>VIDEOTRON CANADA GENERIC UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=104\"><b>🔗️️ Sample</b></a> <br /><br />Instant Unlock Service forSamsung, Nokia, HTC, ETC...<br>locked to Videotron Canada.<br /><br />"; }
+            if ($("#service").val() == "105") { document.getElementById('info').innerHTML = "<h4>APPLE SOLD BY & COVERAGE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=105\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Company & Country name, Warranty and extra info.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "107") { document.getElementById('info').innerHTML = "<h4>BOUYGUES FRANCE GENERIC UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=107\"><b>🔗️️ Sample</b></a> <br /><br />Unlock Service for generic phones (Samsung, Nokia, HTC, ETC...) locked to BOUYGUES FRANCE.<br />Warning: Don\'t submit iPhone.<br>No Refund for Factory Unlocked or Wrong Orders!<br /><br />"; }
+            if ($("#service").val() == "110") { document.getElementById('info').innerHTML = "<h4>MACBOOK&iMAC iCLOUD ON/OFF STATUS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=110\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides info if Find my Mac is enabled or not.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "111") { document.getElementById('info').innerHTML = "<h4>C SPIRE USA UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=111\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-1 hours<br /><br />Unlock Service for All iPhone models locked to C Spire USA.<br />Note: - USE APPLE iPHONE CARRIER to make sure device is locked to C Spire USA.<br /><br />"; }
+            if ($("#service").val() == "113") { document.getElementById('info').innerHTML = "<h4>EMEA Service Premium Unlock</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=113\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Minutes<br /><br />Unlock Service for Apple iPhones locked to policy EMEA Service.<br /><br />"; }
+            if ($("#service").val() == "114") { document.getElementById('info').innerHTML = "<h4>LG INTERNATIONAL UNLOCK - 2019 DATABASE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=114\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 5-60 Minutes<br /><br />This service is to unlock all LG devices locked to any worldwide carrier.<br /><br />No refund for wrong order or any reason, codes are provided directly from LG database.<br /><br />"; }
+            if ($("#service").val() == "115") { document.getElementById('info').innerHTML = "<h4>HTC INTERNATIONAL UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=115\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 5-15 Minutes<br /><br />This service is to unlock all HTC devices locked to any worldwide carrier.<br /><br />No refund for wrong order or any reason, codes are provided directly from HTC database.<br /><br />"; }
+            if ($("#service").val() == "116") { document.getElementById('info').innerHTML = "<h4>NTT DOCOMO JAPAN UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=116\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-3 Days<br /><br />This service will unlock devices locked to NTT DOCOMO JAPAN that are clean and out of contract.<br /><br />"; }
+            if ($("#service").val() == "118") { document.getElementById('info').innerHTML = "<h4>SAMSUNG FRP LOCK REMOVE WORLDWIDE - IMEI</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=118\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-12 Hours<br /><br />This service is to remove Google Factory Reset Protection Lock.<br>(Not Knox Lock)<br /><br />Check service Sample for more info.<br /><br />"; }
+            if ($("#service").val() == "119") { document.getElementById('info').innerHTML = "<h4>LG INTERNATIONAL UNLOCK - 2020 DATABASE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=119\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 5-60 Minutes<br /><br />This service is to unlock all LG devices locked to any worldwide carrier.<br /><br />No refund for wrong order or any reason, codes are provided directly from LG database.<br /><br />"; }
+            if ($("#service").val() == "122") { document.getElementById('info').innerHTML = "<h4>AT&T USA SEMI PREMIUM - UNLOCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=122\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 2-14 Days<br /><br />Semi Premium Unlock Service for Apple iPhone all models locked to AT&T USA.<br /><br />Blacklisted devices not supported.<br /><br />"; }
+            if ($("#service").val() == "123") { document.getElementById('info').innerHTML = "<h4>SAMSUNG USA AT&T/CRICKET/XFINITY/SPECTRUM UP TO 2019 MODELS UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=123\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Days<br /><br />Supported Models: Galaxy S/S2/S3/S4/S5/S6/S7/S7 Edge/S8/S9/S9+/S10/S10+/S10E/S10 5G/S10 Lite/Note7/Note8/Note9/Note10/10+/A11/A12/A32 5G/A52 5G/A71 5G<br /><br />Do not order if device is not asking for unlock code.<br /><br />Supported Carrier: AT&T/Cricket/XFinity/Spectrum<br /><br />"; }
+            if ($("#service").val() == "124") { document.getElementById('info').innerHTML = "<h4>SAMSUNG USA AT&T/CRICKET/XFINITY/SPECTRUM 2020 MODELS UNLOCK - PREMIUM (DB1)</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=124\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Days<br /><br />Supported Models: Galaxy S20/S20+/S20+ Ultra/S20 5G/S20+ 5G/S20+ Ultra 5G/S20 FE/Z FLIP/Z FOLD.<br /><br />Do not order if device is not asking for unlock code.<br /><br />Supported Carrier: AT&T/Cricket/XFinity/Spectrum<br /><br />"; }
+            if ($("#service").val() == "125") { document.getElementById('info').innerHTML = "<h4>SAMSUNG EUROPE ALL COUNTRIES UNLOCK - NCK&MCK</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=125\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Days (Mostly done in few hours)<br /><br />Unlock Service for SAMSUNG all models locked to any European carrier.<br />Only NCK & MCK code is provided, no refund if device is not asking for code or is asking for RGCK (Region Lock Code).<br /><br />"; }
+            if ($("#service").val() == "126") { document.getElementById('info').innerHTML = "<h4>AU KDDI JAPAN UNLOCK - CLEAN/UNPAID</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=126\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-4 Days<br /><br />This service will unlock devices locked to AU KDDI JAPAN that are clean or have unpaid bills.<br /><br />"; }
+            if ($("#service").val() == "127") { document.getElementById('info').innerHTML = "<h4>VODAFONE UK UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=127\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-9 Days<br /><br />Unlock Service for all devices locked to Vodafone UK that are Clean<br /><br />Note: No relock warranty.<br />- Use service WW BLACKLIST STATUS - PRO and make sure that device is Clean<br />- For iPhones use service APPLE iPHONE CARRIER and make sure carrier is Vodafone UK<br /><br />"; }
+            if ($("#service").val() == "128") { document.getElementById('info').innerHTML = "<h4>SAMSUNG USA AT&T/CRICKET/XFINITY/SPECTRUM 2020 MODELS UNLOCK - PREMIUM (DB2)</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=128\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Days<br /><br />Supported Models: Galaxy Note 20/Note 20 Ultra/Z Flip 2(5G)/Fold 2/Tab S7<br /><br />Do not order if device is not asking for unlock code.<br /><br />Supported Carrier: AT&T/Cricket/XFinity/Spectrum<br /><br />"; }
+            if ($("#service").val() == "129") { document.getElementById('info').innerHTML = "<h4>US RESELLER FLEX POLICY IPHONE UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=129\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-2 Days<br /><br />Carrier Unlock Service for Apple iPhone devices locked to:<br> US Reseller Flex Policy | US Carrier Service Policy | US GSM Service Policy<br />Use APPLE iPHONE CARRIER service to check the policy.<br /><br />"; }
+            if ($("#service").val() == "130") { document.getElementById('info').innerHTML = "<h4>SAMSUNG EUROPE - LIMITED COUNTRIES</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=130\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-2 Days<br /><br />Unlock Service for SAMSUNG device from the following countries:<br /><br />Austria, Germany, Switzerland, Slovenia, Croatia, Bosnia and Herzegovina, Bulgaria, Romania, Kosovo, Poland, Czech, Hungary, Slovakia, Macedonia, Romania, Serbia, Montenegro.<br /><br />Don't order if device is not asking for code or ask for region lock code.<br /><br />Codes are from Samsung database, no verification or refund accepted even with video proof!<br /><br />"; }
+            if ($("#service").val() == "131") { document.getElementById('info').innerHTML = "<h4>SAMSUNG USA AT&T/CRICKET/XFINITY/SPECTRUM 2021 MODELS UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=131\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-5 Days<br /><br />Supported Models: Galaxy S21 / S21+ / S21 Ultra<br /><br />Do not order if device is not asking for unlock code.<br /><br />Supported Carrier: AT&T/Cricket/XFinity/Spectrum<br /><br />"; }
+            if ($("#service").val() == "132") { document.getElementById('info').innerHTML = "<h4>CLARO ALL COUNTRIES IPHONE 14 MODELS UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=132\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-6 Days<br><br>💡️ Carrier unlock service for iPhones locked to Claro any country.<br><br>✔️️️ IMEI - APPLE iPhone 14 models.<br><br>"; }
+            if ($("#service").val() == "134") { document.getElementById('info').innerHTML = "<h4>SAMSUNG UNITED KINGDOM & IRELAND UNLOCK - ALL LEVEL CODES</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=134\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-2 Days<br /><br />Unlock Service for SAMSUNG all models locked to any UK & Ireland carrier.<br />All level codes are provided.<br /><br />Do not order if device is not asking for unlock code.<br /><br />"; }
+            if ($("#service").val() == "135") { document.getElementById('info').innerHTML = "<h4>CLARO ALL COUNTRIES UNLOCK FOR iPHONE 4 TO 13 MODELS - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=135\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-6 Days<br><br>💡️ Carrier unlock service for iPhones locked to Claro any country.<br><br>✔️️️ IMEI - APPLE iPhone 4 to 13 models.<br><br>"; }
+            if ($("#service").val() == "136") { document.getElementById('info').innerHTML = "<h4>SAMSUNG USA AT&T/CRICKET/XFINITY/SPECTRUM 2022+ MODELS UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=136\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-4 Days<br /><br />This service provides All Level Unlock Codes.<br /><br />Only order if phone ask for Unlock Code else No Refund!<br /><br />Supported Models: Galaxy S22 & S23 & S24 | Z Flip 3 & 4 & 5 | Z Fold 3 & 4 & 5<br /><br />Supported Carrier: AT&T/Cricket/XFinity/Spectrum<br /><br />"; }
+            if ($("#service").val() == "137") { document.getElementById('info').innerHTML = "<h4>AUSTRIA A1 MOBILKOM - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=137\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 2-12 Days<br /><br />Unlock Service for all iPhone models In Contract or Out of Contract locked to Austria A1 Mobilkom.<br /><br />"; }
+            if ($("#service").val() == "138") { document.getElementById('info').innerHTML = "<h4>AUSTRIA A1 MOBILKOM AUSTRIA - OUT OF CONTRACT (2+ Years Old)</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=138\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 2-12 Days<br /><br />Unlock Service for all iPhone models Out of Contract (2+ Years Old) locked to Austria A1 Mobilkom.<br /><br />"; }
+            if ($("#service").val() == "140") { document.getElementById('info').innerHTML = "<h4>BELL CANADA ALL ALL GENERIC BRANDS & MODELS UNLOCK - NCK CODE</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=140\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-6 Hours<br><br>💡️ Carrier unlock service for any Generic Brand Like Samsung, LG, Sony...<br>locked to Bell Canada.<br><br>✔️️️ IMEI - All Brands and models except iPhone.<br><br><b>Not Supported:</b> Blacklisted.<br><br>"; }
+            if ($("#service").val() == "141") { document.getElementById('info').innerHTML = "<h4>USA T-MOBILE ALL IPHONE MODELS UNLOCK - CLEAN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=141\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-8 Hours<br><br>💡️ Carrier unlock service for iPhones locked to T-mobile USA carrier.<br><br>Only Clean and Eligible devices are supported.<br>Low success rate.<br><br>✔️️️ IMEI - All APPLE iPhone models.<br><br>"; }
+            if ($("#service").val() == "142") { document.getElementById('info').innerHTML = "<h4>CLARO ALL COUNTRIES IPHONE 15 MODELS UNLOCK - PREMIUM</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=142\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-6Days<br><br>💡️ Carrier unlock service for iPhones locked to Claro any country.<br><br>✔️️️ IMEI - APPLE iPhone 15 models.<br><br>"; }
+            if ($("#service").val() == "203") { document.getElementById('info').innerHTML = "<h4>BRAND & MODEL INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=203\"><b>🔗️️ Sample</b></a> <br /><br />This service will show the Brand and Model for any GSM device.<br /><br />"; }
+            if ($("#service").val() == "206") { document.getElementById('info').innerHTML = "<h4>XIAOMI MI ACTIVATION LOCK ON/OFF & INFO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=206\"><b>🔗️️ Sample</b></a> <br /><br />This service will show info for Xiaomi/Poco/Redmi devices and MI Activation Lock (ON/OFF) is enabled.<br /><br />Service works with IMEI, SN or Unlock Number (10 Chars)<br /><br />"; }
+            if ($("#service").val() == "212") { document.getElementById('info').innerHTML = "<h4>MDM LOCK REMOVAL - COMPATIBILITY CHECKER</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=212\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides MDM & compatibility status if device its supported on MDM Removal Services.<br><br>✔️️️ IMEI | SN - ALL APPLE devices.<br><br>"; }
+            if ($("#service").val() == "213") { document.getElementById('info').innerHTML = "<h4>REMOVE MDM LOCK FOR iPHONE MODELS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=213\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Remove MOBILE DEVICE MANAGEMENT (MDM) on compatible iPhone devices.<br /><br />Use MDM LOCK REMOVAL - COMPATIBILITY checker before placing any order!</b><br /><br />"; }
+            if ($("#service").val() == "214") { document.getElementById('info').innerHTML = "<h4>REMOVE MDM LOCK FOR iPAD MODELS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=214\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Remove MOBILE DEVICE MANAGEMENT (MDM) on compatible iPad devices.<br /><br />Use MDM LOCK REMOVAL - COMPATIBILITY checker before placing any order!</b><br /><br />"; }
+            if ($("#service").val() == "215") { document.getElementById('info').innerHTML = "<h4>REMOVE MDM LOCK FOR MAC MODELS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=215\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Remove MOBILE DEVICE MANAGEMENT (MDM) on compatible iMac/Macbook devices.<br /><br />Use MDM LOCK REMOVAL - COMPATIBILITY checker before placing any order!</b><br /><br />"; }
+            if ($("#service").val() == "217") { document.getElementById('info').innerHTML = "<h4>REMOVE MDM LOCK FOR WATCH MODELS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=217\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Remove MOBILE DEVICE MANAGEMENT (MDM) on compatible Watch devices.<br /><br />Use MDM LOCK REMOVAL - COMPATIBILITY checker before placing any order!</b><br /><br />"; }
+            if ($("#service").val() == "218") { document.getElementById('info').innerHTML = "<h4>REMOVE MDM LOCK FOR APPLE TV MODELS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=218\"><b>🔗️️ Sample</b></a> <br /><br />Service is to Remove MOBILE DEVICE MANAGEMENT (MDM) on compatible Apple TV devices.<br /><br />Use MDM LOCK REMOVAL - COMPATIBILITY checker before placing any order!</b><br /><br />"; }
+            if ($("#service").val() == "219") { document.getElementById('info').innerHTML = "<h4>APPLE PART NUMBER - MPN</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=219\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Part Number for Apple devices.<br><br>✔️️️ IMEI/MEID/SN - All APPLE devices.<br><br>"; }
+            if ($("#service").val() == "230") { document.getElementById('info').innerHTML = "<h4>XFINITY USA STATUS - PRO</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=230\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br><br>💡️ Provides Blacklist Status & info for Cricket USA devices.<br><br>✔️️️ IMEI - All Brands.<br><br>"; }
+            if ($("#service").val() == "1002") { document.getElementById('info').innerHTML = "<h4>XIAOMI MI ACCOUNT REMOVAL SERVICE - EUROPE (CLEAN)</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1002\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 1-3 Days<br><br>💡️ Remove Mi account lock for Clean devices sold in Europe.<br><br>✔️️️ IMEI/SN/LOCK No - All Xiaomi/Redmi devices.<br><br>"; }
+            if ($("#service").val() == "1003") { document.getElementById('info').innerHTML = "<h4>ICLOUD BYPASS FOR CDMA IPHONE X/8+ [NO SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1003\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for CDMA iPhone X/8+ [NO SIGNAL].<br>Do not order of these requirements are not meet.<br>Instructions provided after order is placed.</b><br /><br />"; }
+            if ($("#service").val() == "1004") { document.getElementById('info').innerHTML = "<h4>ICLOUD BYPASS FOR CDMA IPHONE 8/7/7+ [NO SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1004\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for CDMA iPhone 8/7/7+ [NO SIGNAL].<br>Do not order of these requirements are not meet.<br>Instructions provided after order is placed.</b><br /><br />"; }
+            if ($("#service").val() == "1005") { document.getElementById('info').innerHTML = "<h4>ICLOUD BYPASS FOR GSM/CDMA IPHONE [OLD MODELS] [NO SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1005\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for GSM/CDMA iPhone [Old Models] [NO SIGNAL].<br>Do not order of these requirements are not meet.<br>Instructions provided after order is placed.</b><br /><br />"; }
+            if ($("#service").val() == "1006") { document.getElementById('info').innerHTML = "<h4>ICLOUD BYPASS FOR CDMA/GSM IPAD [NEWER MODELS] [NO SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1006\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for CDMA/GSM iPad [Newer Models] [NO SIGNAL]	.<br>Do not order of these requirements are not meet.<br>Instructions provided after order is placed.</b><br /><br />"; }
+            if ($("#service").val() == "1007") { document.getElementById('info').innerHTML = "<h4>ICLOUD BYPASS FOR CDMA/GSM IPAD [OLD MODELS] [NO SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1007\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for CDMA/GSM iPad [Old Models] [NO SIGNAL].<br>Do not order of these requirements are not meet.<br>Instructions provided after order is placed.</b><br /><br />"; }
+            if ($("#service").val() == "1008") { document.getElementById('info').innerHTML = "<h4>iPHONE 5S iREMOVE iCLOUD BYPASS FOR MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1008\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone 5S with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1009") { document.getElementById('info').innerHTML = "<h4>iPHONE 6/6+ iREMOVE iCLOUD BYPASS FOR GSM/MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1009\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone 6/6+ with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1010") { document.getElementById('info').innerHTML = "<h4>iPHONE SE/6S/6S+ iREMOVE iCLOUD BYPASS FOR GSM/MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1010\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone SE/6S/6S+ with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1011") { document.getElementById('info').innerHTML = "<h4>iPHONE 7/7+ iREMOVE iCLOUD BYPASS FOR GSM/MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1011\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone 7/7+ with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1012") { document.getElementById('info').innerHTML = "<h4>iPHONE 8/8+ iREMOVE iCLOUD BYPASS FOR GSM/MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1012\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone 8/8+ with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1013") { document.getElementById('info').innerHTML = "<h4>iPHONE X iREMOVE iCLOUD BYPASS FOR GSM/MEID [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1013\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone X with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1014") { document.getElementById('info').innerHTML = "<h4>iPAD OLD MODELS (BEFORE 2017) iREMOVE iCLOUD BYPASS [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1014\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPhone X with MEID with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1015") { document.getElementById('info').innerHTML = "<h4>iPAD NEW MODELS (AFTER 2017) iREMOVE iCLOUD BYPASS [WITH SIGNAL]</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1015\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for iPad New Models (After 2017) with working Signal.</b><br />Read service SAMPLE to check if your device is eligible for bypass and for more info.<br /><br />"; }
+            if ($("#service").val() == "1016") { document.getElementById('info').innerHTML = "<h4>iREMOVE iCLOUD BYPASS FOR MACOS DEVICES</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1016\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> Instant<br /><br />Service is to bypass iCloud Lock for MacOS T2 devices.</b><br />Check service SAMPLE for more info.<br /><br />"; }
+            if ($("#service").val() == "1220") { document.getElementById('info').innerHTML = "<h4>AT&T USA - UNLOCK FOR STATUS: DEVICE_SOLD_DATE_60_DAYS</h4><br><a class=\"fancybox fancybox.iframe\" href=\"help.php?service=1220\"><b>🔗️️ Sample</b></a> ⌛ <b>Time:</b> 0-3 Days<br /><br />Unlock Service for Apple iPhone 6S to 14 models locked to AT&T USA with status: DEVICE_SOLD_DATE_60_DAYS.<br /><br />"; }
+        }
+    </script>
+    <br>
+
+    <script>
+        function book() {
+            $.ajax({
+                url: "action.php",
+                type: "POST",
+                xhrFields: { withCredentials: true },
+                data: "action=remember&toggle=" + document.getElementById("toggle").className,
+                success: function (data) {
+                    var sel = document.getElementById("service").value;
+                    localStorage.setItem("selected", sel);
+                    console.log("Remember Service: " + sel)
+                    document.getElementById("toggle").className = "fa fa-toggle-on";
+                    if (data.indexOf("Disabled") != -1) {
+                        document.getElementById("toggle").className = "fa fa-toggle-off";
+                        localStorage.removeItem('selected');
+                        console.log("Delete used service");
+                    }
+                }
+            });
+        }
+    </script>
+    <style>
+        .select2-container--open .select2-dropdown,
+        .select2-container--open .select2-dropdown--above {
+            z-index: 9999;
+            /* or any high value */
+        }
+
+        canvas {
+            display: none;
+            height: 100px;
+            width: 100px;
+        }
+
+        #wait {
+            font-family: 'Montserrat', sans-serif;
+            color: #ee4c8d;
+            text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+            font-size: 18px;
+        }
+
+        #scan,
+        #cart,
+        #clip,
+        #book {
+            cursor: pointer;
+            margin-top: -10px;
+            display: inline-block;
+            padding: 6px;
+            padding-right: 15px;
+            padding-left: 15px;
+            transition: all 1s ease;
+            color: #d04078;
+            text-transform: capitalize;
+            font-size: 15px;
+            z-index: 1;
+            opacity: 0.7;
+            position: relative;
+            border-radius: 25px;
+            background-color: transparent;
+        }
+
+        #toggles {
+            filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1.0);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            display: inline-block;
+        }
+    </style>
+    <center>
+        <div id="root" style="display:none; font-weight: normal;">
+            <label id="scan" for="upload"><i class="fa fa-camera" style="zoom: 1.5;"></i><br>Scan IMEI</label><a
+                class="fancybox fancybox.iframe" href="help.php?page=clipboard"><label id="clip" class="cd-click"><i
+                        class="fa fa-clipboard" style="zoom: 1.6;"></i><br>Clipboard</label></a><label id="book"
+                class="cd-click" onclick="book()"><i id="toggle" class="fa fa-toggle-on" style="zoom: 1.8;"></i><br>Save
+                Service</label><label id="cart" class="cd-click" onclick="cart(99)"><i class="fa fa-cart-plus"
+                    style="zoom: 1.6;"></i><br>Add to Cart</label>
+            <input id="upload" class="custom-file-input" type="file" accept="image/*;capture=camera"
+                style="display: none" />
+        </div>
+        <br>
+        <div id="wait" hidden></div>
+    </center>
+    <link rel="stylesheet" href="/cart/assets/style.css?1">
+    <div style="margin-right: 20px;">
+        <div class="cd-cart js-cd-cart" style="zoom: 1;" id="shop" hidden>
+            <a href="#0" class="cd-cart__trigger text-replace">
+                <ul class="cd-cart__count" id="count" style="list-style-type: none;">
+                    <li>0</li>
+                    <li>1</li>
+                </ul>
+            </a>
+            <div class="cd-cart__content" id="inbody">
+                <div class="cd-cart__layout">
+                    <header class="cd-cart__header">
+                        <h2>Cart</h2>
+                        <h2 style="color: hsl(220deg 90% 56%);cursor:pointer;margin-right: -90%;"><span class="cd-empty"
+                                onclick="cart(66)">Empty Cart</span></h2>
+                        <span class="cd-cart__undo">Order removed.</span>
+                    </header>
+                    <div class="cd-cart__body">
+                        <ul id="list">
+                        </ul>
+                    </div>
+                    <footer class="cd-cart__footer">
+                        <a href="#0" class="cd-cart__checkout" onclick="cart(55)">
+                            <em><span id="checkout">Checkout <span id="price"></span> USD</span>
+                                <svg class="icon icon--sm" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="currentColor">
+                                        <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3"
+                                            y1="12" x2="21" y2="12"></line>
+                                        <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            points="15,6 21,12 15,18 "></polyline>
+                                    </g>
+                                </svg>
+                            </em>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <script src="/cart/assets/util.js?1"></script>
+        <script src="/cart/assets/main.js?1"></script>
+        <!--<script src="https://www.powr.io/powr.js?platform=html"></script>-->
+        <script>
+            window.onload = cart(88);
+            function cart(id) {
+                if (id == 99) {
+                    imei = document.getElementById("imei").value.replace(/\W/, "");
+                    service = document.getElementById("service").value.replace(/\W/, "");
+                    var params = "action=add&imei=" + imei + "&service=" + service;
+                    if (imei.length > 15) {
+                        document.getElementById("wait").removeAttribute("hidden");
+                        document.getElementById("wait").innerHTML = "❗️ Wrong iMEi or SN";
+                        return false;
+                    }
+                    if (imei.length < 10) {
+                        document.getElementById("wait").removeAttribute("hidden");
+                        document.getElementById("wait").innerHTML = "❗️ Please write iMEi or SN";
+                        return false;
+                    }
+                    if (service < 1) {
+                        document.getElementById("wait").removeAttribute("hidden");
+                        document.getElementById("wait").innerHTML = "❗️ Please select a service";
+                        return false;
+                    }
+                    document.getElementById("wait").removeAttribute("hidden");
+                    document.getElementById("wait").innerHTML = "⏳ Adding to Cart...";
+                }
+
+
+
+                if (id < 55) { var params = "action=remove&id=" + id; }
+                if (id == 66) { var params = "action=empty"; }
+                if (id == 55) { var params = "action=buy"; }
+                if (id == 88) { var params = "action=none"; }
+
+                var http = new XMLHttpRequest();
+                var url = "https://sickw.com/cart/index.php";
+                http.open("POST", url, true);
+                http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                http.onreadystatechange = function () {
+                    var text = http.responseText;
+                    if (http.readyState == 4 && http.status == 200) {
+                        if (id == 55 && text.indexOf('mypos') >= 0) {
+                            window.location.assign(text);
+                            return false;
+                        }
+                        if (id == 55 && text.indexOf('buy.stripe') >= 0) {
+                            window.location.assign(text);
+                            return false;
+                        }
+                        if (id == 55 && text.indexOf('page=cart') >= 0) {
+                            window.location.assign(text);
+                            return false;
+                        }
+                        if (id == 55 && text.indexOf('Error') >= 0) {
+                            let checkout = document.getElementById('checkout').innerHTML;
+                            document.getElementById("checkout").innerHTML = "❗ " + text;
+                            setTimeout(function () { document.getElementById("checkout").innerHTML = checkout; }, 6000);
+                            return false;
+                        }
+                        if (id == 99 && text.indexOf('Error:') >= 0) {
+                            document.getElementById("wait").innerHTML = "❗ " + text; return false;
+                        }
+                        if (text.length == 63) {
+                            document.getElementById('shop').removeAttribute("hidden");
+                            document.getElementById("list").innerHTML = text; return false;
+                        }
+                        if (text.length > 50) {
+                            if (imei.length > 0) { document.getElementById("wait").innerHTML = "👍 Added to Cart"; }
+                            var list = text.substring(text.indexOf("cart:") + 5, text.lastIndexOf(":cart")); document.getElementById("list").innerHTML = list;
+                            var count = text.substring(text.indexOf("count:") + 6, text.lastIndexOf(":count")); document.getElementById("count").innerHTML = count;
+                            var price = text.substring(text.indexOf("cost:") + 5, text.lastIndexOf(":cost")); document.getElementById("price").innerHTML = price;
+                            if (text.indexOf("Error") >= 0) { document.getElementById("wait").innerHTML = "❗️ " + text; }
+                        }
+                        if (text.length > 56) { document.getElementById('shop').removeAttribute("hidden"); document.getElementById("trustpilot").setAttribute("style", "display:none"); }
+                    }
+                }
+                http.send(params);
+            }
+        </script>
+        <style>
+            .wwwa__pulse {
+                bottom: 17px;
+                left: 22px;
+            }
+
+            #wwwa {
+                bottom: 5px;
+                left: 5px;
+            }
+        </style>
+        <script src="css/ajax-new.js?v5.1"></script>
+
+        <script src="css/copy.js?v1.2"></script>
+        <script>selectionMod.init('SICKW.COM IMEI Check');</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" async defer></script>
+        <noscript>This website will not work for you because your browser does not support JavaScript!</noscript>
+        <div style="style=" margin-left: 20px;margin-bottom: 10px;">
+            <script async src="https://s.widgetwhats.com/wwwa.js" data-wwwa="7917"></script>
+            <!--
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e8d19bf2e6a04d999c0781ab6e5f6758"}'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176714990-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-176714990-1');
+</script>
+-->
+            <script type="text/javascript">
+                (function (c, l, a, r, i, t, y) {
+                    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+                    t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+                    y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+                })(window, document, "clarity", "script", "bskaaerkev");
+                if (navigator.webdriver === true || navigator.userAgent.includes("Headless")) { document.cookie = "skin=Default"; }
+            </script>
+        </div>
+        <script src="css/jquery.fancybox.js?v1"></script>
+        <script
+            type="text/javascript">if (window.history.replaceState) { window.history.replaceState(null, null, window.location.href); console.log("Fix Duplicate"); }</script>
+        <script>function newsticker() { $('#news-ticker li:first').animate({ 'opacity': 0 }, 200, function () { $(this).appendTo($('#news-ticker')).css('opacity', 1); }); } setInterval(function () { newsticker() }, 6000)</script>
+        <script>
+            window.onload = function () {
+                document.cookie = "btoa=default";
+                selected = localStorage.getItem('selected');
+                if (selected) { } else { document.getElementById("toggle").className = "fa fa-toggle-off"; }
+                document.getElementById("flow").innerHTML = "";
+                if (document.getElementById("root") !== null) { document.getElementById("root").style.removeProperty("display"); }
+                if (document.getElementById("info") !== null) { let width = document.getElementById("service").offsetWidth; document.getElementById("info").style.minWidth = width + "px"; }
+            }
+        </script>
+        <script>$(document).ready(function () { $('.fancybox').fancybox({ type: 'iframe' }); });</script>
+        <br>
+        <br>
+        <br>
+
+        <meta http-equiv="refresh" content="600;url=https://sickw.com">
+        <div class="trustpilot" id="trustpilot">
+            <a href="https://www.trustpilot.com/review/sickw.com" target="_blank" style="display: none;"><img
+                    src="/css/trust-pilot.png" width="90px" height="61px" alt="TrustPilot"></a>
+        </div><br>
+        <br>
+        <div class="footer">
+            <a href="/?page=about" class="class-1" style="bottom: 0; text-decoration:none;color:#ee4c8d;">&copy; 2024
+                SICKW.COM&trade;</a>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+    "name": "akademia/szamlaagent",
+    "description": "Szamlazz.hu package",
+    "license": "MIT",
+    "homepage": "https://webakademia.online",
+    "support": {
+        "issues": "https://webakademia.online",
+        "source": "https://webakademia.online"
+    },
+    "authors": [
+        {
+            "name": "Laszlo Katai",
+            "email": "klp7311@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "SzamlaAgent\\": "SzamlaAgent/"
+        }
+    }
+
+}

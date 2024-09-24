@@ -1,0 +1,17 @@
+<?php
+
+namespace [namespace];
+
+use Livewire\Component;
+use Livewire\Attributes\Layout;
+use Livewire\Attributes\On;
+use Livewire\Attributes\Rule;
+
+#[Layout('layouts.adminapp')]
+class [class] extends Component
+{
+    public function render()
+    {
+        return view('[view]');
+    }
+}
