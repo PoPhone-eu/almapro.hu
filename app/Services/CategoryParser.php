@@ -30,6 +30,8 @@ class CategoryParser
                 'type' => $value['type_1'],
                 'category_name' => $value['type_2'],
                 'sub_category_name' => $value['type_3'],
+                'name' => $value['name'],
+                'id' => $value['id'],
                 'properties' => $value['values'],
 
             ];
@@ -82,7 +84,7 @@ class CategoryParser
         // dd($this->categories_array);
         foreach ($this->categories_array as $key => $value) {
             // if $value['type'] starts with "i" or "I" we make sire it is not capital letter si we change "I" to "i"
-            // if substr($value['type'] is array we do dd:
+            // if substr($value['type'] is array we continue:
             if (is_array($value['type'])) {
                 continue;
             }
@@ -146,6 +148,8 @@ class CategoryParser
                 if (!$sub_sub_category) {
                     $sub_sub_category = new Category();
                     $sub_sub_category->category_name = $value['sub_category_name'];
+                    $sub_sub_category->name = $value['name'];
+                    $sub_sub_category->provider_id = $value['id'];
                     $sub_sub_category->type = $value['type'];
                     $sub_sub_category->category_id = $category->id;
                     $sub_sub_category->save();
@@ -159,6 +163,8 @@ class CategoryParser
         // create sub category
         $sub_category = new Category();
         $sub_category->category_name = $value['category_name'];
+        $sub_category->name = $value['name'];
+        $sub_category->provider_id = $value['id'];
         $sub_category->type = $value['type'];
         $sub_category->category_id = null;
         $sub_category->save();
@@ -167,6 +173,8 @@ class CategoryParser
 
             $sub_sub_category = new Category();
             $sub_sub_category->category_name = $value['sub_category_name'];
+            $sub_category->name = $value['name'];
+            $sub_category->provider_id = $value['id'];
             $sub_sub_category->type = $value['type'];
             $sub_sub_category->category_id = $sub_category->id;
             $sub_sub_category->save();

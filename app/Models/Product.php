@@ -51,6 +51,48 @@ class Product extends Model implements HasMedia
         'egyeb',
     ];
 
+    /*  A+: hibátlan
+A : szinte hibátlan ( ide tartozik még a A/AB )
+AB: szép, normál állapotú ( ide tartozik még a AB/B )
+B: használt állapotú ( B/BC, BC )
+D: törött, sérült állapotú
+Felújított: felújított, teljesen hibátlan
+*/
+    const DEVICE_STATES = [
+        'A+' => 'Hibátlan',
+        'A'  => 'Szinte hibátlan',
+        'AB' => 'Szép, normál állapotú',
+        'B'  => 'Használt állapotú',
+        'BC' => 'Használt állapotú',
+        'C'  => 'Használt állapotú',
+        'D'  => 'Törött, sérült állapotú',
+        'Felújított' => 'Felújított, teljesen hibátlan',
+    ];
+
+    // állapotok
+    const DEVICE_STATUS = [
+        'Hibátlan'                  => "hibátlan",
+        "Összességében szép"        => "nagyon szép, szinte hibátlan",
+        "Enyhén mikrokarcos"        => "szép állapot",
+        "Enyhén kopott"             => "pici kopás van rajta",
+        "Közepesen mikrokarcos"     => "jó állapot, apróbb karcok vannak rajta",
+        "Közepesen kopott"          => "jó állapot, apróbb kopások vannak rajta",
+        "Erősen mikrokarcos"        => "használt állapot, vannak rajta karcok",
+        "Erősen kopott"             => "használt állapot, vannak rajta kopások",
+        "Kiskarcos"                 => "apróbb karcok vannak rajta",
+        "Erősen kiskarcos"          => "használt állapot, vannak rajta karcok",
+        "Erősen karcos"             => "használt állapot, vannak rajta karcok",
+    ];
+
+    // eszköz állapot típusok
+    const DEVICE_STATUS_NAMES = [
+        'iPhone'        => ['keret', 'hatlap', 'kijelzo'],
+        'iPad'          => ['keret', 'hatlap', 'kijelzo'],
+        'Watch'         => ['keret', 'hatlap', 'kijelzo'],
+        'MacBook'       => ['fedlap', 'hatlap', 'kijelzo'],
+        'iMac'          => ['hatlap', 'kijelzo'],
+        'MacMini'       => ['haz'],
+    ];
 
     const ATRR_TYPES = [
         'iPhone'    => 'IPhone',

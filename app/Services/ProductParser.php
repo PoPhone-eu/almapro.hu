@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+set_time_limit(0);
+
 use App\Models\User;
 use App\Models\Product;
 use App\Models\Category;
@@ -42,13 +44,20 @@ class ProductParser
             ];
         }
         $this->products_array = $data;
+        //logger($this->products_array);
         foreach ($this->products_array as $key => $value) {
-            // if $value['type_1'] starts with "i" or "I" we make sire it is not capital letter si we change "I" to "i"
+            // if $value['type_1'] is array we skip it and write it in log.
+            if (is_array($value['type_1'])) {
+                logger($value['id']);
+                // we remove this element from the array
+                unset($this->products_array[$key]);
+                continue;
+            }
+            // if $value['type_1'] starts with "i" or "I" we make sure it is not capital letter si we change "I" to "i"
             if (substr($value['type_1'], 0, 1) == "I") {
                 $value['type_1'] = lcfirst($value['type_1']);
             }
         }
-
         $this->parse();
     }
 
@@ -58,8 +67,8 @@ class ProductParser
         $i = 0;
         foreach ($this->products_array as $product) {
             $this->createProduct($product);
-            $i++;
-            /*  if ($i > 10) {
+            /*  $i++;
+            if ($i > 5) {
                 break;
             } */
         }
@@ -74,19 +83,23 @@ class ProductParser
         }
         // check if type_1 is in Product::TYPES. If it is not, we skip it.
         if (!array_key_exists($product['type_1'], Product::TYPES)) {
+
             return;
         }
         $category_id = null;
         $subcategory_id = null;
         $data = null;
         $thisuser = User::where('provider_id', 1)->first();
+
         if (!$thisuser) {
-            return;
+            $thisuser_id = 1;
+        } else {
+            $thisuser_id = $thisuser->id;
         }
 
         $description                = $product['description'];
         $Product                    = new Product;
-        $Product->user_id           = $thisuser->id;
+        $Product->user_id           = $thisuser_id;
         $Product->is_owner          = true;
         $Product->description       = $description;
         $Product->name              = $product['name'];
@@ -105,6 +118,8 @@ class ProductParser
             }
             $Product->category_id = $category_id;
             $attribute_cat_id_main = $category_id;
+        } else {
+            return;
         }
 
         if ($product['type_3'] != null && $category_id != null) {
@@ -115,6 +130,10 @@ class ProductParser
 
         // we save the images links from the array. First we store the main image, it is the first in the array and if there are more we store them as gallery.
         // We need to get the images from an url and save it to the storage. Gallery images go into $image_links['gallery'].
+        // first check if $product['images']['image_link'] exists. If not we skip this product.
+        if (!array_key_exists('image_link', $product['images'])) {
+            return;
+        }
         foreach ($product['images']['image_link'] as $key => $url) {
             if ($key == 0) {
                 // $image_links['mainimage'] is the main image.
@@ -139,6 +158,7 @@ class ProductParser
                 continue;
             }
 
+            $attribute = null;
             // we check if this attribute for the category exists in the database. If it does, we use it, if not, we create it.
             if ($attribute_cat_id_sub != null) {
                 $attribute = ProductAttribute::where('attr_name', $key)->where('category_id', $attribute_cat_id_sub)->first();
@@ -149,6 +169,21 @@ class ProductParser
                 $attribute = ProductAttribute::where('attr_name', $key)->where('category_id', $attribute_cat_id_main)->first();
             }
 
+            if ($key == "Kijelző") {
+                $Product->kijelzo = $value;
+            }
+            if ($key == "Keret") {
+                $Product->keret = $value;
+            }
+            if ($key == "Hátlap") {
+                $Product->hatlap = $value;
+            }
+            if ($key == "Fedlap") {
+                $Product->fedlap = $value;
+            }
+            if ($key == "Ház") {
+                $Product->haz = $value;
+            }
             //if ($attribute == null) return;
 
             /* if ($key == 'allapot') {
@@ -161,70 +196,72 @@ class ProductParser
 
             // we strip any special chars from $value such as: '"' and "\n"
             $value = str_replace('"', '', $value);
-            if ($attribute) {
-                // we check if the value exists in the database.
-                $attribute_value = ProductAttributeValue::where('product_attribute_id', $attribute->id)->where('value', $value)->first();
-                /*  logger($attribute_cat_id_sub);
+            if ($key == "hattertar" || $key == "szin") {
+                if ($attribute) {
+                    // we check if the value exists in the database.
+                    $attribute_value = ProductAttributeValue::where('product_attribute_id', $attribute->id)->where('value', $value)->first();
+                    /*  logger($attribute_cat_id_sub);
                 logger($attribute_cat_id_main);
                 logger($key);
                 logger($attribute_value);
                 logger($value);
                 logger('**********************************'); */
-                if ($attribute_value) {
-                    $data['attributes'][$attribute->id] =
-                        [
-                            'value' => $attribute_value->value,
-                            'rgb'   => $attribute_value->rgb,
-                            'attr_id' => $attribute_value->product_attribute_id,
-                            'attr_type' => $attribute->type,
-                            'attr_name' => $attribute->attr_name,
-                            'attr_display_name' => $attribute->attr_display_name,
-                        ];;
+                    if ($attribute_value) {
+                        $data['attributes'][$attribute->id] =
+                            [
+                                'value' => $attribute_value->value,
+                                'rgb'   => $attribute_value->rgb,
+                                'attr_id' => $attribute_value->product_attribute_id,
+                                'attr_type' => $attribute->type,
+                                'attr_name' => $attribute->attr_name,
+                                'attr_display_name' => $attribute->attr_display_name,
+                            ];;
+                    } else {
+                        // return;
+                        if ($value != null || !is_array($value)) {
+                            $ProductAttributeValue = new ProductAttributeValue;
+                            $ProductAttributeValue->product_attribute_id = $attribute->id;
+                            $ProductAttributeValue->value = $value;
+                            $ProductAttributeValue->save();
+                            $data['attributes'][$attribute->id] =
+                                [
+                                    'value' => $ProductAttributeValue->value,
+                                    'rgb'   => $ProductAttributeValue->rgb,
+                                    'attr_id' => $ProductAttributeValue->product_attribute_id,
+                                    'attr_type' => $attribute->type,
+                                    'attr_name' => $attribute->attr_name,
+                                    'attr_display_name' => $attribute->attr_display_name,
+                                    'category_id' => $Product->category_id,
+                                ];
+                        }
+                    }
                 } else {
                     // return;
                     if ($value != null || !is_array($value)) {
+                        $save = new ProductAttribute;
+                        $save->attr_name = $key;
+                        $save->type = $product['type_1'];
+                        $save->attr_display_name = $key;
+                        $save->category_id = $Product->category_id;
+                        $save->save();
                         $ProductAttributeValue = new ProductAttributeValue;
-                        $ProductAttributeValue->product_attribute_id = $attribute->id;
+                        $ProductAttributeValue->product_attribute_id = $save->id;
                         $ProductAttributeValue->value = $value;
                         $ProductAttributeValue->save();
-                        $data['attributes'][$attribute->id] =
+                        $data['attributes'][$save->id] =
                             [
                                 'value' => $ProductAttributeValue->value,
                                 'rgb'   => $ProductAttributeValue->rgb,
                                 'attr_id' => $ProductAttributeValue->product_attribute_id,
-                                'attr_type' => $attribute->type,
-                                'attr_name' => $attribute->attr_name,
-                                'attr_display_name' => $attribute->attr_display_name,
+                                'attr_type' => $save->type,
+                                'attr_name' => $save->attr_name,
+                                'attr_display_name' => $save->attr_display_name,
                                 'category_id' => $Product->category_id,
                             ];
-                    }
-                }
-            } else {
-                // return;
-                if ($value != null || !is_array($value)) {
-                    $save = new ProductAttribute;
-                    $save->attr_name = $key;
-                    $save->type = $product['type_1'];
-                    $save->attr_display_name = $key;
-                    $save->category_id = $Product->category_id;
-                    $save->save();
-                    $ProductAttributeValue = new ProductAttributeValue;
-                    $ProductAttributeValue->product_attribute_id = $save->id;
-                    $ProductAttributeValue->value = $value;
-                    $ProductAttributeValue->save();
-                    $data['attributes'][$save->id] =
-                        [
-                            'value' => $ProductAttributeValue->value,
-                            'rgb'   => $ProductAttributeValue->rgb,
-                            'attr_id' => $ProductAttributeValue->product_attribute_id,
-                            'attr_type' => $save->type,
-                            'attr_name' => $save->attr_name,
-                            'attr_display_name' => $save->attr_display_name,
-                            'category_id' => $Product->category_id,
-                        ];
-                } else {
+                    } else {
 
-                    return;
+                        return;
+                    }
                 }
             }
         }
@@ -255,20 +292,16 @@ class ProductParser
     private function getCategory($product)
     {
         $category = Category::where('category_name', $product['type_2'])->where('category_id', null)->first();
-        /* logger($product);
-        logger($category); */
         if ($category) {
             return $category->id;
         } else {
-            //return  null;
+            return null;
             // we have to create this category:
-            $save = new Category;
+            /*  $save = new Category;
             $save->category_name = $product['type_2'];
             $save->type = $product['type_1'];
             $save->save();
-            logger('Új kategória: ');
-            logger($save);
-            return $save->id;
+            return $save->id; */
         }
     }
 }

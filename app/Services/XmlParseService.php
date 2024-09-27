@@ -11,8 +11,7 @@ class XmlParseService
     public static function parseXml()
     {
         //new CategoryParser();
-        //new ProductParser();
-        new ProductParserTemp();
+        new ProductParser();
         return;
     }
 }

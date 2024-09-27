@@ -77,7 +77,7 @@
                 <div class="form-label xl:w-64 xl:!mr-10">
                     <div class="text-left">
                         <div class="flex items-center">
-                            <div class="font-medium text-bold">Eladási ár (bruttó forint)</div>
+                            <div class="font-medium text-bold">Hirdetési ár</div>
                             <div
                                 class="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 dark:bg-darkmode-300 dark:text-slate-400 text-xs rounded-md">
                                 Kötelező</div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="w-full mt-3 xl:mt-0 flex-1">
 
-                    <input wire:model.live="price" id="price" type="number" placeholder="Eladási ár"
+                    <input wire:model.live="price" id="price" type="number" placeholder="Hirdetési ár"
                         class="form-control user-input" style="width: 250px;">
                 </div>
             </div>
@@ -118,7 +118,8 @@
                     <div class="w-full mt-3 xl:mt-0 flex-1">
 
                         <input wire:model.blur="battery" id="battery" type="number" step="1" min="0"
-                            max="100" class="form-control user-input" style="width: 250px;" required>
+                            max="100" class="form-control user-input" style="width: 250px;" required
+                            oninput="validateInput(this)">
                     </div>
                 </div>
             </div>
@@ -331,4 +332,45 @@
             @enderror
         </div>
     </form>
+
+    <script>
+        // Prevent input of anything but digits (no decimals or letters)
+        function isInteger(event) {
+            const charCode = event.which ? event.which : event.keyCode;
+
+            // Allow backspace, delete, arrow keys
+            if (charCode === 8 || charCode === 46 || charCode >= 37 && charCode <= 40) {
+                return true;
+            }
+
+            // Prevent if not a digit (charCode for 0-9 is 48-57)
+            if (charCode < 48 || charCode > 57) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function validateInput(input) {
+            // Remove any decimal points (if somehow entered)
+            if (input.value.includes('.')) {
+                input.value = input.value.split('.')[0];
+            }
+
+            // Prevent entering numbers longer than 3 digits
+            if (input.value.length > 3) {
+                input.value = input.value.slice(0, 3);
+            }
+
+            // Prevent value larger than 100
+            if (input.value > 100) {
+                input.value = 100;
+            }
+
+            // Ensure value is not negative (min is already set to 0)
+            if (input.value < 0) {
+                input.value = 0;
+            }
+        }
+    </script>
 </div>
