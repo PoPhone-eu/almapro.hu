@@ -38,6 +38,14 @@
                 @enderror
             </div>
 
+            <label class="font-medium text-gray-800">Telefon:</label>
+            <input wire:model.live="dataform.phone" type="text" autocomplete="off" class="user-input">
+            {{--  <div>
+                @error('dataform.email')
+                    <span class="error">Érvényes emailcím megadása kötelező</span>
+                @enderror
+            </div> --}}
+
             <label class="font-medium text-gray-800">Email*:</label>
             <input wire:model.live="dataform.email" type="text" autocomplete="off" class="user-input">
             <div>

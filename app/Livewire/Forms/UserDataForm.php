@@ -17,6 +17,8 @@ class UserDataForm extends Form
     #[Rule('required')]
     public $email;
     #[Rule('nullable')]
+    public $phone;
+    #[Rule('nullable')]
     public $newpassword;
     public ?User $user;
 
@@ -26,6 +28,7 @@ class UserDataForm extends Form
         $this->name = $this->user->name;
         $this->given_name = $this->user->given_name;
         $this->email = $this->user->email;
+        $this->phone = $this->user->phone;
         $this->newpassword = null;
     }
 
@@ -35,6 +38,7 @@ class UserDataForm extends Form
             'name' => $this->name,
             'given_name' => $this->given_name,
             'email' => $this->email,
+            'phone' => $this->phone,
         ]);
 
 
