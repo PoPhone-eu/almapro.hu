@@ -183,7 +183,7 @@ class CategoryParser
 
     private function createProperties($data, $category_id)
     {
-        logger($data);
+        //logger($data);
         //return;
         foreach ($data['properties'] as $key2 => $value2) {
 
@@ -192,7 +192,7 @@ class CategoryParser
             if (!$attribute) {
                 try {
                     if ($value2['value'] != []) {
-                        $this->createSingleAttribute($key2, $value2['value'], $category_id);
+                        if (isset(Product::ATRR_DISPLAY_NAME[$key2])) $this->createSingleAttribute($key2, $value2['value'], $category_id);
                     }
                 } catch (\Throwable $th) {
                     logger($value2);
@@ -222,7 +222,8 @@ class CategoryParser
         $type = Category::where('id', $category_id)->first()->type;
         $property = new ProductAttribute();
         $property->attr_name = $attr_name;
-        $property->attr_display_name = $attr_name;
+        // $property->attr_display_name =  Product::ATRR_DISPLAY_NAME[$attr_name] if exists... if not it is the same as $attr_name
+        $property->attr_display_name = Product::ATRR_DISPLAY_NAME[$attr_name] ?? $attr_name;
         $property->is_required = 0;
         $property->type = $type;
         $property->category_id = $category_id;

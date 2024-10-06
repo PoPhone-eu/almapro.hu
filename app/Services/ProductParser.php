@@ -131,26 +131,21 @@ class ProductParser
         // we save the images links from the array. First we store the main image, it is the first in the array and if there are more we store them as gallery.
         // We need to get the images from an url and save it to the storage. Gallery images go into $image_links['gallery'].
         // first check if $product['images']['image_link'] exists. If not we skip this product.
-        if (!array_key_exists('image_link', $product['images'])) {
+        if (!isset($product['images']['image_link'])) {
             return;
         }
         foreach ($product['images']['image_link'] as $key => $url) {
-            if ($key == 0) {
-                // $image_links['mainimage'] is the main image.
-                $image_name =  $Product->addMediaFromUrl($url)->toMediaCollection('mainimage');
-                // we need the hashName
-                $data['mainimage'] = $image_name['file_name'];
-            } else {
-                $image_name =  $Product->addMediaFromUrl($url)->toMediaCollection('gallery');
-                // we need the hashName
-                $data['gallery'][] = $image_name['file_name'];
-            }
+            $image_name =  $Product->addMediaFromUrl($url)->toMediaCollection('gallery');
+            $data['gallery'][] = $image_name['file_name'];
         }
         $data['attributes'] = null;
         //$save->attrs            = $product['attrs'];
 
         // $product['attrs'] contains the attributes of the product. We have to save them in the database.
         foreach ($product['attrs'] as $key => $value) {
+            if ($key  == 'Akkumulátor') {
+                continue;
+            }
             if ($key  == 'akkumulator') {
                 continue;
             }
@@ -168,44 +163,25 @@ class ProductParser
             } elseif ($attribute_cat_id_main != null) {
                 $attribute = ProductAttribute::where('attr_name', $key)->where('category_id', $attribute_cat_id_main)->first();
             }
-
+            $value = str_replace('"', '', $value);
             if ($key == "Kijelző") {
                 $Product->kijelzo = $value;
-            }
-            if ($key == "Keret") {
+            } elseif ($key == "Keret") {
                 $Product->keret = $value;
-            }
-            if ($key == "Hátlap") {
+            } elseif ($key == "Hátlap") {
                 $Product->hatlap = $value;
-            }
-            if ($key == "Fedlap") {
+            } elseif ($key == "Fedlap") {
                 $Product->fedlap = $value;
-            }
-            if ($key == "Ház") {
+            } elseif ($key == "Ház") {
                 $Product->haz = $value;
-            }
-            //if ($attribute == null) return;
-
-            /* if ($key == 'allapot') {
-                ProductAttribute::where('attr_name', 'allapot')->where('type', 'All')->first();
+            } elseif ($key == "allapot") {
+                // we remove " sign from the value
+                $value = str_replace('"', '', $value);
+                $Product->device_state = $value;
             } else {
-                $attribute = ProductAttribute::where('attr_name', $key)->where('type', $product['type_1'])->first();
-            } */
-            //$attribute = ProductAttribute::where('attr_name', $key)->where('type', $product['type_1'])->first();
-            //we skipp this attribute if it is 'Important display message'
-
-            // we strip any special chars from $value such as: '"' and "\n"
-            $value = str_replace('"', '', $value);
-            if ($key == "hattertar" || $key == "szin") {
                 if ($attribute) {
                     // we check if the value exists in the database.
                     $attribute_value = ProductAttributeValue::where('product_attribute_id', $attribute->id)->where('value', $value)->first();
-                    /*  logger($attribute_cat_id_sub);
-                logger($attribute_cat_id_main);
-                logger($key);
-                logger($attribute_value);
-                logger($value);
-                logger('**********************************'); */
                     if ($attribute_value) {
                         $data['attributes'][$attribute->id] =
                             [
@@ -216,51 +192,6 @@ class ProductParser
                                 'attr_name' => $attribute->attr_name,
                                 'attr_display_name' => $attribute->attr_display_name,
                             ];;
-                    } else {
-                        // return;
-                        if ($value != null || !is_array($value)) {
-                            $ProductAttributeValue = new ProductAttributeValue;
-                            $ProductAttributeValue->product_attribute_id = $attribute->id;
-                            $ProductAttributeValue->value = $value;
-                            $ProductAttributeValue->save();
-                            $data['attributes'][$attribute->id] =
-                                [
-                                    'value' => $ProductAttributeValue->value,
-                                    'rgb'   => $ProductAttributeValue->rgb,
-                                    'attr_id' => $ProductAttributeValue->product_attribute_id,
-                                    'attr_type' => $attribute->type,
-                                    'attr_name' => $attribute->attr_name,
-                                    'attr_display_name' => $attribute->attr_display_name,
-                                    'category_id' => $Product->category_id,
-                                ];
-                        }
-                    }
-                } else {
-                    // return;
-                    if ($value != null || !is_array($value)) {
-                        $save = new ProductAttribute;
-                        $save->attr_name = $key;
-                        $save->type = $product['type_1'];
-                        $save->attr_display_name = $key;
-                        $save->category_id = $Product->category_id;
-                        $save->save();
-                        $ProductAttributeValue = new ProductAttributeValue;
-                        $ProductAttributeValue->product_attribute_id = $save->id;
-                        $ProductAttributeValue->value = $value;
-                        $ProductAttributeValue->save();
-                        $data['attributes'][$save->id] =
-                            [
-                                'value' => $ProductAttributeValue->value,
-                                'rgb'   => $ProductAttributeValue->rgb,
-                                'attr_id' => $ProductAttributeValue->product_attribute_id,
-                                'attr_type' => $save->type,
-                                'attr_name' => $save->attr_name,
-                                'attr_display_name' => $save->attr_display_name,
-                                'category_id' => $Product->category_id,
-                            ];
-                    } else {
-
-                        return;
                     }
                 }
             }
@@ -283,8 +214,8 @@ class ProductParser
             $save->type = $product['type_1'];
             $save->category_id = $category_id;
             $save->save();
-            logger('Új alkategória: ');
-            logger($save);
+            // logger('Új alkategória: ');
+            // logger($save);
             return $save->id;
         }
     }

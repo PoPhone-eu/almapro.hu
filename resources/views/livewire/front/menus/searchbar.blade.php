@@ -116,7 +116,7 @@
                    @foreach ($searchresult as $item)
                        <a href="/showproduct/{{ $item->slug }}" wire:navigate>
                            <div class="liEls">
-                               <img src="{{ $item->getMedia('mainimage')->first()?->getUrl() }}" />
+                               <img src="{{ $item->getMedia('gallery')->first()?->getUrl() }}" />
                                <div class="desc">
                                    <h4 class="title">{{ Str::limit($item->name, 40) }}</h4>
                                    <p class="author">{{ number_format($item->price) }} Ft</p>

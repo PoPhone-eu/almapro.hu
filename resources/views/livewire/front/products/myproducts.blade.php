@@ -34,11 +34,11 @@
                 <tr class="intro-x">
                     <td class="w-40 h-10">
 
-                        @if (isset($item->data['mainimage']))
+                        @if (isset($item->data['gallery']))
                             <div class="w-8 image-fit">
-                                <a href="{{ $item->getMedia('mainimage')->first()?->getUrl() }}"
+                                <a href="{{ $item->getMedia('gallery')->first()?->getUrl() }}"
                                     data-lightbox="{{ $item->name }}" data-title="{{ $item->name }}"> <img
-                                        src="{{ $item->getMedia('mainimage')->first()?->getUrl() }}"> </a>
+                                        src="{{ $item->getMedia('gallery')->first()?->getUrl() }}"> </a>
                             </div>
                         @endisset
 

@@ -1,4 +1,15 @@
 <?php return array (
+  'barryvdh/laravel-debugbar' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
+  ),
   'codebyray/laravel-review-rateable' => 
   array (
     'providers' => 
@@ -125,6 +136,13 @@
     'providers' => 
     array (
       0 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    ),
+  ),
+  'orchestra/parser' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Orchestra\\Parser\\XmlServiceProvider',
     ),
   ),
   'spatie/laravel-html' => 

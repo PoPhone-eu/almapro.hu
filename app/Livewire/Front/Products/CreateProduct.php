@@ -57,12 +57,9 @@ class CreateProduct extends Component
 
     public $product_name_lenght = 0;
 
-    // #[Rule('image|mimes:jpeg,png|size:3072')]
-    /*   #[Rule('required', message: 'A kiemelt kép megadása kötelező')] */
-    #[Validate('required|image|mimes:png,jpg,jpeg,webp|max:1024', message: 'A kiemelt kép megadása kötelező')] // 1MB Max
     public $mainimage;
 
-    #[Rule(['photos.*' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:3072'])]
+    #[Rule(['photos.*' => 'required|image|mimes:png,jpg,jpeg,webp|max:3072'])]
     public $photos = [];
 
     #[Rule(['newphoto' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:3072'])]
@@ -74,6 +71,14 @@ class CreateProduct extends Component
     public $url;
 
     public $attr_type, $category_id, $subcategory_id;
+
+    // attributes: keret,  hatlap, kijelzo, fedlap, allapot, haz
+    public $keret;
+    public $hatlap;
+    public $kijelzo;
+    public $fedlap;
+    public $allapot;
+    public $haz;
 
     public function mount($attr_type, $category_id, $subcategory_id = null)
     {
@@ -209,18 +214,21 @@ class CreateProduct extends Component
     // if battery is >100 we set it to 100 if <0 we set it to 0
     public function updatedBattery($value)
     {
-        if ($this->battery > 100) {
+        /* if ($this->battery > 100) {
             (int) $this->battery = 100;
         } elseif ($this->battery < 0) {
             (int)$this->battery = 0;
-        }
+        } */
         $this->battery = (int)$this->battery;
     }
 
     public function submit()
     {
         $this->validate();
-        if ($this->mainimage == null) return;
+        // if $this->photos is empty we return null;
+        if (empty($this->photos)) {
+            return;
+        }
         // let's save the product
         $save = new Product();
         $save->name = $this->product_name;
@@ -235,6 +243,12 @@ class CreateProduct extends Component
         $save->delivery = $this->delivery;
         $save->delivery_price = $this->delivery_price;
         $save->local_pickup = $this->local_pickup;
+        $save->keret = $this->keret;
+        $save->hatlap = $this->hatlap;
+        $save->kijelzo = $this->kijelzo;
+        $save->fedlap = $this->fedlap;
+        $save->device_state = $this->allapot;
+        $save->haz = $this->haz;
         if (auth()->user()->is_owner == false) {
             $save->is_owner = false;
         } else {
@@ -244,20 +258,8 @@ class CreateProduct extends Component
         $data = [];
         $data['attributes'] = $this->data;
 
-        //$save->data = json_encode($this->data);
         // STORE IMAGES
-        // first we store the main image: $mainimage with livewire 3 methods:
-        //$this->mainimage->store('mainimages', 's3');
-        // $this->mainimage->store('public');
-        $data['mainimage'] = $this->mainimage->hashName();
-        $save
-            ->addMedia($this->mainimage->getRealPath())
-            ->usingName($data['mainimage'])
-            ->toMediaCollection('mainimage');
-
-        logger($data['mainimage']);
-        // now we add the image name to $this->data as mainimage:
-        // now we store the other images if there are any in $this->photos and we add the names to $this->data as 'gallery':
+        // we store the other images if there are any in $this->photos and we add the names to $this->data as 'gallery':
         if ($this->photos) {
             foreach ($this->photos as $photo) {
                 $photo_name = $photo->hashName();
@@ -268,7 +270,6 @@ class CreateProduct extends Component
                     ->toMediaCollection('gallery');
             }
         }
-
         $save->data = $data;
         $save->save();
 

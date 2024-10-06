@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
 @section('maincontent')
-    @include('public.profile.profilemenu')
+    <livewire:front.menus.profilmenu />
     <div class="profile-content"> <livewire:company.shops.shops-table /></div>
 @endsection

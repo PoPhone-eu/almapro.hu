@@ -79,16 +79,19 @@ class ProductParserTemp
         $category_id = null;
         $subcategory_id = null;
         $data = null;
-        $thisuser = User::where('provider_id', 1)->first();
+        $thisuser = User::where('provider_id', $product['user_id'])->first();
+
         if (!$thisuser) {
-            return;
+            $thisuser_id = 1;
+        } else {
+            $thisuser_id = $thisuser->id;
         }
         $product['type_1'] = "iPhone";
         $product['type_2'] = "X series";
         $product['type_3'] = "X";
         $description                = $product['description'];
         $Product                    = new Product;
-        $Product->user_id           = $thisuser->id;
+        $Product->user_id           = $thisuser_id;
         $Product->is_owner          = true;
         $Product->description       = $description;
         $Product->name              = $product['name'];

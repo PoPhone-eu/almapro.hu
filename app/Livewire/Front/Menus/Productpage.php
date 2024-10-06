@@ -44,8 +44,8 @@ class Productpage extends Component
         $this->seller                   = $this->user;
         $this->data                     = $this->product->data;
         //dd($this->data);
-        $this->mainimage                = $this->data['mainimage'];
-        $this->selected_image           = $this->product->getMedia('mainimage')->first();
+        $this->mainimage                = $this->product->getMedia('gallery')->first();
+        $this->selected_image           = $this->product->getMedia('gallery')->first();
         $this->all_images               = $this->product->getMedia('gallery');
         if ($this->user->is_owner == true) {
             $this->last_online = 'nemrég';

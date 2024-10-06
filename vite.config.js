@@ -8,7 +8,6 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.js',
             ],
-            publicDirectory: "../teszt.almapro.hu",
             refresh: [
                 ...refreshPaths,
                 'app/Livewire/**',

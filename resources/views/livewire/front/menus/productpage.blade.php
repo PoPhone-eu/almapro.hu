@@ -39,6 +39,19 @@
             @endif
 
             <div class="description-text">
+                @if ($product->device_state != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Eszköz állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATES[$product->device_state] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+
                 @if (isset($product->data['attributes']) && $product->data['attributes'] != null)
                     <div>
                         @foreach ($product->data['attributes'] as $key => $value)
@@ -56,6 +69,67 @@
                         @endforeach
                     </div>
                 @endif
+                @if ($product->keret != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Keret állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATUS[$product->keret] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+                @if ($product->hatlap != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Hátlap állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATUS[$product->hatlap] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+                @if ($product->kijelzo != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Kijelző állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATUS[$product->kijelzo] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+                @if ($product->fedlap != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Fedlap állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATUS[$product->fedlap] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+                @if ($product->haz != null)
+                    <div class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
+                        <div class="form-label xl:w-64 xl:!mr-10">
+                            <div class="text-left">
+                                <div class="flex items-center">
+                                    <div class="font-medium"><strong>Ház állapota:</strong>
+                                        {{ \App\Models\Product::DEVICE_STATUS[$product->haz] }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+
             </div>
         </div>
         <div class="description">
@@ -94,7 +168,8 @@
                         @if (isset($item->data['attributes']) && $item->data['attributes'] != null)
                             @foreach ($item->data['attributes'] as $key => $value)
                                 @if (isset($value['attr_display_name']))
-                                    <label class="category-grid-attributes"> {{ $value['value'] }} @if ($loop->last)
+                                    <label class="category-grid-attributes"> {{ $value['value'] }}
+                                        @if ($loop->last)
                                         @else
                                             |
                                         @endif
@@ -137,7 +212,8 @@
                     <p class="category-grid-name-tag">{{ Str::limit($item->name, 40) }}</p>
                     @foreach ($item->data['attributes'] as $key => $value)
                         @if (isset($value['attr_display_name']))
-                            <label class="category-grid-attributes"> {{ $value['value'] }} @if ($loop->last)
+                            <label class="category-grid-attributes"> {{ $value['value'] }}
+                                @if ($loop->last)
                                 @else
                                     |
                                 @endif

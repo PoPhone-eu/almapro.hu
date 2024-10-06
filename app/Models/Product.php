@@ -27,6 +27,30 @@ class Product extends Model implements HasMedia
         'data'         => 'array',
     ];
 
+    const ATRR_DISPLAY_NAME = [
+        'szin'                          => 'Szín',
+        'allapot'                       => 'Állapot',
+        'hattertar'                     => 'Háttértár',
+        'macbook-evjarat'               => 'Évjárat',
+        'iphone-kijelzo-tipus'          => 'Kijelző típus',
+        'ipad-kijelzo-meret'            => 'Kijelző méret',
+        'ipad-gen'                      => 'Generáció',
+        'ipad-halozat'                  => 'Hálózat',
+        'processor'                     => 'Processzor',
+        'macbook-tarhely-tipus'         => 'Tárhely típus',
+        'macbook-tarhely-meret'         => 'Tárhely méret',
+        'macbook-tarhely'               => 'Tárhely',
+        'billentyuzet-tipus'            => 'Billentyűzet típus',
+        'macbook-kepernyo-meret'        => 'Képernyő méret',
+        'ram'                           => 'RAM',
+        'watch-anyag'                   => 'Anyag',
+        'watch-halozat'                 => 'Hálózat',
+        'watch-meret'                   => 'Méret',
+        'watch-series'                  => 'Sorozat',
+        'watch-modell-szam'             => 'Modell szám',
+        'ipad-modell-szam'              => 'Modell szám',
+    ];
+
     const TYPES = [
         'iPhone'    => 'IPhone',
         'iPad'      => 'IPad',
@@ -59,13 +83,19 @@ D: törött, sérült állapotú
 Felújított: felújított, teljesen hibátlan
 */
     const DEVICE_STATES = [
-        'A+' => 'Hibátlan',
-        'A'  => 'Szinte hibátlan',
-        'AB' => 'Szép, normál állapotú',
-        'B'  => 'Használt állapotú',
-        'BC' => 'Használt állapotú',
-        'C'  => 'Használt állapotú',
-        'D'  => 'Törött, sérült állapotú',
+        'A+' => 'A+ - Hibátlan',
+
+        'A'  => 'A - Szinte hibátlan',
+        'A/AB'  => 'A/AB - Szinte hibátlan',
+
+        'AB' => 'AB - Szép, normál állapotú',
+        'AB/B' => 'AB/B -Szép, normál állapotú',
+
+        'B'  => 'B - Használt állapotú',
+        'BC' => 'BC - Használt állapotú',
+        'B/BC'  => 'B/BC - Használt állapotú',
+
+        'D'  => 'D - Törött, sérült állapotú',
         'Felújított' => 'Felújított, teljesen hibátlan',
     ];
 
@@ -89,7 +119,9 @@ Felújított: felújított, teljesen hibátlan
         'iPhone'        => ['keret', 'hatlap', 'kijelzo'],
         'iPad'          => ['keret', 'hatlap', 'kijelzo'],
         'Watch'         => ['keret', 'hatlap', 'kijelzo'],
+
         'MacBook'       => ['fedlap', 'hatlap', 'kijelzo'],
+
         'iMac'          => ['hatlap', 'kijelzo'],
         'MacMini'       => ['haz'],
     ];

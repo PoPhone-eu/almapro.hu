@@ -16,7 +16,7 @@
         <a href="/showproduct/{{ $product->slug }}" wire:key="featured_{{ $product->id }}" wire:navigate>
             <div class="category-grid-item">
                 <div class="category-grid-prod-image"{{--  id="this{{ $product->id }}" --}} style="position: relative;">
-                    <img src="{{ $product->getMedia('mainimage')->first()?->getUrl() }}" />
+                    <img src="{{ $product->getMedia('gallery')->first()?->getUrl() }}" />
                     <div class="featured-label">KIEMELT</div>
                 </div>
                 <div class="category-grid-prod-data">

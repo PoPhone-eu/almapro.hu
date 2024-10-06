@@ -129,6 +129,7 @@
         <div class="new-product-card">
             <div class="product-loop-grid">
                 @include('livewire.front.products.partials.add-product-type-loop')
+                @include('livewire.front.products.partials.add-product-droppdown-attributes')
             </div>
         </div>
 
@@ -174,69 +175,6 @@
                     @enderror
                 </div>
 
-
-            </div>
-
-            <div class="new-product-card">
-                <label class="text-bold">Kiemelt kép</label>
-                <div class="text-xs text-slate-500">Kötelező. A kép formátuma .jpg .jpeg .png.</div>
-                <div class="form-inline items-start flex-col xl:flex-row">
-                    <div class="form-label w-full xl:w-64 xl:!mr-10">
-                        <div class="text-left">
-                            <div class="text-slate-500 text-xs">
-                                <div class="mt-2">Válassz olyan termékfotót, ami vonzóbbá teszi a terméket a
-                                    vásárlók
-                                    számára.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full mt-3 xl:mt-0 flex-1 border-2 border-dashed dark:border-darkmode-400 rounded-md pt-4">
-                        <div class="grid grid-cols-10 gap-5 pl-4 pr-5">
-                            <div class="col-span-5 md:col-span-2 h-28 image-fit cursor-pointer relative p-5">
-                                @if ($mainimage && str_contains($mainimage->getMimeType(), 'image') !== false)
-                                    <img class="rounded-md w-24 h-24 m-4" src="{{ $mainimage->temporaryUrl() }}">
-                                    <div
-                                        class="w-5 h-5 flex items-center justify-center absolute rounded-full text-red-600 bg-danger left-0 top-0 -mr-2 -mt-2">
-                                        <svg wire:click="clearMainimage" xmlns="http://www.w3.org/2000/svg"
-                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" icon-name="x" data-lucide="x"
-                                            class="lucide lucide-x w-4 h-4">
-                                            <line x1="18" y1="6" x2="6" y2="18">
-                                            </line>
-                                            <line x1="6" y1="6" x2="18" y2="18">
-                                            </line>
-                                        </svg>
-                                    </div>
-                                @endif
-                                <input type="file" wire:model.live="mainimage" style="margin: 5px;" required>
-                                @error('mainimage')
-                                    <span class="error">{{ $message }}</span>
-                                @enderror
-
-                                @if ($mainimage == null)
-                                    <br><span class="error">Kiemelt képet kötelező megadni</span>
-                                @endif
-                            </div>
-
-                        </div>
-                        <div class="px-4 pb-4 mt-5 flex items-center justify-center cursor-pointer relative"
-                            style="margin-top:40px;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" icon-name="image" data-lucide="image"
-                                class="lucide lucide-image w-4 h-4 mr-2">
-                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2">
-                                </rect>
-                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                                <polyline points="21 15 16 10 5 21"></polyline>
-                            </svg> <span class="text-primary mr-1">Maximum méret:</span> 3Mb
-                            <input id="horizontal-form-1" type="file"
-                                class="w-full h-full top-0 left-0 absolute opacity-0">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -244,10 +182,10 @@
             <div class="form-label w-full xl:w-64 xl:!mr-10">
                 <div class="text-left">
                     <div class="flex items-center">
-                        <div class="font-medium text-bold">További képek</div>
+                        <div class="font-medium text-bold">Képe(k)</div>
                         <div
                             class="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 dark:bg-darkmode-300 dark:text-slate-400 text-xs rounded-md">
-                            Opcionális</div>
+                            Legalább egy kép feltöltése kötelező</div>
                     </div>
                     <div class="leading-relaxed text-slate-500 text-xs mt-3">
                         <div>A képek formátuma .jpg .jpeg .png.</div>
@@ -258,9 +196,8 @@
                 </div>
             </div>
             <div class="w-full mt-3 xl:mt-0 flex-1 border-2 border-dashed dark:border-darkmode-400 rounded-md pt-4">
-                <input type="file" wire:model="photos" style="margin-bottom: 10px;"
-                    {{ $mainimage == null ? 'disabled' : '' }}> <br>
-                {{ $mainimage == null ? 'Adj hozzá egy kiemelt képet...' : '' }}
+                <input type="file" wire:model="photos" style="margin-bottom: 10px;"> <br>
+
                 @error('photos')
                     <span class="error">{{ $message }}</span>
                 @enderror

@@ -15,7 +15,7 @@
     <a href="/showproduct/{{ $item->slug }}" wire:navigate>
         <div class="category-grid-item">
             <div class="category-grid-prod-image">
-                <img src="{{ $item->getMedia('mainimage')->first()?->getUrl() }}" />
+                <img src="{{ $item->getMedia('gallery')->first()?->getUrl() }}" />
             </div>
             <div class="category-grid-prod-data">
                 <p class="category-grid-price-tag">{{ number_format($item->price) }} Ft</p>

@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('maincontent')
-    {{--   @include('public.profile.profilemenu') --}}
     <livewire:front.menus.profilmenu />
     <div class="profile-content">
         <livewire:front.menus.customer-orders-table />

@@ -1,0 +1,6492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1</id>
+    <name>Használt iPhone SE (2016)</name>
+    <type_1>iPhone</type_1>
+    <type_2>SE</type_2>
+    <type_3>(2016)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+        <value>Gold</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Használt iPhone 6</name>
+    <type_1>iPhone</type_1>
+    <type_2>6</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Black</value>
+        <value>Silver</value>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Használt iPhone 6s</name>
+    <type_1>iPhone</type_1>
+    <type_2>6s</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Használt iPhone 7</name>
+    <type_1>iPhone</type_1>
+    <type_2>7</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Rose Gold</value>
+        <value>Jet  Black</value>
+        <value>PRODUCT RED</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Használt iPhone 7 Plus</name>
+    <type_1>iPhone</type_1>
+    <type_2>7</type_2>
+    <type_3>Plus</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Rose Gold</value>
+        <value>Jet  Black</value>
+        <value>PRODUCT RED</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>6</id>
+    <name>Használt iPhone 8</name>
+    <type_1>iPhone</type_1>
+    <type_2>8</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+        <value>Gold</value>
+        <value>PRODUCT RED</value>
+        <value>Rose Gold</value>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>7</id>
+    <name>Használt iPhone 8 Plus</name>
+    <type_1>iPhone</type_1>
+    <type_2>8</type_2>
+    <type_3>Plus</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>PRODUCT RED</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>128 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>8</id>
+    <name>Használt iPhone X</name>
+    <type_1>iPhone</type_1>
+    <type_2>X</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>9</id>
+    <name>Használt iPhone XR</name>
+    <type_1>iPhone</type_1>
+    <type_2>XR</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Yellow</value>
+        <value>Blue</value>
+        <value>Coral</value>
+        <value>PRODUCT RED</value>
+        <value>Pacific Blue</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>10</id>
+    <name>Használt iPhone XS</name>
+    <type_1>iPhone</type_1>
+    <type_2>XS</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>11</id>
+    <name>Használt iPhone XS Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>XS</type_2>
+    <type_3>Max</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>12</id>
+    <name>Használt iPhone 11</name>
+    <type_1>iPhone</type_1>
+    <type_2>11</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Green</value>
+        <value>Yellow</value>
+        <value>Purple</value>
+        <value>PRODUCT RED</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+        <value>Important display message</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>13</id>
+    <name>Használt iPhone 11 Pro</name>
+    <type_1>iPhone</type_1>
+    <type_2>11</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Midnight Green</value>
+        <value>Silver</value>
+        <value>Graphite</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>14</id>
+    <name>Használt iPhone 11 Pro Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>11</type_2>
+    <type_3>Pro Max</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Midnight Green</value>
+        <value>Silver</value>
+        <value>Graphite</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>15</id>
+    <name>Használt iPhone SE (2020)</name>
+    <type_1>iPhone</type_1>
+    <type_2>SE</type_2>
+    <type_3>(2020)</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>PRODUCT RED</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>16</id>
+    <name>Használt iPhone 12 Mini</name>
+    <type_1>iPhone</type_1>
+    <type_2>12</type_2>
+    <type_3>Mini</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Blue</value>
+        <value>Green</value>
+        <value>Purple</value>
+        <value>PRODUCT RED</value>
+        <value>Pacific Blue</value>
+        <value>Midnight Green</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>17</id>
+    <name>Használt iPhone 12</name>
+    <type_1>iPhone</type_1>
+    <type_2>12</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Green</value>
+        <value>Purple</value>
+        <value>Pacific Blue</value>
+        <value>PRODUCT RED</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>18</id>
+    <name>Használt iPhone 12 Pro</name>
+    <type_1>iPhone</type_1>
+    <type_2>12</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <szin>
+        <value>Graphite</value>
+        <value>Silver</value>
+        <value>Pacific Blue</value>
+        <value>Gold</value>
+        <value>White</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>19</id>
+    <name>Használt iPhone 12 Pro Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>12</type_2>
+    <type_3>Pro Max</type_3>
+    <values>
+      <szin>
+        <value>Graphite</value>
+        <value>Silver</value>
+        <value>Pacific Blue</value>
+        <value>Gold</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>20</id>
+    <name>Használt Apple MacBook Pro Retina</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>Retina</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2013</value>
+        <value>2014</value>
+        <value>2015</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>21</id>
+    <name>Használt Apple Watch Series 5 Cellular</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 5 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>22</id>
+    <name>Használt Apple Watch Series 6 Cellular</name>
+    <type_1>Watch</type_1>
+    <type_2>Series 6</type_2>
+    <type_3>Cellular</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Pacific Blue</value>
+        <value>Blue</value>
+        <value>Gold</value>
+      </szin>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>30</id>
+    <name>Használt iPad Air 1.</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>1.</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>31</id>
+    <name>Használt iPad Air 2</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>2</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>35</id>
+    <name>Használt iPad Mini 2</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>2</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>36</id>
+    <name>Használt iPad Mini 5</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>5</type_3>
+    <values/>
+  </product>
+  <product>
+    <id>37</id>
+    <name>Használt iPad 5.gen</name>
+    <type_1>iPad</type_1>
+    <type_2>5.gen</type_2>
+    <type_3/>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>38</id>
+    <name>Használt Apple MacBook Pro 13"</name>
+    <type_1>Apple</type_1>
+    <type_2>MacBook</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2016</value>
+        <value>2017</value>
+        <value>2018</value>
+        <value>2019</value>
+        <value>2020</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>39</id>
+    <name>Használt Apple MacBook Air</name>
+    <type_1>Apple</type_1>
+    <type_2>MacBook</type_2>
+    <type_3>Air</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2013</value>
+        <value>2014</value>
+        <value>2015</value>
+        <value>2017</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>1451</id>
+    <name>Használt Macbook Air Retina</name>
+    <type_1>Macbook</type_1>
+    <type_2>Air</type_2>
+    <type_3>Retina</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2018</value>
+        <value>2019</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>1715</id>
+    <name>Használt iPhone 13</name>
+    <type_1>iPhone</type_1>
+    <type_2>13</type_2>
+    <type_3/>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+      <szin>
+        <value>Midnight</value>
+        <value>Blue</value>
+        <value>PRODUCT RED</value>
+        <value>Starlight</value>
+        <value>Pink</value>
+        <value>Pacific Blue</value>
+        <value>Green</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1716</id>
+    <name>Használt iPhone 13 Pro</name>
+    <type_1>iPhone</type_1>
+    <type_2>13</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <szin>
+        <value>Graphite</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Sierra Blue</value>
+        <value>Alpine Green</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1717</id>
+    <name>Használt iPhone 13 Pro Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>13</type_2>
+    <type_3>Pro Max</type_3>
+    <values>
+      <szin>
+        <value>Graphite</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Sierra Blue</value>
+        <value>Sierre Blue</value>
+        <value>Alpine Green</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1718</id>
+    <name>iPhone 4</name>
+    <type_1>iPhone</type_1>
+    <type_2>4</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1719</id>
+    <name>iPhone 4S</name>
+    <type_1>iPhone</type_1>
+    <type_2>4S</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1720</id>
+    <name>iPhone 5</name>
+    <type_1>iPhone</type_1>
+    <type_2>5</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1721</id>
+    <name>iPhone 5S</name>
+    <type_1>iPhone</type_1>
+    <type_2>5S</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1722</id>
+    <name>iPhone 5C</name>
+    <type_1>iPhone</type_1>
+    <type_2>5C</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+        <value>Yellow</value>
+        <value>Green</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1723</id>
+    <name>iPhone 6 Plus</name>
+    <type_1>iPhone</type_1>
+    <type_2>6</type_2>
+    <type_3>Plus</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Gold</value>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1726</id>
+    <name>iPhone 6S Plus</name>
+    <type_1>iPhone</type_1>
+    <type_2>6S</type_2>
+    <type_3>Plus</type_3>
+    <values>
+      <szin>
+        <value>Rose Gold</value>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1727</id>
+    <name>iPhone 13 Mini</name>
+    <type_1>iPhone</type_1>
+    <type_2>13</type_2>
+    <type_3>Mini</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>PRODUCT RED</value>
+        <value>Starlight</value>
+        <value>Midnight</value>
+        <value>Blue</value>
+        <value>Green</value>
+        <value>Pink</value>
+        <value>Pacific Blue</value>
+        <value>Midnight Green</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1728</id>
+    <name>Használt iPhone 14 Pro</name>
+    <type_1>iPhone</type_1>
+    <type_2>14</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Gold</value>
+        <value>Graphite</value>
+        <value>Space Black</value>
+        <value>Purple</value>
+        <value>Deep Purple</value>
+      </szin>
+      <hattertar>
+        <value>512 GB</value>
+        <value>128 GB</value>
+        <value>16 GB</value>
+        <value>256 GB</value>
+        <value>1TB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1730</id>
+    <name>Watch S5 40mm GPS+Cellular (A2156)</name>
+    <type_1>Watch</type_1>
+    <type_2>S5</type_2>
+    <type_3>40mm GPS+Cellular (A2156)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1732</id>
+    <name>Watch SE 44mm Cellular (A2724)</name>
+    <type_1>Watch</type_1>
+    <type_2>SE</type_2>
+    <type_3>44mm Cellular (A2724)</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+        <value>Starlight</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1734</id>
+    <name>Watch S6 44mm GPS+Cellular (A2376)</name>
+    <type_1>Watch</type_1>
+    <type_2>S6</type_2>
+    <type_3>44mm GPS+Cellular (A2376)</type_3>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1735</id>
+    <name>Watch Series 6 40mm Cellular Model:A2375</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>6 40mm Cellular Model:A2375</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Rose Gold</value>
+        <value>Midnight Green</value>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1736</id>
+    <name>Watch S7 45mm GPS (Model: A2474)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm GPS (Model: A2474)</type_3>
+    <values>
+      <szin>
+        <value>Midnight Alu</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1737</id>
+    <name>Watch S7 45mm Cellular (Model:A2478)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm Cellular (Model:A2478)</type_3>
+    <values>
+      <szin>
+        <value>PRODUCT RED</value>
+        <value>Silver</value>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1738</id>
+    <name>Watch S7 45mm Cellular (A2775) Alu</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm Cellular (A2775) Alu</type_3>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1739</id>
+    <name>Watch S7 Nike Cellular 45mm(A2478)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>Nike Cellular 45mm(A2478)</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+        <value>Midnight</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1740</id>
+    <name>Watch S8 GPS 41mm A2770</name>
+    <type_1>Watch</type_1>
+    <type_2>S8</type_2>
+    <type_3>GPS 41mm A2770</type_3>
+    <values>
+      <szin>
+        <value>Midnight Alu</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1741</id>
+    <name>Watch S7 41MM GPS (Model:A2473) Alu</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>41MM GPS (Model:A2473) Alu</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+        <value>Midnight Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1742</id>
+    <name>Watch S7 45MM (Model:A2474)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45MM (Model:A2474)</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1743</id>
+    <name>MacBook Air 13" 2017, i5, 1.80Ghz, 8GB RAM</name>
+    <type_1>MacBook</type_1>
+    <type_2>Air</type_2>
+    <type_3>13" 2017, i5, 1.80Ghz, 8GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1744</id>
+    <name>MacBook Air 13" 2013 Mid 1,3Ghz i5 4GB RAM EU (A1466)</name>
+    <type_1>MacBook</type_1>
+    <type_2>Air</type_2>
+    <type_3>13" 2013 Mid 1,3Ghz i5 4GB RAM EU (A1466)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1745</id>
+    <name>Mac Mini Intel i7 4gb RAM 2012 Late (A1347)</name>
+    <type_1>Mac</type_1>
+    <type_2>Mini</type_2>
+    <type_3>Intel i7 4gb RAM 2012 Late (A1347)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>1TB HDD</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1746</id>
+    <name>MacBook Pro 13" 2010, 2.26GHz, Intel(R) Core(TM)2 Duo CPU, 2GB RAM</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13" 2010, 2.26GHz, Intel(R) Core(TM)2 Duo CPU, 2GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1747</id>
+    <name>Macbook Pro 13", Late 2012, 2,5 gHz, i5, 8GB RAM</name>
+    <type_1>Macbook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13", Late 2012, 2,5 gHz, i5, 8GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1748</id>
+    <name>Macbook Pro 13", 2020, M1, 8GB RAM, Touchbar</name>
+    <type_1>Macbook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13", 2020, M1, 8GB RAM, Touchbar</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1749</id>
+    <name>MacBook Pro 15" retina kij. 2015, 2.2GHz, i7, 16GB RAM</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>15" retina kij. 2015, 2.2GHz, i7, 16GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1750</id>
+    <name>iMac 21,5", 2012 vége, 2.7GHz, i5, 8GB RAM</name>
+    <type_1>iMac</type_1>
+    <type_2>21,5",</type_2>
+    <type_3>2012 vége, 2.7GHz, i5, 8GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>1TB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1751</id>
+    <name>iMac 21,5", 2013, 3.1GHz, i7, 16GB RAM</name>
+    <type_1>iMac</type_1>
+    <type_2>21,5",</type_2>
+    <type_3>2013, 3.1GHz, i7, 16GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1752</id>
+    <name>iMac 21,5", 2013, 2.7GHz, i5, 8GB RAM</name>
+    <type_1>iMac</type_1>
+    <type_2>21,5",</type_2>
+    <type_3>2013, 2.7GHz, i5, 8GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1753</id>
+    <name>iMac 21,5", 2015, 2.8GHz, i5, 8GB RAM</name>
+    <type_1>iMac</type_1>
+    <type_2>21,5",</type_2>
+    <type_3>2015, 2.8GHz, i5, 8GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1754</id>
+    <name>iPad 2 9,7" Wifi (Model:1395) 2011</name>
+    <type_1>iPad</type_1>
+    <type_2>2</type_2>
+    <type_3>9,7" Wifi (Model:1395) 2011</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1761</id>
+    <name>iPad Mini 2 7,9"  WiFi (A1489)</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>2 7,9"  WiFi (A1489)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1762</id>
+    <name>iPad mini 2 7,9" Wi-Fi + Cellular (Model:A1490) 2014</name>
+    <type_1>iPad</type_1>
+    <type_2>mini</type_2>
+    <type_3>2 7,9" Wi-Fi + Cellular (Model:A1490) 2014</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1763</id>
+    <name>iPad Air 1  9,7" Cellular 2014 (A1475)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>1  9,7" Cellular 2014 (A1475)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1764</id>
+    <name>iPad Air 1  9,7" Wifi 2014 (A1474)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>1  9,7" Wifi 2014 (A1474)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>32 GB</value>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1765</id>
+    <name>iPad Air 2 9,7" Wifi+Cellular 2014 (A1565)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>2 9,7" Wifi+Cellular 2014 (A1565)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1766</id>
+    <name>iPad Air 3.generációs 2019 Cellular (A2123)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>3.generációs 2019 Cellular (A2123)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1767</id>
+    <name>iPad 6th gen 2018 A1954 Cellular</name>
+    <type_1>iPad</type_1>
+    <type_2>6th</type_2>
+    <type_3>gen 2018 A1954 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1768</id>
+    <name>iPad 6th 9,7" WiFi 2018 (A1893)</name>
+    <type_1>iPad</type_1>
+    <type_2>6th</type_2>
+    <type_3>9,7" WiFi 2018 (A1893)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1769</id>
+    <name>iPad Pro 11" 1. gen. Cellular (Model:A1934) 2018</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>11" 1. gen. Cellular (Model:A1934) 2018</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1770</id>
+    <name>iPad Pro 12,9" 5.GEN M1 Cellular</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>12,9" 5.GEN M1 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1771</id>
+    <name>Watch S6 44mm Cellular (A2376)</name>
+    <type_1>Watch</type_1>
+    <type_2>S6</type_2>
+    <type_3>44mm Cellular (A2376)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Pacific Blue</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1772</id>
+    <name>Watch S7 45mm Cellular (A2774) Alu</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm Cellular (A2774) Alu</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1773</id>
+    <name>Watch S7 45mm GPS Alu (A2474)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm GPS Alu (A2474)</type_3>
+    <values>
+      <szin>
+        <value>Midnight Green</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1774</id>
+    <name>Samsung Galaxy A5 2015</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A5 2015</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Pacific Blue</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1775</id>
+    <name>Galaxy S7 active</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S7</type_2>
+    <type_3>active</type_3>
+    <values>
+      <szin>
+        <value>Green</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1776</id>
+    <name>Galaxy A40 Dual Sim</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A40</type_2>
+    <type_3>Dual Sim</type_3>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1777</id>
+    <name>Samsung Galaxy Note 20</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 20</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Mystic Blue</value>
+        <value>Mystic Bronze</value>
+        <value>Mystic Gray</value>
+        <value>Mystic Green</value>
+        <value>Mystic Red</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1778</id>
+    <name>Samsung Galaxy A70</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A70</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Coral</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1779</id>
+    <name>Samsung Galaxy A71</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A71</type_3>
+    <values>
+      <szin>
+        <value>Prism Crush Blue</value>
+        <value>Prism Crush Black</value>
+        <value>Prism Crush Pink</value>
+        <value>Prism Crush Silver</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1780</id>
+    <name>Galaxy Note 5</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Note</type_2>
+    <type_3>5</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1781</id>
+    <name>Samsung Galaxy Note 20 Ultra</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 20 Ultra</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Mystic Black</value>
+        <value>Mystic Bronze</value>
+        <value>Mystic White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1782</id>
+    <name>Samsung Galaxy S9</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S9</type_3>
+    <values>
+      <szin>
+        <value>Purple</value>
+        <value>Black</value>
+        <value>Burgundy Red</value>
+        <value>Coral Blue</value>
+        <value>Lilac Purple</value>
+        <value>Midnight Black</value>
+        <value>Sunrise Gold</value>
+        <value>Titanium Gray</value>
+        <value>Ice Blue</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1783</id>
+    <name>Samsung Galaxy S8 PLUS</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S8 PLUS</type_3>
+    <values>
+      <szin>
+        <value>Levendula</value>
+        <value>Arctic Silver</value>
+        <value>Cloud Blue</value>
+        <value>Maple Gold</value>
+        <value>Midnight Black</value>
+        <value>Orchid Gray</value>
+        <value>Rose Pink</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1784</id>
+    <name>Galaxy S10e</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S10e</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Prism Crush Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1785</id>
+    <name>Galaxy A40</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A40</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1786</id>
+    <name>Galaxy Tab A7 LTE</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>A7 LTE</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1787</id>
+    <name>Samsung Galaxy A12</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A12</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Blue</value>
+        <value>Red</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>32 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1788</id>
+    <name>Galaxy A70 Dual Sim</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A70</type_2>
+    <type_3>Dual Sim</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1789</id>
+    <name>Galaxy Tab A8</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>A8</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1792</id>
+    <name>Galaxy A12 Dual Sim</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A12</type_2>
+    <type_3>Dual Sim</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1793</id>
+    <name>Samsung Galaxy S8</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S8</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Arctic Silver</value>
+        <value>Burgundy Red</value>
+        <value>Coral Blue</value>
+        <value>Maple Gold</value>
+        <value>Midnight Black</value>
+        <value>Orchid Gray</value>
+        <value>Rose Pink</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1820</id>
+    <name>iPad 8.gen 10.2" Wi-fi + Cellular (Modell:A2429)</name>
+    <type_1>iPad</type_1>
+    <type_2>8.gen</type_2>
+    <type_3>10.2" Wi-fi + Cellular (Modell:A2429)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1821</id>
+    <name>iPad Pro Wifi+Cellular, 9.7,</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>Wifi+Cellular, 9.7,</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1822</id>
+    <name>iPad 10.2 7th gen Wifi+ Cellular (Model:A2198)</name>
+    <type_1>iPad</type_1>
+    <type_2>10.2</type_2>
+    <type_3>7th gen Wifi+ Cellular (Model:A2198)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1823</id>
+    <name>iPad 10.2" 8th gen Wi-Fi + Cellular (Model:A2429)</name>
+    <type_1>iPad</type_1>
+    <type_2>10.2"</type_2>
+    <type_3>8th gen Wi-Fi + Cellular (Model:A2429)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1824</id>
+    <name>iPad 6th gen 9.7" Wifi+ Cellular (Model: A1954)</name>
+    <type_1>iPad</type_1>
+    <type_2>6th</type_2>
+    <type_3>gen 9.7" Wifi+ Cellular (Model: A1954)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1825</id>
+    <name>iPad Pro (10,5) 2017</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>(10,5) 2017</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1826</id>
+    <name>iPad Pro (9,7) 2016</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>(9,7) 2016</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1827</id>
+    <name>iPad 7.gen 2019</name>
+    <type_1>iPad</type_1>
+    <type_2>7.gen</type_2>
+    <type_3>2019</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1828</id>
+    <name>iPad Pro 9,7" 2016 WIFI (A1673)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>9,7" 2016 WIFI (A1673)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1829</id>
+    <name>iPad Air 2013/14 WiFi+Cellular (A1475)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>2013/14 WiFi+Cellular (A1475)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1830</id>
+    <name>iPad 6.generációs 2018 WiFi (A1893)</name>
+    <type_1>iPad</type_1>
+    <type_2>6.generációs</type_2>
+    <type_3>2018 WiFi (A1893)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1831</id>
+    <name>Samsung Galaxy A52S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A52S</type_3>
+    <values>
+      <szin>
+        <value>Awesome White</value>
+        <value>Awesome Black</value>
+        <value>Awesome Mint</value>
+        <value>Awesome Purple</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1832</id>
+    <name>iPad Mini WIFI 2012 (A1432)</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>WIFI 2012 (A1432)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1833</id>
+    <name>iPad Air WiFi (A1474) 2013/2014</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>WiFi (A1474) 2013/2014</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1834</id>
+    <name>iPad Air WiFi+Cellular (A1475) 2013/2014</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>WiFi+Cellular (A1475) 2013/2014</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1835</id>
+    <name>iPad 5.generációs WiFi+Cellular 2017 (A1823)</name>
+    <type_1>iPad</type_1>
+    <type_2>5.generációs</type_2>
+    <type_3>WiFi+Cellular 2017 (A1823)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1836</id>
+    <name>iPad mini 4 Cellular</name>
+    <type_1>iPad</type_1>
+    <type_2>mini</type_2>
+    <type_3>4 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1837</id>
+    <name>iPad Mini 2 Cellular</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>2 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>16 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1838</id>
+    <name>iPad Mini 2 Wifi+Cellular (A1490)</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>2 Wifi+Cellular (A1490)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1839</id>
+    <name>Samsung Galaxy S22 Ultra</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S22 Ultra</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <szin>
+        <value>Sky Blue</value>
+        <value>Bora Purple</value>
+        <value>Red</value>
+        <value>Phantom Black</value>
+        <value>White</value>
+        <value>Burgundy</value>
+        <value>Green</value>
+        <value>Graphite</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1840</id>
+    <name>MacBook Pro 15" 2011, 2.2GHz i7 4gb ram</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>15" 2011, 2.2GHz i7 4gb ram</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1841</id>
+    <name>iPad 3.gen 9,7" Wifi + Cellular (Modell:A1430)</name>
+    <type_1>iPad</type_1>
+    <type_2>3.gen</type_2>
+    <type_3>9,7" Wifi + Cellular (Modell:A1430)</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1842</id>
+    <name>iPad 9,7" Wifi (Model:A1219) 2010</name>
+    <type_1>iPad</type_1>
+    <type_2>9,7"</type_2>
+    <type_3>Wifi (Model:A1219) 2010</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1843</id>
+    <name>iPad 9,7" Wifi+Cellular (Model:1337) 2010</name>
+    <type_1>iPad</type_1>
+    <type_2>9,7"</type_2>
+    <type_3>Wifi+Cellular (Model:1337) 2010</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1844</id>
+    <name>iPad 7gen Cellular Wifi Model: A2198</name>
+    <type_1>iPad</type_1>
+    <type_2>7gen</type_2>
+    <type_3>Cellular Wifi Model: A2198</type_3>
+    <values>
+      <szin>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1846</id>
+    <name>Samsung Galaxy S21</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S21</type_3>
+    <values>
+      <szin>
+        <value>Phantom Gray</value>
+        <value>Olive</value>
+        <value>Orchide</value>
+        <value>Phantom Pink</value>
+        <value>Phantom Violet</value>
+        <value>Phantom White</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1847</id>
+    <name>MacBook Pro 13" 2014 Mid 2,6Ghz i5 8GB RAM US (A1502)</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13" 2014 Mid 2,6Ghz i5 8GB RAM US (A1502)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1848</id>
+    <name>MacBook Pro 13" 2014 Mid 2,6Ghz i5 16GB RAM EU(A1502)</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13" 2014 Mid 2,6Ghz i5 16GB RAM EU(A1502)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1849</id>
+    <name>MacBook Pro 13" 2012 Mid EU(A1278)</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>13" 2012 Mid EU(A1278)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1850</id>
+    <name>iPad 9 10,2" Wifi + Cell (A2604)</name>
+    <type_1>iPad</type_1>
+    <type_2>9</type_2>
+    <type_3>10,2" Wifi + Cell (A2604)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1851</id>
+    <name>Használt iPhone SE (2022)</name>
+    <type_1>iPhone</type_1>
+    <type_2>SE</type_2>
+    <type_3>(2022)</type_3>
+    <values>
+      <szin>
+        <value>PRODUCT RED</value>
+        <value>Black</value>
+        <value>Midnight</value>
+        <value>Starlight</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1852</id>
+    <name>Samsung Galaxy S21 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S21 Plus</type_3>
+    <values>
+      <szin>
+        <value>Purple</value>
+        <value>Phantom Black</value>
+        <value>Phantom Gold</value>
+        <value>Phantom Pink</value>
+        <value>Phantom Red</value>
+        <value>Phantom Silver</value>
+        <value>Phantom Violet</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1853</id>
+    <name>iPad Mini Wifi (Model:A1432)</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>Wifi (Model:A1432)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1854</id>
+    <name>iPad 8th 10,2" Wifi+Cellular 2020 (A2429)</name>
+    <type_1>iPad</type_1>
+    <type_2>8th</type_2>
+    <type_3>10,2" Wifi+Cellular 2020 (A2429)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1855</id>
+    <name>iPad 6th 9,7" Wifi+Cellular 2018 (A1954)</name>
+    <type_1>iPad</type_1>
+    <type_2>6th</type_2>
+    <type_3>9,7" Wifi+Cellular 2018 (A1954)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1856</id>
+    <name>iPad 5th 9,7" Wifi+Cellular 2017 (A1823)</name>
+    <type_1>iPad</type_1>
+    <type_2>5th</type_2>
+    <type_3>9,7" Wifi+Cellular 2017 (A1823)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1857</id>
+    <name>iPad Air 9,7" Wifi+Cellular 2013-14 (A1475)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>9,7" Wifi+Cellular 2013-14 (A1475)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1858</id>
+    <name>iPad 9th 10,2" Wifi 2021 (A2602)</name>
+    <type_1>iPad</type_1>
+    <type_2>9th</type_2>
+    <type_3>10,2" Wifi 2021 (A2602)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1859</id>
+    <name>iPad 8th 10,2" Wifi 2020 (A2270)</name>
+    <type_1>iPad</type_1>
+    <type_2>8th</type_2>
+    <type_3>10,2" Wifi 2020 (A2270)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1860</id>
+    <name>Galaxy Tab A(SM-T555)</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>A(SM-T555)</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1861</id>
+    <name>Watch S7 41mm Cellular (A2476)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>41mm Cellular (A2476)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Green</value>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1862</id>
+    <name>Használt iPhone 14</name>
+    <type_1>iPhone</type_1>
+    <type_2>14</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Blue</value>
+        <value>PRODUCT RED</value>
+        <value>Midnight</value>
+        <value>Starlight</value>
+        <value>Purple</value>
+        <value>Yellow</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1863</id>
+    <name>Használt iPad 9th</name>
+    <type_1>iPad</type_1>
+    <type_2>9th</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <ipad-kijelzo-meret>
+        <value>10.2</value>
+      </ipad-kijelzo-meret>
+      <ipad-halozat>
+        <value>Wifi </value>
+        <value>Wifi +Cellular</value>
+      </ipad-halozat>
+    </values>
+  </product>
+  <product>
+    <id>1864</id>
+    <name>Használt iPad Pro 3th</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>3th</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <ipad-kijelzo-meret>
+        <value>11</value>
+      </ipad-kijelzo-meret>
+    </values>
+  </product>
+  <product>
+    <id>1865</id>
+    <name>MacBook Pro Touchbar 15" 2019, 2.3GHz, Intel Core i9 , 32GB RAM,</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>Touchbar 15" 2019, 2.3GHz, Intel Core i9 , 32GB RAM,</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>1TB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1866</id>
+    <name>MacBook Pro touchbar 15" 2017, 3.10GHz, i7, 16GB RAM</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>touchbar 15" 2017, 3.10GHz, i7, 16GB RAM</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1868</id>
+    <name>Galaxy Alpha</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Alpha</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1869</id>
+    <name>Galaxy Z Flip 4</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Z</type_2>
+    <type_3>Flip 4</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Graphite</value>
+        <value>Bora Purple</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1878</id>
+    <name>Használt Apple Watch SE 40MM A2355</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>SE 40MM A2355</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <watch-meret>
+        <value>40 mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>1879</id>
+    <name>Használt Apple Watch SE 40MM A2351</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>SE 40MM A2351</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <watch-meret>
+        <value>40 mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>1880</id>
+    <name>Használt Apple Watch SE(2nd gen) 44mm AA2723</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>SE(2nd gen) 44mm AA2723</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Midnight</value>
+        <value>Starlight</value>
+      </szin>
+      <watch-meret>
+        <value>44mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>1889</id>
+    <name>iPad Mini</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3/>
+    <values>
+      <ipad-gen>
+        <value>1th gen</value>
+        <value>2th gen</value>
+        <value>3th gen</value>
+        <value>4th gen</value>
+        <value>5th gen</value>
+        <value>6th gen</value>
+      </ipad-gen>
+      <ipad-kijelzo-meret>
+        <value>7.9</value>
+      </ipad-kijelzo-meret>
+      <szin>
+        <value>Black</value>
+        <value>Silver</value>
+        <value>Gold</value>
+        <value>Space Gray</value>
+        <value>Pink</value>
+        <value>Purple</value>
+        <value>Starlight</value>
+        <value>Rose Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <ipad-modell-szam>
+        <value>A1432</value>
+        <value>A1454</value>
+        <value>A1489</value>
+        <value>A1490</value>
+        <value>A1491</value>
+        <value>A1599</value>
+        <value>A1600</value>
+        <value>A1538</value>
+        <value>A1550</value>
+        <value>A2133</value>
+        <value>A2124</value>
+        <value>A2126</value>
+        <value>A2567</value>
+        <value>A2568 </value>
+      </ipad-modell-szam>
+      <ipad-halozat>
+        <value>Wifi </value>
+        <value>Wifi +Cellular</value>
+      </ipad-halozat>
+    </values>
+  </product>
+  <product>
+    <id>1890</id>
+    <name>Galaxy S20 5G Duos</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S20</type_2>
+    <type_3>5G Duos</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Blue</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1891</id>
+    <name>Galaxy Tab S6 Lite</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S6 Lite</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1892</id>
+    <name>iPad 6. gen Wifi</name>
+    <type_1>iPad</type_1>
+    <type_2>6.</type_2>
+    <type_3>gen Wifi</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1894</id>
+    <name>Watch S5 44mm GPS+Cellular (A2157)</name>
+    <type_1>Watch</type_1>
+    <type_2>S5</type_2>
+    <type_3>44mm GPS+Cellular (A2157)</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Space Gray</value>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1895</id>
+    <name>Watch Series 6 44mm Cellular</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>6 44mm Cellular</type_3>
+    <values>
+      <szin>
+        <value>Navy Blue</value>
+        <value>Space Gray</value>
+      </szin>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1896</id>
+    <name>Watch Series 4 44mm Cellular Aluminium</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>4 44mm Cellular Aluminium</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1897</id>
+    <name>Watch Series 4 44mm (Model:A2008)</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>4 44mm (Model:A2008)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1898</id>
+    <name>Watch Series 4 40mm Cellular GPS Aluminium</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>4 40mm Cellular GPS Aluminium</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1899</id>
+    <name>Watch Series 3 42mm GPS Aluminium</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>3 42mm GPS Aluminium</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1900</id>
+    <name>Galaxy Z Flip 3 5G</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Z</type_2>
+    <type_3>Flip 3 5G</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1901</id>
+    <name>Galaxy Tab 3 7.0" Wifi (SM-T210)</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>3 7.0" Wifi (SM-T210)</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1902</id>
+    <name>Samsung Galaxy S20 Ultra</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S20 Ultra</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Cloud White</value>
+        <value>Cosmic Black</value>
+        <value>Cosmic Grey</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1903</id>
+    <name>Samsung Galaxy A51</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A51</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+        <value>Prism Crush Black</value>
+        <value>Prism Crush Blue</value>
+        <value>Prism Crush Pink</value>
+        <value>Prism Crush White</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1904</id>
+    <name>Galaxy Grand Prime 2015</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Grand</type_2>
+    <type_3>Prime 2015</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1906</id>
+    <name>Samsung Galaxy S10 Lite</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S10 Lite</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Prism Black</value>
+        <value>Prism Blue</value>
+        <value>Prism White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1907</id>
+    <name>Galaxy S6 edge</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S6</type_2>
+    <type_3>edge</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1908</id>
+    <name>Watch S3 Nike 42mm (A1859) GPS</name>
+    <type_1>Watch</type_1>
+    <type_2>S3</type_2>
+    <type_3>Nike 42mm (A1859) GPS</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1909</id>
+    <name>Samsung Galaxy S20 FE</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S20 FE</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Cloud Lavender</value>
+        <value>Cloud Mint</value>
+        <value>Cloud Navy</value>
+        <value>Cloud Orange</value>
+        <value>Cloud Red</value>
+        <value>Cloud White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1910</id>
+    <name>Samsung Galaxy A3 2017</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A3 2017</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1911</id>
+    <name>Samsung Galaxy S20</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S20</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Aura Red</value>
+        <value>Cloud Blue</value>
+        <value>Cloud pink</value>
+        <value>Cloud White</value>
+        <value>Cosmic Grey</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1912</id>
+    <name>Samsung Galaxy A10</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A10</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Red</value>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1914</id>
+    <name>Galaxy Tab S</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1915</id>
+    <name>Galaxy Tab S2</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S2</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1916</id>
+    <name>Galaxy Tab 4 10.1 LTE</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>4 10.1 LTE</type_3>
+    <values>
+      <szin>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1918</id>
+    <name>Watch S7 45mm Cellular (A2478)</name>
+    <type_1>Watch</type_1>
+    <type_2>S7</type_2>
+    <type_3>45mm Cellular (A2478)</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1919</id>
+    <name>Galaxy A3 2018</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A3</type_2>
+    <type_3>2018</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1920</id>
+    <name>Galaxy S10</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S10</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1921</id>
+    <name>Galaxy A10 DS</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A10</type_2>
+    <type_3>DS</type_3>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1922</id>
+    <name>iPad Air 3.gen (2019) 10,5" WiFi+Cellular (A2123)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>3.gen (2019) 10,5" WiFi+Cellular (A2123)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1925</id>
+    <name>Samsung Galaxy A50</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A50</type_3>
+    <values>
+      <szin>
+        <value>Coral</value>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1926</id>
+    <name>Galaxy S6</name>
+    <type_1>Galaxy</type_1>
+    <type_2>S6</type_2>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1927</id>
+    <name>Samsung Galaxy A52 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A52 5G</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Awesome Black</value>
+        <value>Awesome Blue</value>
+        <value>Awesome Violet</value>
+        <value>Awesome White</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1929</id>
+    <name>Galaxy A40 DS</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A40</type_2>
+    <type_3>DS</type_3>
+    <values>
+      <szin>
+        <value>Pacific Blue</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1935</id>
+    <name>Samsung Galaxy J3 2017</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J3 2017</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Gold</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1936</id>
+    <name>Samsung Galaxy J5 2017</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J5 2017</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Silver</value>
+        <value>Pink</value>
+        <value>Blue</value>
+        <value>Gold</value>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1941</id>
+    <name>Samsung Galaxy Note 10 PLUS</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 10 PLUS</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Aura Black</value>
+        <value>Aura Blue</value>
+        <value>Aura Glow</value>
+        <value>Aura White</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1942</id>
+    <name>Samsung Galaxy A32 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A32 5G</type_3>
+    <values>
+      <szin>
+        <value>Awesome Blue</value>
+        <value>Awesome Black</value>
+        <value>Awesome Violet</value>
+        <value>Awesome White</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1953</id>
+    <name>Használt iPhone 14 Plus</name>
+    <type_1>iPhone</type_1>
+    <type_2>14</type_2>
+    <type_3>Plus</type_3>
+    <values>
+      <szin>
+        <value>Blue</value>
+        <value>Midnight</value>
+        <value>Starlight</value>
+        <value>PRODUCT RED</value>
+        <value>Purple</value>
+        <value>Yellow</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1954</id>
+    <name>Watch S3 A1858</name>
+    <type_1>Watch</type_1>
+    <type_2>S3</type_2>
+    <type_3>A1858</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <watch-meret>
+        <value>38mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>1955</id>
+    <name>Samsung Galaxy S10 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S10 Plus</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Canary Yellow</value>
+        <value>Cardinal Red</value>
+        <value>Ceramic Black</value>
+        <value>Ceramic White</value>
+        <value>Flamingo Pink</value>
+        <value>Prism Black</value>
+        <value>Prism Blue</value>
+        <value>Prism Green</value>
+        <value>Prism White</value>
+        <value>Smoke Blue</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>1TB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1956</id>
+    <name>Watch Series 4 40mm GPS Aluminium</name>
+    <type_1>Watch</type_1>
+    <type_2>Series</type_2>
+    <type_3>4 40mm GPS Aluminium</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1957</id>
+    <name>iPad Pro 12.9” 5.gen M1 Cellular (A2461)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>12.9” 5.gen M1 Cellular (A2461)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1958</id>
+    <name>iPad Pro 12.9” 4.gen Cellular (A2232)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>12.9” 4.gen Cellular (A2232)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1959</id>
+    <name>iPad Pro 11” 3.gen Cellular (A2459)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>11” 3.gen Cellular (A2459)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1960</id>
+    <name>iPad Pro 11” 2.gen Cellular (A2230)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>11” 2.gen Cellular (A2230)</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>1968</id>
+    <name>iPad 5th 9,7" WiFi (A1822)</name>
+    <type_1>iPad</type_1>
+    <type_2>5th</type_2>
+    <type_3>9,7" WiFi (A1822)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1969</id>
+    <name>Watch SE Nike 44mm GPS+Cellular (A2356)</name>
+    <type_1>Watch</type_1>
+    <type_2>SE</type_2>
+    <type_3>Nike 44mm GPS+Cellular (A2356)</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1970</id>
+    <name>Watch S8 45mm GPS+Cellular (A2771)</name>
+    <type_1>Watch</type_1>
+    <type_2>S8</type_2>
+    <type_3>45mm GPS+Cellular (A2771)</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1971</id>
+    <name>Watch S4 Nike 40mm GPS+Cellular (A2007)</name>
+    <type_1>Watch</type_1>
+    <type_2>S4</type_2>
+    <type_3>Nike 40mm GPS+Cellular (A2007)</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>1972</id>
+    <name>MacBook Air 2015 - 13" 1,6GHz, i5</name>
+    <type_1>MacBook</type_1>
+    <type_2>Air</type_2>
+    <type_3>2015 - 13" 1,6GHz, i5</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <macbook-tarhely>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1 TB</value>
+        <value>2 TB</value>
+      </macbook-tarhely>
+    </values>
+  </product>
+  <product>
+    <id>1973</id>
+    <name>Watch S5 GPS+Cellular (A2157) 44mm STAINLESS STEEL</name>
+    <type_1>Watch</type_1>
+    <type_2>S5</type_2>
+    <type_3>GPS+Cellular (A2157) 44mm STAINLESS STEEL</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Blue</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1976</id>
+    <name>Apple Watch Series 1</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 1</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Rose Gold</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+      </watch-anyag>
+      <watch-series>
+        <value>S1</value>
+      </watch-series>
+      <watch-halozat>
+        <value>GPS</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>38mm</value>
+        <value>42mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>1977</id>
+    <name>Apple Watch Series 3</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 3</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Stainless Steel</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+        <value>Ceramic</value>
+      </watch-anyag>
+      <watch-series>
+        <value>S3</value>
+        <value>Nike+</value>
+        <value>Hermés</value>
+        <value>Edition</value>
+        <value>ST</value>
+      </watch-series>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>38mm</value>
+        <value>42mm</value>
+      </watch-meret>
+      <watch-modell-szam>
+        <value>A1858</value>
+        <value>A1859</value>
+        <value>A1889 </value>
+        <value>A1891 </value>
+        <value>A2477 </value>
+      </watch-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>1985</id>
+    <name>Samsung Galaxy S9 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S9 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Blue</value>
+        <value>Burgundy Red</value>
+        <value>Coral Blue</value>
+        <value>Ice Blue</value>
+        <value>Lilac Purple</value>
+        <value>Midnight Black</value>
+        <value>Polaris Blue</value>
+        <value>Sunrise Gold</value>
+        <value>Titanium Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1986</id>
+    <name>Samsung Galaxy A20 E</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A20 E</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Coral</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1987</id>
+    <name>Apple Watch</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3/>
+    <values>
+      <watch-series>
+        <value>Edition</value>
+        <value>Hermés</value>
+        <value>Sport</value>
+        <value>1th generation</value>
+      </watch-series>
+      <szin>
+        <value>Gold</value>
+        <value>Rose Gold</value>
+        <value>Stainless Steel</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <watch-halozat>
+        <value>GPS</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>38mm</value>
+        <value>42mm</value>
+      </watch-meret>
+      <watch-anyag>
+        <value>18k Gold</value>
+        <value>Stainless Steel</value>
+        <value>Aluminium</value>
+      </watch-anyag>
+      <watch-modell-szam>
+        <value>A1553</value>
+        <value>A1554</value>
+      </watch-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>1988</id>
+    <name>Apple Watch Series 2</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 2</type_3>
+    <values>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Rose Gold</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+      </watch-anyag>
+      <watch-series>
+        <value>Alu</value>
+      </watch-series>
+      <watch-halozat>
+        <value>GPS</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>38mm</value>
+        <value>42mm</value>
+      </watch-meret>
+      <watch-modell-szam>
+        <value>A1757</value>
+        <value>A1758 </value>
+      </watch-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>1991</id>
+    <name>Felújított Renewd iPhone 8</name>
+    <type_1>iPhone</type_1>
+    <type_2>8</type_2>
+    <type_3>Renewd-felújított</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1992</id>
+    <name>Felújított Renewd iPhone XR</name>
+    <type_1>iPhone</type_1>
+    <type_2>XR</type_2>
+    <type_3>Renewd- felújított</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1993</id>
+    <name>Felújított Renewd iPhone SE 2020</name>
+    <type_1>Felújított</type_1>
+    <type_2>Renewd</type_2>
+    <type_3>iPhone SE 2020</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1994</id>
+    <name>Felújított Renewd iPhone X</name>
+    <type_1>Felújított</type_1>
+    <type_2>Renewd</type_2>
+    <type_3>iPhone X</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1996</id>
+    <name>iPad Air 5th Wifi+Cellular (A2589)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>5th Wifi+Cellular (A2589)</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Midnight</value>
+        <value>Starlight</value>
+        <value>Purple</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1997</id>
+    <name>iPad Air 2 WiFi + Cellular (A1567)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>2 WiFi + Cellular (A1567)</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+        <value>Gold</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>1999</id>
+    <name>iPad Air 2 WiFi (A1566)</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>2 WiFi (A1566)</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2000</id>
+    <name>iPad Mini 4 Wifi (A1538)</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>4 Wifi (A1538)</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2001</id>
+    <name>MacBook Pro Retina 15" 2019 2,3GHz, i9 16GB</name>
+    <type_1>MacBook</type_1>
+    <type_2>Pro</type_2>
+    <type_3>Retina 15" 2019 2,3GHz, i9 16GB</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2002</id>
+    <name>Samsung Galaxy A40</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A40</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Coral</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2003</id>
+    <name>Samsung Galaxy XCover 4S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>XCover 4S</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2004</id>
+    <name>iPad Pro 2018 (A1980)</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>2018 (A1980)</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2005</id>
+    <name>Samsung Galaxy S10</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S10</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Canary Yellow</value>
+        <value>Cardinal Red</value>
+        <value>Flamingo Pink</value>
+        <value>Prism Black</value>
+        <value>Prism Blue</value>
+        <value>Prism Green</value>
+        <value>Prism White</value>
+        <value>Smoke Blue</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2006</id>
+    <name>Apple Watch Series 4</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 4</type_3>
+    <values>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Stainless Steel</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+      </watch-anyag>
+      <watch-series>
+        <value>S4</value>
+        <value>Nike+</value>
+        <value>ST</value>
+        <value>Hermés</value>
+      </watch-series>
+      <watch-modell-szam>
+        <value>A1977 </value>
+        <value>A1978 </value>
+        <value>A2007 </value>
+        <value>A2008 </value>
+      </watch-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>2008</id>
+    <name>Apple Watch Series 5</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 5</type_3>
+    <values>
+      <watch-modell-szam>
+        <value>A2092 </value>
+        <value>A2156 </value>
+        <value>A2093 </value>
+        <value>A2157</value>
+      </watch-modell-szam>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Space Black</value>
+        <value>Stainless Steel</value>
+        <value>Dark Titanium</value>
+        <value>Light Titanium</value>
+        <value>White Ceramic</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+        <value>Titanium</value>
+        <value>Ceramic</value>
+      </watch-anyag>
+      <watch-series>
+        <value>S5</value>
+        <value>Nike</value>
+        <value>ST</value>
+        <value>Hermés</value>
+        <value>Edition Titanium</value>
+        <value>Edition Ceramic</value>
+      </watch-series>
+    </values>
+  </product>
+  <product>
+    <id>2009</id>
+    <name>Apple Watch Series 8</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 8</type_3>
+    <values>
+      <szin>
+        <value>Starlight</value>
+        <value>Midnight</value>
+        <value>Silver</value>
+        <value>PRODUCT RED</value>
+        <value>Gold</value>
+        <value>Graphite</value>
+      </szin>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+      </watch-anyag>
+      <watch-series>
+        <value>S8</value>
+        <value>ST</value>
+        <value>Hermés</value>
+      </watch-series>
+      <watch-halozat>
+        <value>Wifi+Cell</value>
+        <value>GPS</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>45mm</value>
+        <value>41mm</value>
+      </watch-meret>
+      <watch-modell-szam>
+        <value>A1553</value>
+        <value>A2773</value>
+        <value>A2770</value>
+        <value>A2771</value>
+        <value>A2775</value>
+      </watch-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>2020</id>
+    <name>Használt iPhone 14 Pro Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>14</type_2>
+    <type_3>Pro Max</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Deep Purple</value>
+        <value>Gold</value>
+        <value>Space Black</value>
+        <value>Silver</value>
+        <value>Midnight Black</value>
+        <value>Purple</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2021</id>
+    <name>iPad Pro</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3/>
+    <values>
+      <ipad-halozat>
+        <value>Wifi +Cellular</value>
+        <value>Wifi </value>
+      </ipad-halozat>
+      <ipad-kijelzo-meret>
+        <value>9.7</value>
+        <value>10.5</value>
+        <value>11</value>
+        <value>12.9</value>
+      </ipad-kijelzo-meret>
+      <ipad-gen>
+        <value>1th gen</value>
+        <value>2th gen</value>
+        <value>3th gen</value>
+        <value>4th gen</value>
+        <value>5th gen</value>
+        <value>6th gen</value>
+      </ipad-gen>
+      <hattertar>
+        <value>256 GB</value>
+        <value>128 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>512 GB</value>
+        <value>1 TB</value>
+        <value>2 TB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+        <value>Rose Gold</value>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+      <ipad-modell-szam>
+        <value>A1674</value>
+        <value>A1673</value>
+        <value>A1701</value>
+        <value>A1709</value>
+        <value>A1980</value>
+        <value>A1934</value>
+        <value>A2013</value>
+        <value>A2228</value>
+        <value>A2068</value>
+        <value>A2230</value>
+        <value>A2377</value>
+        <value>A2459</value>
+        <value>A2460</value>
+        <value>A2759</value>
+        <value>A2435</value>
+        <value>A1584</value>
+        <value>A1652</value>
+        <value>A1670</value>
+        <value>A1671</value>
+        <value>A1876</value>
+        <value>A1895</value>
+        <value>A2014</value>
+        <value>A2229</value>
+        <value>A2069</value>
+        <value>A2232</value>
+        <value>A2378</value>
+        <value>A2461</value>
+        <value>A2436</value>
+        <value>A2764</value>
+        <value>A2437</value>
+      </ipad-modell-szam>
+    </values>
+  </product>
+  <product>
+    <id>2022</id>
+    <name>iPad Air</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3/>
+    <values>
+      <ipad-gen>
+        <value>1th gen</value>
+        <value>2th gen</value>
+        <value>3th gen</value>
+        <value>4th gen</value>
+        <value>5th gen</value>
+      </ipad-gen>
+      <ipad-kijelzo-meret>
+        <value>9.7</value>
+        <value>10.9</value>
+      </ipad-kijelzo-meret>
+      <szin>
+        <value>White</value>
+        <value>Black</value>
+        <value>Space Gray</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Green</value>
+        <value>Rose Gold</value>
+        <value>Blue</value>
+        <value>Pink</value>
+        <value>Starlight</value>
+        <value>Purple</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>64 GB</value>
+        <value>32 GB</value>
+        <value>16 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <ipad-modell-szam>
+        <value>A1474</value>
+        <value>A1475</value>
+        <value>A1476</value>
+        <value>A1566</value>
+        <value>A1567</value>
+        <value>A2152</value>
+        <value>A2123</value>
+        <value>A2153</value>
+        <value>A2316</value>
+        <value>A2324</value>
+        <value>A2325</value>
+        <value>A2072</value>
+        <value>A2588</value>
+        <value>A2589</value>
+        <value>A2591</value>
+      </ipad-modell-szam>
+      <ipad-halozat>
+        <value>Wifi </value>
+        <value>Wifi +Cellular</value>
+      </ipad-halozat>
+    </values>
+  </product>
+  <product>
+    <id>2023</id>
+    <name>iPad</name>
+    <type_1>iPad</type_1>
+    <type_2/>
+    <type_3/>
+    <values>
+      <ipad-gen>
+        <value>1th gen</value>
+        <value>2th gen</value>
+        <value>3th gen</value>
+        <value>4th gen</value>
+        <value>5th gen</value>
+        <value>6th gen</value>
+        <value>7th gen</value>
+        <value>8th gen</value>
+        <value>9th gen</value>
+        <value>10th gen</value>
+      </ipad-gen>
+      <ipad-kijelzo-meret>
+        <value>9.7</value>
+        <value>10.9</value>
+        <value>10.2</value>
+      </ipad-kijelzo-meret>
+      <ipad-modell-szam>
+        <value>A1219 </value>
+        <value>A1337 </value>
+        <value>A1395</value>
+        <value>A1416</value>
+        <value>A1430</value>
+        <value>A1403</value>
+        <value>A1458</value>
+        <value>A1459</value>
+        <value>A1460</value>
+        <value>A1822</value>
+        <value>A1823</value>
+        <value>A1893</value>
+        <value>A1954</value>
+        <value>A2197</value>
+        <value>A2200</value>
+        <value>A2198</value>
+        <value>A2270</value>
+        <value>A2428</value>
+        <value>A2429</value>
+        <value>A2430</value>
+        <value>A2602</value>
+        <value>A2604</value>
+        <value>A2696</value>
+        <value>A2757</value>
+        <value>A1396</value>
+      </ipad-modell-szam>
+      <ipad-halozat>
+        <value>Wifi </value>
+        <value>Wifi +Cellular</value>
+      </ipad-halozat>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Blue</value>
+        <value>Pink</value>
+        <value>Yellow</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2025</id>
+    <name>Használt iPad Air 4.</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>4.</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2026</id>
+    <name>Használt iPad Mini 6</name>
+    <type_1>iPad</type_1>
+    <type_2>Mini</type_2>
+    <type_3>6</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2027</id>
+    <name>Használt iPad Pro 4.gen 12,9" 2020</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>4.gen 12,9" 2020</type_3>
+    <values>
+      <ipad-kijelzo-meret>
+        <value>12.9</value>
+      </ipad-kijelzo-meret>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>1 TB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2028</id>
+    <name>Használt iPad Pro 3.gen 12,9"</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>3.gen 12,9"</type_3>
+    <values>
+      <ipad-kijelzo-meret>
+        <value>12.9</value>
+        <value>11</value>
+      </ipad-kijelzo-meret>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2029</id>
+    <name>Használt iPad Pro 5.gen 12,9" 2021</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>5.gen 12,9" 2021</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>1 TB</value>
+      </hattertar>
+      <ipad-kijelzo-meret>
+        <value>12.9</value>
+      </ipad-kijelzo-meret>
+    </values>
+  </product>
+  <product>
+    <id>2030</id>
+    <name>Használt iPad Pro 11" 1.gen 2018</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>11" 1.gen 2018</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <ipad-kijelzo-meret>
+        <value>11</value>
+      </ipad-kijelzo-meret>
+      <szin>
+        <value>Space Gray</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2031</id>
+    <name>Használt iPad Pro 11" 2.gen 2020</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>11" 2.gen 2020</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <ipad-kijelzo-meret>
+        <value>11</value>
+      </ipad-kijelzo-meret>
+    </values>
+  </product>
+  <product>
+    <id>2033</id>
+    <name>Használt Apple Watch Series 7 Cellular</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 7 Cellular</type_3>
+    <values>
+      <szin>
+        <value>Midnight</value>
+      </szin>
+      <watch-meret>
+        <value>41mm</value>
+        <value>45mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2034</id>
+    <name>Használt iPad Pro 10.5" 2017 Wifi</name>
+    <type_1>iPad</type_1>
+    <type_2>Pro</type_2>
+    <type_3>10.5" 2017 Wifi</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2035</id>
+    <name>Samsung Galaxy Z Fold 4</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Z Fold 4</type_3>
+    <values>
+      <szin>
+        <value>Graphite</value>
+      </szin>
+      <hattertar>
+        <value>16 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2036</id>
+    <name>Felújított iPad 6.gen WiFi</name>
+    <type_1>Felújított</type_1>
+    <type_2>iPad</type_2>
+    <type_3>6.gen WiFi</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2040</id>
+    <name>Samsung Galaxy S21 FE</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S21 FE</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Graphite</value>
+        <value>Lavender</value>
+        <value>Olive</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2041</id>
+    <name>Samsung Galaxy S22</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S22</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>White</value>
+        <value>Graphite</value>
+        <value>Green</value>
+        <value>Phantom Black</value>
+        <value>Pink Gold</value>
+        <value>Sky Blue</value>
+        <value>Violet</value>
+        <value>Cream</value>
+        <value>Bora Purple</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2042</id>
+    <name>Apple Watch Series 7</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 7</type_3>
+    <values>
+      <szin>
+        <value>Midnight</value>
+        <value>Green</value>
+        <value>Blue</value>
+        <value>PRODUCT RED</value>
+        <value>Starlight</value>
+        <value>Silver ST</value>
+        <value>Graphite ST</value>
+        <value>Gold ST</value>
+        <value>Space Black ST</value>
+        <value>Space Black Titanium</value>
+        <value>Natural Titanium</value>
+      </szin>
+      <watch-modell-szam>
+        <value>A2473</value>
+        <value>A2373 </value>
+        <value>A2476 </value>
+        <value>A2474 </value>
+        <value>A2477 </value>
+        <value>A2478</value>
+      </watch-modell-szam>
+      <watch-series>
+        <value>S7</value>
+        <value>Nike</value>
+        <value>ST</value>
+        <value>Hermés</value>
+        <value>Edition Titanium</value>
+      </watch-series>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+        <value>Titanium</value>
+      </watch-anyag>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>41mm</value>
+        <value>40 mm</value>
+        <value>44mm</value>
+        <value>45mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2043</id>
+    <name>Apple Watch SE</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>SE</type_3>
+    <values>
+      <watch-modell-szam>
+        <value>A2352</value>
+        <value>A2351 </value>
+        <value>A2355 </value>
+        <value>A2356</value>
+        <value>A2722</value>
+        <value>A2725</value>
+        <value>A2723</value>
+        <value>A2856</value>
+        <value>A2724</value>
+      </watch-modell-szam>
+      <watch-anyag>
+        <value>Aluminium</value>
+      </watch-anyag>
+      <watch-series>
+        <value>SE</value>
+        <value>1th generation</value>
+        <value>2nd generation</value>
+      </watch-series>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>44mm</value>
+        <value>40 mm</value>
+      </watch-meret>
+      <szin>
+        <value>Midnight</value>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Space Gray</value>
+        <value>Starlight</value>
+        <value>Midnight Green</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2044</id>
+    <name>Használt Apple Watch SE</name>
+    <type_1>Watch</type_1>
+    <type_2>SE</type_2>
+    <type_3/>
+    <values>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gold</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2045</id>
+    <name>Samsung Galaxy A22 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A22 5G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+        <value>Gray</value>
+        <value>Mint</value>
+        <value>Violet</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2046</id>
+    <name>Apple Watch Ultra</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Ultra</type_3>
+    <values>
+      <watch-modell-szam>
+        <value>A2684</value>
+      </watch-modell-szam>
+      <watch-series>
+        <value>Ultra</value>
+      </watch-series>
+      <watch-halozat>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>49mm</value>
+      </watch-meret>
+      <watch-anyag>
+        <value>Titanium</value>
+      </watch-anyag>
+      <szin>
+        <value>Titanium</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2047</id>
+    <name>Apple Watch Series 6</name>
+    <type_1>Apple</type_1>
+    <type_2>Watch</type_2>
+    <type_3>Series 6</type_3>
+    <values>
+      <watch-modell-szam>
+        <value>A2291</value>
+        <value>A2375 </value>
+        <value>A2376</value>
+        <value>A2292</value>
+      </watch-modell-szam>
+      <watch-anyag>
+        <value>Aluminium</value>
+        <value>Stainless Steel</value>
+        <value>Titanium</value>
+      </watch-anyag>
+      <watch-halozat>
+        <value>GPS</value>
+        <value>Wifi+Cell</value>
+      </watch-halozat>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+      </watch-meret>
+      <szin>
+        <value>Gold</value>
+        <value>Silver</value>
+        <value>Blue</value>
+        <value>Space Gray</value>
+        <value>Red</value>
+        <value>Silver ST</value>
+        <value>Graphite ST</value>
+        <value>Gold ST</value>
+        <value>Space Black ST</value>
+        <value>Titanium</value>
+        <value>Space Black Titanium</value>
+      </szin>
+      <watch-series>
+        <value>S6</value>
+        <value>Nike</value>
+        <value>ST</value>
+        <value>Hermés</value>
+        <value>Edition Titanium</value>
+      </watch-series>
+    </values>
+  </product>
+  <product>
+    <id>2049</id>
+    <name>Samsung Galaxy A02S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A02S</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Red</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2053</id>
+    <name>Samsung Galaxy A04s</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A04s</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+        <value>Green</value>
+        <value>Copper</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2056</id>
+    <name>Samsung Galaxy S23 Ultra</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S23 Ultra</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <szin>
+        <value>Green</value>
+        <value>Lavender</value>
+        <value>Cream</value>
+        <value>Phantom Black</value>
+        <value>Graphite</value>
+        <value>Red</value>
+        <value>Lime</value>
+        <value>Sky Blue</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2057</id>
+    <name>Samsung Galaxy S23 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S23 Plus</type_3>
+    <values>
+      <szin>
+        <value>Lime</value>
+        <value>Cream</value>
+        <value>Green</value>
+        <value>Lavender</value>
+        <value>Graphite</value>
+        <value>Phantom Black</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2058</id>
+    <name>Samsung Galaxy S23</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S23</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Graphite</value>
+        <value>Green</value>
+        <value>Lime</value>
+        <value>Lavender</value>
+        <value>Cream</value>
+        <value>Phantom Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2059</id>
+    <name>Samsung Galaxy S22 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S22 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Phantom Black</value>
+        <value>White</value>
+        <value>Pink Gold</value>
+        <value>Green</value>
+        <value>Graphite</value>
+        <value>Sky Blue</value>
+        <value>Violet</value>
+        <value>Cream</value>
+        <value>Bora Purple</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2060</id>
+    <name>Samsung Galaxy S21 Ultra</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S21 Ultra</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Navy</value>
+        <value>Phantom Black</value>
+        <value>Phantom Brown</value>
+        <value>Phantom Navy</value>
+        <value>Phantom Silver</value>
+        <value>Phantom Titanium</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2061</id>
+    <name>Samsung Galaxy S20 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S20 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Aura Blue</value>
+        <value>Aura Red</value>
+        <value>Cloud Blue</value>
+        <value>Cloud White</value>
+        <value>Cosmic Black</value>
+        <value>Cosmic Grey</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2062</id>
+    <name>Samsung Galaxy S10 E</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>S10 E</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Canary Yellow</value>
+        <value>Flamingo Pink</value>
+        <value>Prism Black</value>
+        <value>Prism Blue</value>
+        <value>Prism Green</value>
+        <value>Prism White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2063</id>
+    <name>Samsung Galaxy Note 9</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 9</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>Alpine White</value>
+        <value>Lavender Purple</value>
+        <value>Metallic Copper</value>
+        <value>Midnight Black</value>
+        <value>Ocean Blue</value>
+        <value>Pure White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2064</id>
+    <name>Samsung Galaxy Note 8</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 8</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Deep Sea Blue</value>
+        <value>Maple Gold</value>
+        <value>Midnight Black</value>
+        <value>Orchid Gray</value>
+        <value>Star Pink</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2065</id>
+    <name>Samsung Galaxy Note 10</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Note 10</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Aura Black</value>
+        <value>Aura Glow</value>
+        <value>Aura Pink</value>
+        <value>Aura Red</value>
+        <value>Aura White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2066</id>
+    <name>Samsung Galaxy A13 4G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A13 4G</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Peach</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2067</id>
+    <name>Samsung Galaxy A13 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A13 5G</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2068</id>
+    <name>Samsung Galaxy A14 4G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A14 4G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Dark Red</value>
+        <value>Green</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2069</id>
+    <name>Samsung Galaxy A14 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A14 5G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Dark Red</value>
+        <value>Light Green</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2070</id>
+    <name>Samsung Galaxy A20 S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A20 S</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Green</value>
+        <value>Red</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2071</id>
+    <name>Samsung Galaxy A21 S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A21 S</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Red</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2072</id>
+    <name>Samsung Galaxy A22 4G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A22 4G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Mint</value>
+        <value>Violet</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2073</id>
+    <name>Samsung Galaxy A32 4G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A32 4G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Awesome Black</value>
+        <value>Awesome Blue</value>
+        <value>Awesome Violet</value>
+        <value>Awesome White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2074</id>
+    <name>Samsung Galaxy A23 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A23 5G</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Peach</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2075</id>
+    <name>Samsung Galaxy A30S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A30S</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Prism Crush Black</value>
+        <value>Prism Crush Green</value>
+        <value>Prism Crush Violet2</value>
+        <value>Prism Crush White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2076</id>
+    <name>Samsung Galaxy A31</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A31</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Prism Crush Black</value>
+        <value>Prism Crush Blue</value>
+        <value>Prism Crush Red</value>
+        <value>Prism Crush White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2077</id>
+    <name>Samsung Galaxy A33 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A33 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Peach</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2078</id>
+    <name>Samsung Galaxy A34 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A34 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Midnight Blue</value>
+        <value>Prism Silver</value>
+        <value>Waterfall Blue</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2079</id>
+    <name>Samsung Galaxy A41</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A41</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Prism Crush Black</value>
+        <value>Prism Crush Blue</value>
+        <value>Prism Crush Red</value>
+        <value>Prism Crush Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2080</id>
+    <name>Samsung Galaxy A42 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A42 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Prism Dot Black</value>
+        <value>Prism Dot Gray</value>
+        <value>Prism Dot White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2081</id>
+    <name>Samsung Galaxy A52 4G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A52 4G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Awesome Black</value>
+        <value>Awesome Blue</value>
+        <value>Awesome Violet</value>
+        <value>Awesome White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2082</id>
+    <name>Samsung Galaxy A53 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A53 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Peach</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2083</id>
+    <name>Samsung Galaxy A54 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A54 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Graphite</value>
+        <value>Lime</value>
+        <value>Violet</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2084</id>
+    <name>Samsung Galaxy Fold 5</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Fold 5</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Ice Blue</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2085</id>
+    <name>Samsung Galaxy Watch 4</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Watch 4</type_3>
+    <values>
+      <szin>
+        <value>Black/Gray</value>
+        <value>Fekete</value>
+        <value>Black</value>
+        <value>Gold</value>
+      </szin>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+        <value>38mm</value>
+        <value>42mm</value>
+        <value>45mm</value>
+        <value>46 mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2086</id>
+    <name>Samsung Galaxy A72</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A72</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Awesome Black</value>
+        <value>Awesome Blue</value>
+        <value>Awesome Violet</value>
+        <value>Awesome White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2087</id>
+    <name>Samsung Galaxy A73 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A73 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Gray</value>
+        <value>Mint</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2088</id>
+    <name>Samsung Galaxy A3 2015</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A3 2015</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <szin>
+        <value>Champagne Gold</value>
+        <value>Light Blue</value>
+        <value>Midnight Black</value>
+        <value>Pearl White</value>
+        <value>Platinum Silver</value>
+        <value>Soft Pink</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2089</id>
+    <name>Samsung Galaxy J1 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J1 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>8 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2090</id>
+    <name>Samsung Galaxy J3 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J3 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>8 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2091</id>
+    <name>Samsung Galaxy J4</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J4</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Orchid Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2092</id>
+    <name>Samsung Galaxy J4 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J4 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Gold</value>
+        <value>Pink</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2093</id>
+    <name>Samsung Galaxy J5 2015</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J5 2015</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>8 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2094</id>
+    <name>Samsung Galaxy J5 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J5 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Rose Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2095</id>
+    <name>Samsung Galaxy J6 2018</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J6 2018</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Gray</value>
+        <value>Red</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2096</id>
+    <name>Samsung Galaxy J6 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J6 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Gray</value>
+        <value>Red</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2097</id>
+    <name>Samsung Galaxy J7 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J7 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Rose Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2098</id>
+    <name>Samsung Galaxy J7 2017</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J7 2017</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>Gold</value>
+        <value>Rose Gold</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2099</id>
+    <name>Samsung Galaxy M21S</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M21S</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2100</id>
+    <name>Samsung Galaxy M22</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M22</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Light Blue</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2101</id>
+    <name>Samsung Galaxy M23 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M23 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Deep Green</value>
+        <value>Light Blue</value>
+        <value>Orange Copper</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2102</id>
+    <name>Samsung Galaxy M32</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M32</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Blue</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2103</id>
+    <name>Samsung Galaxy Watch 4 Classic</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Watch 4 Classic</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <watch-meret>
+        <value>44mm</value>
+        <value>46 mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2104</id>
+    <name>Samsung Galaxy M33 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M33 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Brown</value>
+        <value>Dark Blue</value>
+        <value>Khaki Green</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2105</id>
+    <name>Samsung Galaxy M51</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M51</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Celestial Black</value>
+        <value>Electric Blue</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2106</id>
+    <name>Samsung Watch 5 Pro</name>
+    <type_1>Samsung</type_1>
+    <type_2>Watch</type_2>
+    <type_3>5 Pro</type_3>
+    <values>
+      <watch-meret>
+        <value>45mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2107</id>
+    <name>Samsung Galaxy M52 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M52 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <szin>
+        <value>Blazing Black</value>
+        <value>Ice Blue</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2108</id>
+    <name>Samsung Galaxy M53 5G</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>M53 5G</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Blue</value>
+        <value>Brown</value>
+        <value>Green</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2109</id>
+    <name>Samsung Watch 5</name>
+    <type_1>Samsung</type_1>
+    <type_2>Watch</type_2>
+    <type_3>5</type_3>
+    <values>
+      <watch-meret>
+        <value>40 mm</value>
+        <value>44mm</value>
+        <value>38mm</value>
+        <value>42mm</value>
+        <value>41mm</value>
+        <value>45mm</value>
+        <value>49mm</value>
+        <value>46 mm</value>
+      </watch-meret>
+      <szin>
+        <value>Kék</value>
+        <value>Fekete</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2110</id>
+    <name>Samsung Galaxy J1 2015</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>J1 2015</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>8 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2111</id>
+    <name>Samsung Galaxy A3 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A3 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>8 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2112</id>
+    <name>Samsung Galaxy A5 2016</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A5 2016</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2113</id>
+    <name>Samsung Galaxy A5 2017</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A5 2017</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2114</id>
+    <name>Samsung Galaxy A6 2018</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A6 2018</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2115</id>
+    <name>Samsung Galaxy A6 Plus</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A6 Plus</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2116</id>
+    <name>Samsung Galaxy A7 2018</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A7 2018</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2117</id>
+    <name>Samsung Galaxy A8 2018</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A8 2018</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>16 GB</value>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2118</id>
+    <name>Samsung Galaxy A80</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A80</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2119</id>
+    <name>Samsung Galaxy A9 2018</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>A9 2018</type_3>
+    <values>
+      <hattertar>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2120</id>
+    <name>iPhone 15 Pro</name>
+    <type_1>iPhone</type_1>
+    <type_2>15</type_2>
+    <type_3>Pro</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <szin>
+        <value>White Titanium</value>
+        <value>Black Titanium</value>
+        <value>Blue Titanium</value>
+        <value>Natural Titanium</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2121</id>
+    <name>iPhone 15</name>
+    <type_1>iPhone</type_1>
+    <type_2>15</type_2>
+    <type_3/>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+      </hattertar>
+      <szin>
+        <value>White Titanium</value>
+        <value>Black Titanium</value>
+        <value>Blue Titanium</value>
+        <value>Natural Titanium</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2122</id>
+    <name>iPhone 15 Pro Max</name>
+    <type_1>iPhone</type_1>
+    <type_2>15</type_2>
+    <type_3>Pro Max</type_3>
+    <values>
+      <hattertar>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <szin>
+        <value>White Titanium</value>
+        <value>Black Titanium</value>
+        <value>Blue Titanium</value>
+        <value>Natural Titanium</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2123</id>
+    <name>Galaxy Tab A7 Lite</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>A7 Lite</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Gray</value>
+      </szin>
+      <hattertar>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </hattertar>
+      <samsung-tab-kijelzo>
+        <value>8.7</value>
+      </samsung-tab-kijelzo>
+    </values>
+  </product>
+  <product>
+    <id>2124</id>
+    <name>Apple TV 4k 1.gen</name>
+    <type_1>Apple</type_1>
+    <type_2>TV</type_2>
+    <type_3>4k 1.gen</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2017</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>2125</id>
+    <name>Galaxy Tab S6</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S6</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <szin>
+        <value>Mountain Gray</value>
+      </szin>
+      <samsung-tab-kijelzo>
+        <value>10.5</value>
+      </samsung-tab-kijelzo>
+    </values>
+  </product>
+  <product>
+    <id>2127</id>
+    <name>Galaxy Tab S3</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S3</type_3>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+      <samsung-tab-kijelzo>
+        <value>9.7</value>
+      </samsung-tab-kijelzo>
+      <szin>
+        <value>Black</value>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2128</id>
+    <name>Galaxy Tab S5e</name>
+    <type_1>Galaxy</type_1>
+    <type_2>Tab</type_2>
+    <type_3>S5e</type_3>
+    <values>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <samsung-tab-kijelzo>
+        <value>10.5</value>
+      </samsung-tab-kijelzo>
+      <szin>
+        <value>Black</value>
+        <value>Gold</value>
+        <value>Silver</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2131</id>
+    <name>Samsung Galaxy Watch</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Watch</type_3>
+    <values>
+      <szin>
+        <value>Silver</value>
+        <value>Black</value>
+      </szin>
+      <watch-meret>
+        <value>46 mm</value>
+      </watch-meret>
+    </values>
+  </product>
+  <product>
+    <id>2132</id>
+    <name>Samsung Galaxy Buds 2</name>
+    <type_1>Samsung</type_1>
+    <type_2>Galaxy</type_2>
+    <type_3>Buds 2</type_3>
+    <values>
+      <szin>
+        <value>Black/Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2134</id>
+    <name>Apple Macbook AIR</name>
+    <type_1>Apple</type_1>
+    <type_2>Macbook</type_2>
+    <type_3>AIR</type_3>
+    <values>
+      <processor>
+        <value>i3</value>
+        <value>M2</value>
+        <value>M1</value>
+        <value>i5</value>
+        <value>i7</value>
+      </processor>
+      <ram>
+        <value>8 GB</value>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>4 GB</value>
+      </ram>
+      <macbook-tarhely-tipus>
+        <value>HDD</value>
+        <value>SSD</value>
+      </macbook-tarhely-tipus>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+      </hattertar>
+      <macbook-kepernyo-meret>
+        <value>13</value>
+        <value>15</value>
+      </macbook-kepernyo-meret>
+      <macbook-evjarat>
+        <value>2012</value>
+        <value>2013</value>
+        <value>2014</value>
+        <value>2015</value>
+        <value>2017</value>
+        <value>2018</value>
+        <value>2019</value>
+        <value>2020</value>
+        <value>2022</value>
+        <value>2023</value>
+        <value>2015 early</value>
+        <value>2014 early</value>
+      </macbook-evjarat>
+      <billentyuzet-tipus>
+        <value>USA</value>
+        <value>HUN</value>
+        <value>ENG</value>
+        <value>EU</value>
+      </billentyuzet-tipus>
+      <szin>
+        <value>Alpine Green</value>
+        <value>Silver</value>
+        <value>Rose Gold</value>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2135</id>
+    <name>Apple Macbook PRO</name>
+    <type_1>Apple</type_1>
+    <type_2>Macbook</type_2>
+    <type_3>PRO</type_3>
+    <values>
+      <macbook-tarhely-tipus>
+        <value>HDD</value>
+        <value>SSD</value>
+      </macbook-tarhely-tipus>
+      <processor>
+        <value>i3</value>
+        <value>i7</value>
+        <value>i5</value>
+        <value>i9</value>
+      </processor>
+      <macbook-kepernyo-meret>
+        <value>13</value>
+        <value>15</value>
+        <value>16</value>
+      </macbook-kepernyo-meret>
+      <macbook-evjarat>
+        <value>2012 mid</value>
+        <value>2012 late</value>
+        <value>2013 early</value>
+        <value>2013 late</value>
+        <value>2014 mid</value>
+        <value>2015 early</value>
+        <value>2015 mid</value>
+        <value>2016</value>
+        <value>2017</value>
+        <value>2018</value>
+        <value>2019</value>
+        <value>2020</value>
+      </macbook-evjarat>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+        <value>512 GB</value>
+        <value>1TB</value>
+        <value>2TB</value>
+        <value>1TB HDD</value>
+      </hattertar>
+      <ram>
+        <value>8 GB</value>
+        <value>16 GB</value>
+        <value>32 GB</value>
+        <value>64 GB</value>
+      </ram>
+      <billentyuzet-tipus>
+        <value>USA</value>
+        <value>HUN</value>
+        <value>ENG</value>
+      </billentyuzet-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2142</id>
+    <name>Felújított iPad 7.gen WiFi</name>
+    <type_1>iPad</type_1>
+    <type_2/>
+    <type_3/>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2407</id>
+    <name>iPad Air 4.gen</name>
+    <type_1>iPad</type_1>
+    <type_2>Air</type_2>
+    <type_3>4 gen</type_3>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+      </hattertar>
+      <ipad-halozat>
+        <value>Wifi +Cellular</value>
+      </ipad-halozat>
+      <ipad-gen>
+        <value>4th gen</value>
+      </ipad-gen>
+      <ipad-kijelzo-meret>
+        <value>10.9</value>
+      </ipad-kijelzo-meret>
+    </values>
+  </product>
+  <product>
+    <id>2460</id>
+    <name>Használt Apple MacBook Air 2017</name>
+    <type_1>MacBook</type_1>
+    <type_2>Air</type_2>
+    <type_3>2017</type_3>
+    <values>
+      <macbook-evjarat>
+        <value>2017</value>
+      </macbook-evjarat>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2464</id>
+    <name>Samsung T560 Galaxy Tab E</name>
+    <type_1>Galaxy</type_1>
+    <type_2>TAB</type_2>
+    <type_3>E</type_3>
+    <values>
+      <hattertar>
+        <value>8 GB</value>
+      </hattertar>
+      <samsung-tab-kijelzo>
+        <value>9.6</value>
+      </samsung-tab-kijelzo>
+      <szin>
+        <value>White</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2465</id>
+    <name>SAMSUNG GALAXY S7</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <hattertar>
+        <value>32 GB</value>
+      </hattertar>
+      <szin>
+        <value>Black</value>
+      </szin>
+    </values>
+  </product>
+  <product>
+    <id>2467</id>
+    <name>Galaxy A50</name>
+    <type_1>Galaxy</type_1>
+    <type_2>A</type_2>
+    <type_3>50</type_3>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2472</id>
+    <name>Mac Mini 2018 8GB i3</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Black</value>
+      </szin>
+      <hattertar>
+        <value>128 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2473</id>
+    <name>Mac Mini 2020 16GB M1</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2476</id>
+    <name>iMac 2015 27" i5 3.2GHz 16GB RAM 1TB SSD</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>1000</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2477</id>
+    <name>iMac 2017 27" i5 3.4GHz 16GB RAM 256GB SSD</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2478</id>
+    <name>iMac 2019 27" i5 3.0 GHz 16GB RAM 256GB SSD</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2479</id>
+    <name>iMac 2019 27" i5 3.7 GHz 32GB RAM 512GB SSD</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <szin>
+        <value>Space Gray</value>
+      </szin>
+      <hattertar>
+        <value>512 GB</value>
+      </hattertar>
+      <iphone-kijelzo-tipus>
+        <value>Gyári kijelző</value>
+      </iphone-kijelzo-tipus>
+    </values>
+  </product>
+  <product>
+    <id>2480</id>
+    <name>Használt Apple MacBook Air 2015</name>
+    <type_1>MacBook</type_1>
+    <type_2>Air</type_2>
+    <type_3>2015</type_3>
+    <values>
+      <hattertar>
+        <value>128 GB</value>
+        <value>256 GB</value>
+      </hattertar>
+      <macbook-evjarat>
+        <value>2015</value>
+      </macbook-evjarat>
+    </values>
+  </product>
+  <product>
+    <id>2481</id>
+    <name>Használt Apple MacBook Air 2014</name>
+    <type_1/>
+    <type_2/>
+    <type_3/>
+    <values>
+      <macbook-evjarat>
+        <value>2014</value>
+      </macbook-evjarat>
+      <hattertar>
+        <value>256 GB</value>
+      </hattertar>
+    </values>
+  </product>
+  <product>
+    <id>2483</id>
+    <name>Felújított PoPhone RENEW iPhone 11</name>
+    <type_1>iPhone</type_1>
+    <type_2>11</type_2>
+    <type_3>Renew</type_3>
+    <values>
+      <szin>
+        <value>Yellow</value>
+        <value>Black</value>
+        <value>Green</value>
+        <value>PRODUCT RED</value>
+        <value>Purple</value>
+        <value>White</value>
+      </szin>
+      <hattertar>
+        <value>64 GB</value>
+        <value>128 GB</value>
+      </hattertar>
+    </values>
+  </product>
+</products>

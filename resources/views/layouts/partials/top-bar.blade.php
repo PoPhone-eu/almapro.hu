@@ -4,7 +4,7 @@
           <!-- BEGIN: Logo -->
           <a href="/admindash" wire:navigate class="logo -intro-x hidden md:flex xl:w-[180px] block">
               {{-- <img alt="{{ config('app.name') }}" class="logo__image w-6" src="/dist/images/logo.svg"> --}}
-              <span class="logo__text text-white text-lg ml-3"> {{ config('app.name') }} </span>
+              <span class="logo__text text-white text-lg ml-3"> Almapro </span>
           </a>
           <!-- END: Logo -->
           <!-- BEGIN: Breadcrumb -->
@@ -30,7 +30,7 @@
           <div class="intro-x dropdown w-8 h-8">
               <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110"
                   role="button" aria-expanded="false" data-tw-toggle="dropdown">
-                  <img alt="{{ config('app.name') }}" src="/dist/images/profile-5.jpg">
+                  <img alt="Almapro" src="/dist/images/profile-5.jpg">
               </div>
               <div class="dropdown-menu w-56">
                   <ul
