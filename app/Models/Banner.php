@@ -107,7 +107,7 @@ class Banner extends Model
             ],
         ],
         'Others'        => [
-            'name' => 'Others',
+            'name' => 'Kiegészítők',
             'chance'    => 0,
             'positions' => [
                 'top'       => [

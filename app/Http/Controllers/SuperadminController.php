@@ -14,7 +14,7 @@ class SuperadminController extends Controller
     {
         //dispatch(new ParseXmlJob());
         //XmlParseService::parseXml();
-        new ProductParser();
+        //new ProductParser();
         //new CategoryParser();
         return view('superadmin.index');
     }

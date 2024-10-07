@@ -53,7 +53,7 @@
                 @endif
 
                 @if (isset($product->data['attributes']) && $product->data['attributes'] != null)
-                    <div>
+                    <div class="mt-3">
                         @foreach ($product->data['attributes'] as $key => $value)
                             <div wire:key="attr-{{ $key }}"
                                 class="form-inline items-start flex-col xl:flex-row pt-5 first:mt-0 first:pt-0">
@@ -159,8 +159,8 @@
         @foreach ($others_view_these as $item)
             <a href="/showproduct/{{ $item->slug }}" wire:navigate>
                 <div class="category-grid-item">
-                    <div class="category-grid-prod-image"{{--  id="this{{ $item->id }}" --}}>
-                        <img src="{{ $item->getMedia('mainimage')->first()?->getUrl() }}" />
+                    <div class="category-grid-prod-image"{{--  id="this{{ $item->id }}"  --}}>
+                        <img src="{{ $item->getMedia('gallery')->first()?->getUrl() }}" />
                     </div>
                     <div class="category-grid-prod-data">
                         <p class="category-grid-price-tag">{{ number_format($item->price) }} Ft</p>
@@ -205,7 +205,7 @@
         <a href="/showproduct/{{ $item->slug }}" wire:navigate>
             <div class="category-grid-item">
                 <div class="category-grid-prod-image">
-                    <img src="{{ $item->getMedia('mainimage')->first()?->getUrl() }}" />
+                    <img src="{{ $item->getMedia('gallery')->first()?->getUrl() }}" />
                 </div>
                 <div class="category-grid-prod-data">
                     <p class="category-grid-price-tag">{{ number_format($item->price) }} Ft</p>

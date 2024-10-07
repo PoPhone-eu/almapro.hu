@@ -163,7 +163,7 @@
                 <div class="w-full mt-3 xl:mt-0 flex-1">
                     <input wire:model.live="delivery" value="1" id="delivery" type="checkbox"
                         class="form-check-input">
-                    <label class="form-check-label" for="delivery">postai kiküldés</label>
+                    <label class="form-check-label" for="delivery">csomagküldés</label>
                     <input wire:model.live="delivery_price" id="delivery_price" type="number"
                         class="form-control user-input"
                         style="width: 190px;border: 1px solid green; margin-left: 8px;"
@@ -182,7 +182,7 @@
             <div class="form-label w-full xl:w-64 xl:!mr-10">
                 <div class="text-left">
                     <div class="flex items-center">
-                        <div class="font-medium text-bold">Képe(k)</div>
+                        <div class="font-medium text-bold">Képek</div>
                         <div
                             class="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 dark:bg-darkmode-300 dark:text-slate-400 text-xs rounded-md">
                             Legalább egy kép feltöltése kötelező</div>

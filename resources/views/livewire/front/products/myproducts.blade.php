@@ -137,7 +137,7 @@
                 <label class="font-medium text-gray-800">Terméktípus*:</label>
                 <select wire:model.live="attr_type">
                     <option value="">Válassz...</option>
-                    @foreach (\App\Models\Product::TYPES as $key => $value)
+                    @foreach ($termektipus as $key => $value)
                         <option value="{{ $key }}">{{ $value }}</option>
                     @endforeach
                 </select>

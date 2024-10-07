@@ -29,6 +29,7 @@ class Myproducts extends Component
     public $attr_type = null;
     public $user_points = 0;
     public $siteSettings;
+    public $termektipus;
 
     public function mount()
     {
@@ -36,6 +37,18 @@ class Myproducts extends Component
         $this->user = auth()->user();
         $this->user_points = getUserPoints($this->user_id);
         $this->siteSettings = SiteSetting::first();
+        $this->termektipus = \App\Models\Product::TYPES;
+        // check if there is Catefory type with all the termektipus (count them) and if any is zero we remove it from the termektipus array
+        $categories = Category::where('category_id', null)->get();
+        foreach ($this->termektipus as $key => $value) {
+            $count = Category::where('type', $key)->count();
+            if ($count == 0) {
+                $termektipus_id_to_remove[] = $key;
+            }
+        }
+        foreach ($termektipus_id_to_remove as $key) {
+            unset($this->termektipus[$key]);
+        }
         //Storage::disk('public')->delete('mLmEzZ1ljrsiEM3Up4j50iRYmbrZROKMZhUEbAr7.webp');
     }
 
