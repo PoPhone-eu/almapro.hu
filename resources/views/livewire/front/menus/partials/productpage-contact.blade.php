@@ -1,4 +1,4 @@
-<div class="contact p-5">
+<div class="contact third p-5">
     <div class="flex flex-row justify-between  items-center">
         <div class="product-data-title">Vedd fel a kapcsolatot</div>
         <div class="flex flex-row">
@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="contact-row flex flex-row justify-between">
+    <div class="flex flex-row justify-between contact-row">
         <a href="/profiloldal/{{ $product->user_id }}" wire:navigate>
             <div class="product-data-user flex flex-row justify-between">
 
@@ -90,12 +90,14 @@
                 @endif
 
                 @auth
-                    <a role="button" href="tel:{{ $seller->phone }}" class="base-button-pink"
-                        style="{{ $product->user_id == auth()->user()->id ? 'display:none' : '' }}">Hívás</a>
+                    <a role="button" onclick="window.location.href='tel:{{ $seller->phone }}'" {{-- href="tel:{{ $seller->phone }}" --}}
+                        class="base-button-pink"
+                        style="{{ $product->user_id == auth()->user()->id ? 'display:none' : '' }}">{{ $seller->phone }}</a>
 
                     <a role="button" wire:click="compose({{ $product->id }})" class="base-button-pink"
                         {{ $product->user_id == auth()->user()->id ? 'disabled' : '' }}>Üzenet</a>
                 @else
+                    <a role="button" href="{{ route('login') }}" wire:navigate class="base-button-pink">Hívás</a>
                     <a role="button" href="{{ route('login') }}" wire:navigate class="base-button-pink">Üzenet</a>
                 @endauth
             </div>

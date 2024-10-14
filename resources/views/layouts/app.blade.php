@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="/slider/splide-4.1.3/dist/css/splide.min.css">
     @livewireStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="stylesheet" href="/css/main.css?rnd=4" />
+    <link rel="stylesheet" href="/css/main.css?rnd=18" />
     <link rel="stylesheet" href="/css/social.css?rnd=2" />
     <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <link href="/lightbox2/css/lightbox.css" rel="stylesheet" />

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 class Maincategory extends Component
 {
     public $product_type;
-    public $perPage = 15;
+    public $perPage = 16;
 
     #[Url(keep: true)]
     public $search = '';
@@ -39,6 +39,10 @@ class Maincategory extends Component
         $this->product_type = $product_type;
         $this->title = $product_type;
         $this->sidebar_items = Category::where('type', $product_type)->where('category_id', null)->orderBy('position')->get();
+    }
+    public function loadMore()
+    {
+        $this->perPage += 16;
     }
 
     public function set_selected_category_id($category_id)

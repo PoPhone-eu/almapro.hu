@@ -13,6 +13,7 @@ use App\Models\ProductAttributeValue;
 class ProductParser
 {
     public $products_array;
+    public $products_count = 0;
 
     public function __construct()
     {
@@ -48,7 +49,7 @@ class ProductParser
         foreach ($this->products_array as $key => $value) {
             // if $value['type_1'] is array we skip it and write it in log.
             if (is_array($value['type_1'])) {
-                logger($value['id']);
+                logger('Eltávolítva a feltöltési listáról: ' . $value['id']);
                 // we remove this element from the array
                 unset($this->products_array[$key]);
                 continue;
@@ -72,6 +73,7 @@ class ProductParser
                 break;
             } */
         }
+        logger('Feltöltött termékek száma: ' . $this->products_count);
     }
 
     private function createProduct($product)
@@ -135,9 +137,18 @@ class ProductParser
             return;
         }
         foreach ($product['images']['image_link'] as $key => $url) {
-            $image_name =  $Product->addMediaFromUrl($url)->toMediaCollection('gallery');
-            $data['gallery'][] = $image_name['file_name'];
+            try {
+                $image_name =  $Product->addMediaFromUrl($url)->toMediaCollection('gallery');
+                $data['gallery'][] = $image_name['file_name'];
+            } catch (\Throwable $th) {
+                logger($th);
+            }
         }
+        // if there is no image we skip this product.
+        if (!isset($data['gallery'])) {
+            return;
+        }
+
         $data['attributes'] = null;
         //$save->attrs            = $product['attrs'];
 
@@ -198,7 +209,7 @@ class ProductParser
         }
         $Product->data             = $data;
         $Product->save();
-        // logger($Product);
+        $this->products_count++;
     }
 
     private function getSubCategory($product, $category_id)

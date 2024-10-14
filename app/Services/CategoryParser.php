@@ -16,8 +16,6 @@ class CategoryParser
     public function __construct()
     {
         $xmlString = file_get_contents('https://pophone.eu/rrs/almapro-categories.xml');
-        //$xmlString2 = file_get_contents('https://pophone.eu/rrs/almapro-feed.xml');
-        // $xmlString = file_get_contents('http://almapro.test/almapro-categories.xml');
         $xmlObject = simplexml_load_string($xmlString);
         //$xmlObject2 = simplexml_load_string($xmlString2);
 

@@ -1,9 +1,66 @@
     <div class="logo-div">
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <button id="close-menu" class="mobile-close-button" onclick="closemobilemenu()">
+                &times;
+            </button>
+            <div class="p-4 mt-5">
+                <a href="/iphone" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/iphone.svg') }}?rnd=1" alt="iPhone">
+                    iPhone
+                </a>
+                <a href="/ipad" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/ipad.svg') }}?rnd=1" alt="iPad">
+                    iPad
+                </a>
+                <a href="/applewatch" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/apple-watch-menu-icon.svg') }}?rnd=1" alt="Apple Watch">
+                    Apple Watch
+                </a>
+                <a href="/macbook" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/macbook.svg') }}?rnd=1" alt="MacBook">
+                    MacBook
+                </a>
+                <a href="/imac" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/imac.svg') }}?rnd=1" alt="iMac">
+                    iMac
+                </a>
+                <a href="/others" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/kiegeszitok.svg') }}?rnd=1" alt="Kiegészítők">
+                    Kiegészítők
+                </a>
+                <a href="/samsung" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/samsung.svg') }}?rnd=1" alt="Samsung">
+                    Samsung
+                </a>
+                <a href="/android" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/android.svg') }}?rnd=1" alt="Android">
+                    Android
+                </a>
+                <a href="/egyeb" wire:navigate class="menu-text p-2">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/egyeb.svg') }}?rnd=1" alt="Egyéb">
+                    Egyéb
+                </a>
+                @auth
+                    <a href="/profiledata" wire:navigate class="menu-text p-2">
+                        <img class="menu-icon menu-icon-login" src="{{ asset('img/menuicons/fiokom.svg') }}" alt="Fiókom">
+                        Fiókom
+                    </a>
+                @else
+                    <a href="{{ route('login') }}" wire:navigate class="menu-text p-2">
+                        <img class="menu-icon menu-icon-login" src="{{ asset('img/menuicons/fiokom.svg') }}"
+                            alt="Belépés">
+                        Belépés
+                    </a>
+                @endauth
 
-        <div class="left-div">
-            <img class="left-logo" src="{{ asset('img/hamburger.svg') }}?rnd=1">
+            </div>
         </div>
-        <div class="middle-div mt-8">
+        <div class="left-div">
+            <a href="javascript:void(0)" onclick="showMobileMenu()"><img class="left-logo" id="hamburger-menu"
+                    src="{{ asset('img/hamburger.svg') }}?rnd=1"></a>
+        </div>
+        <div class="middle-div">
             <a href="/" wire:navigate>@include('partials.logo')</a>
         </div>
         <div class="right-div flex flex-row">
@@ -48,7 +105,8 @@
             </li>
             <li>
                 <a href="/applewatch" wire:navigate class="menu-text">
-                    <img class="menu-icon" src="{{ asset('img/apple-watch-menu-icon.svg') }}?rnd=1" alt="Apple Watch">
+                    <img class="menu-icon" src="{{ asset('img/apple-watch-menu-icon.svg') }}?rnd=1"
+                        alt="Apple Watch">
                     Apple Watch
                 </a>
             </li>
@@ -66,7 +124,8 @@
             </li>
             <li>
                 <a href="/others" wire:navigate class="menu-text">
-                    <img class="menu-icon" src="{{ asset('img/menuicons/kiegeszitok.svg') }}?rnd=1" alt="Kiegészítők">
+                    <img class="menu-icon" src="{{ asset('img/menuicons/kiegeszitok.svg') }}?rnd=1"
+                        alt="Kiegészítők">
                     Kiegészítők
                 </a>
             </li>
@@ -97,4 +156,21 @@
         {{--  <div class="search-container-row">
             <span>Termékek / akármi / Akármi</span>
         </div> --}}
+
+        <script>
+            function closeMobileMenu() {
+                const mobileMenu = document.getElementById('mobile-menu');
+                mobileMenu.classList.remove('mobile-menu-show');
+            }
+
+            function showMobileMenu() {
+                const mobileMenu = document.getElementById('mobile-menu');
+                mobileMenu.classList.add('mobile-menu-show');
+            }
+
+            function closemobilemenu() {
+                const mobileMenu = document.getElementById('mobile-menu');
+                mobileMenu.classList.remove('mobile-menu-show');
+            }
+        </script>
     </div>

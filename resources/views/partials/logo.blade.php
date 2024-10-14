@@ -1,4 +1,4 @@
-<svg width="426" height="170" viewBox="0 0 426 170" fill="none" style="margin:0 auto"
+<svg width="426" height="170" viewBox="0 0 426 170" fill="none" style="margin:0 auto" id="main_logo"
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect width="426" height="170" fill="url(#pattern0)" />
     <defs>
