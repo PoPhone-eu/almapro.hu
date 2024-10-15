@@ -18,7 +18,6 @@ class ProductParser
     public function __construct()
     {
         $xmlString = file_get_contents('https://pophone.eu/rrs/almapro-feed.xml');
-        //$xmlString = file_get_contents('http://almapro.test/almapro-feed.xml');
         $xmlObject = simplexml_load_string(
             $xmlString,
             null,
@@ -45,7 +44,6 @@ class ProductParser
             ];
         }
         $this->products_array = $data;
-        //logger($this->products_array);
         foreach ($this->products_array as $key => $value) {
             // if $value['type_1'] is array we skip it and write it in log.
             if (is_array($value['type_1'])) {
@@ -59,6 +57,29 @@ class ProductParser
                 $value['type_1'] = lcfirst($value['type_1']);
             }
         }
+        // get all product IDs where provider_id is not null:
+        $product_ids = Product::whereNotNull('provider_id')->pluck('provider_id')->toArray();
+        // we check $product_ids against $this->products_array and if an id if not in $this->products_array we remove it from the database.
+        // $product_ids contains all product IDs from the database. we dont need to fetch it again...
+        foreach ($product_ids as $id) {
+            $found = false;
+            foreach ($this->products_array as $product) {
+                if ($product['id'] == $id) {
+                    $found = true;
+                    break;
+                }
+            }
+            if (!$found) {
+                // we remove this product from the database.
+                $product = Product::where('provider_id', $id)->first();
+                if ($product) {
+                    // logger('Törölve a termék id: ' . $product->id);
+                    //logger('Törölve a termék provider_id: ' . $product->provider_id);
+                    $product->delete();
+                }
+            }
+        }
+
         $this->parse();
     }
 
