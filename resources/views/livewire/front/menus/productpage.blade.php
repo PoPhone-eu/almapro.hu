@@ -134,7 +134,7 @@
         </div>
         <div class="description">
             <div class="product-data-title">Leírás</div>
-            <div class="description-text">{!! $product->description !!}</div>
+            <div class="description-text">{!! nl2br(e($product->description)) !!}</div>
 
         </div>
     </div>
