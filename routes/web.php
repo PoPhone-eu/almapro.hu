@@ -83,6 +83,7 @@ Route::get('/egyeb',                                        [MenuController::cla
 Route::get('/showproduct/{slug}',                           [MenuController::class, 'showproduct']);
 Route::get('/searchresult',                                 [MenuController::class, 'searchresult']);
 Route::get('/documents/{slug}',                             [MenuController::class, 'documents']);
+Route::get('/superadmin',                                [SuperadminController::class, 'index'])->name('superadmin');
 
 Route::middleware([
     'auth:sanctum',
@@ -107,8 +108,6 @@ Route::middleware([
 ])->group(function () {
 
     // SuperadminController
-    Route::get('/superadmin',                                [SuperadminController::class, 'index'])->name('superadmin');
-
     Route::get('/profilom', function () {
         return view('public.profile.profilepage');
     });
